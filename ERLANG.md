@@ -2,6 +2,9 @@
 
 # THIS DOCUMENT IS WORK IN PROGRESS
 
+## Coding Guidelines
+ [link](http://github.com/inaka/erlang_guidelines)
+
 ##	Code Coverage
   **TODO:** 75% coverage
 
