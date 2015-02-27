@@ -5,7 +5,7 @@ This document describes the general guidelines we expect **all** our company mem
 
 ## Roles and Responsibilities in a Project
 
-### Developer
+#### Developer
 
 * Develops functional and non-functional features including tests and
   documentation as specified by the project stage and task description.
@@ -22,7 +22,7 @@ This document describes the general guidelines we expect **all** our company mem
 * Must track the hours using the ticket ID daily in freckle.
 * Adds all important information/ logins needed for the project to the project wiki.
 
-### CTO and Technical Coordinators
+#### CTO and Technical Coordinators
 
 * Coordinates and creates estimates for proposals 
 * Defines the architectural and technical decisions, and makes them publicly available for all team members.
@@ -37,7 +37,7 @@ This document describes the general guidelines we expect **all** our company mem
   problem with system administrators or technical coordinators.
 * Identifies common patterns and new approaches to be reused in future projects.
 
-### Sales/ Management
+#### Sales/ Management
 
 * Handles the initial contact and discussions with the customers. Sets up and
   coordinates the assignment, including high level requirement collection,
@@ -47,7 +47,7 @@ This document describes the general guidelines we expect **all** our company mem
   customer contact info and the project plan (deliverables, deadline, agreed
   effort and mix of engineers/senior engineers).
 
-### Project Management
+#### Project Management
 
 * Is involved in preparing the estimation and proposal documents for new projects.
 * Needs to make sure that all project wikis are up to date.
@@ -63,7 +63,7 @@ This document describes the general guidelines we expect **all** our company mem
 * Makes sure all necessary repos are set up before development start
 * Makes sure the ops team sets up the required environments and our standard project tools for each project.
 
-### Operations:
+#### Operations:
 
 * Sets up all required environments for client projects
 * Needs to make sure all projects use the standard tools (eg Jenkins, logstash, pingdom, monit, etc)
@@ -74,7 +74,7 @@ This document describes the general guidelines we expect **all** our company mem
 
 ## How to use Pivotal/Jira
 
-### For PMs
+#### For PMs
 * Pivotal/ Jira needs to get set up as detailed as possible. Separate UI from functional tasks. Do NOT just copy paste the tasks from the proposals. Add detailed descriptions and try to separate them as much as possible.
 * Design/ UI tasks always need to have a screenshot attached in the task
 * Milestones/ Sprints need to be added, as well Release Dates
@@ -86,7 +86,7 @@ This document describes the general guidelines we expect **all** our company mem
 * If there is missing information from the client, e.g. an API is still not final and no final documentation, do push back, do not assign the Pivotal to the developer. The developers should not work on it until at least the documentation is final
 * If there is a pivotal task that says "XXX is not working correctly", it should also include an explanation on how it should work. e.g. if the pivotal title is "The text in the title is right-aligned", the description or at least a comment in that pivotal should say something like "The text in the title should be centered".
 
-### For developers
+#### For developers
 * Pivotal/ Jira must be always up to date and reflect what you are currently working on and what is next.
 * Make sure you read the whole Ticket and review attachments before you start working on them. If the tasks are not 100% clear to you reach out to the PM.
 * Work in the order of the Pivotals. If you think a different order makes sense reach out to the Project Management for discussion and the PM then will update Pivotal.
@@ -105,7 +105,7 @@ The reasons behind this approach are:
 * Having a good test coverage in your code base, increases your general trust on the written code and allows for easier and safer refactoring if needed
 * If well written, tests usually works as documentation as well
 
-### When to TDD
+#### When to TDD
 TDD is not suited for **all** scenarios, but there are some projects where it **MUST** be used:
 * If you're working on a API server project
 * If you're working on an open-source library
@@ -114,12 +114,12 @@ TDD is not suited for **all** scenarios, but there are some projects where it **
 
 ## Version Control
 
-### Github
+#### Github
 * With only a few exceptions, all or our projects are hosted on Github under the Inaka organization account.
 * When starting a new project, either for a client or an open source one, ask the CTO to create a new repository for you and give him a brief description as well as the main programming language under which the project will be developed.
 * For a more detailed guide on how to use Github on your day to day taks, refer to this document: [Inaka Workflow][workflow]
 
-### Commit Messages
+#### Commit Messages
 Good commit messages serve at least three important purposes:
 
 * To speed up the reviewing process.
@@ -154,7 +154,7 @@ Tip: if it seems difficult to summarize what your commit does, it may be because
 it includes several logical changes or bug fixes, and are better split up into
 several commits using `git add -p`.
 
-### Commit Rules
+#### Commit Rules
 
 Check-in/push rules for the main repository/branch are the following:
 
@@ -193,7 +193,7 @@ To get all the best from code reviews, while either submitting or performing a c
 
 We use Jenkins in all our projects to automate testing, artefacts generation, server configuration and deploys.
 
-### Continuous integration
+#### Continuous integration
 
 * Mobile commits trigger
     * automatic builds.
@@ -207,13 +207,13 @@ We use Jenkins in all our projects to automate testing, artefacts generation, se
     * coverage measurement.
     * coverage displayed on dashboard.
 
-### Server Configuration & Deploys
+#### Server Configuration & Deploys
 
 * Jenkins runs Ansible playbooks on target servers to set up the required configurations. 
 * New versions are deployed in servers using Ansible playbooks avoiding human errors during the process. 
 * When compilation of the code or artefacts generation is required we have a separate job in order to avoid loosing time during deploys. 
 
-### Tags and github releases
+#### Tags and github releases
 
 **Master:** Testeable versions of our products are merged with a pull request to master. Then Jenkins can build the corresponding artifacts or deploy the the server. 
 
