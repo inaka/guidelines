@@ -3,6 +3,13 @@
 ## Introduction
 This document describes the general guidelines we expect **all** our company members (a.k.a. _inakos_) to comply with in all of our projects. For code guidelines and best practices regarding specific languages please refer to the corresponding `inaka/[language]_guidelines` github repo.
 
+## Specific Guidelines for your Language
+
+In this same repo we have 3 other guideline files, make sure you check the one that applies to the language you're using:
+* [iOS](IOS.md)
+* [Android](ANDROID.md)
+* [Erlang](ERLANG.md)
+
 ## Roles and Responsibilities in a Project
 
 #### Developer
