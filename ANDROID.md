@@ -6,7 +6,7 @@ These are meant to help keep the code uniformly organized and standardized in su
 The following are lessons learned from having worked on different Android projects. They are not written in stone, but keep in mind that being consistent and not reinventing the wheel with each project will make the lives of future developers that need to take on your projects simpler and also lead to faster development times of new features or bug fixes. Feel free to add your own.
 
 ## Code Conventions
-Android projects are Java projects, so they must follow the well-known code conventions for the Java programming languages. These are easily available online so look for them and apply them to the projects.
+Please make sure to comply with our [android guidelines](https://github.com/inaka/android_guidelines).
 
 ## Project Estimation
 When asked to work on a new estimate for a potential project for a client, keep in mind that, despite what you may hear, there's a good chance your estimates will get converted into deadlines, so really take your time to work on them. If given the designs or wireframes, look at them carefully..
