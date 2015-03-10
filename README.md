@@ -94,7 +94,7 @@ that applies to the language you're using:
 
 #### Operations:
 
-* Sets up all required environments and hardware for client projects, including
+* Sets up all required environments and hardware for client projects (including
   web hooks for Hipchat).
 * Needs to make sure all projects use the standard tools (e. g. Jenkins,
   logstash, pingdom, monit, etc.).
@@ -223,7 +223,7 @@ Check-in/push rules for the main repository/branch are the following:
 * Code must compile – All code merged must **fully** compile. This should be
   true for all commits in the history, because if there are commits that don’t
   fully compile, it will be  more difficult to use git bisect. Partial commits
-  with non-working could can be allowed if prior to submitting the pull request,
+  with non-working code can be allowed if prior to submitting the pull request,
   the branch is rebased interactively and the partial commits squashed into a
   single commit. If desired, the work progress history can be retained in the
   extended commit message.
@@ -246,9 +246,9 @@ we work with Pull Requests and Code Reviews. The process in a nutshell is:
     process over. If the PR is a blocker, warn whoever is responsible to
     communicate your block.
 * When opening a pull request to generate a page on which the changes can be
-  discussed, make sure to have WIP at the beginning of the pull request title so
+  discussed, make sure to have [WIP] at the beginning of the pull request title so
   that it is not merged. When the discussion concludes, change the title to
-  remove WIP and merge the pull request.
+  remove [WIP] and notify the reviewer so they can merge the pull request.
 * The reviewer will then write comments on the PR and you'll have the chance to
   discuss them and/or fix them.
 * We also have automated tools (like [elvis](http://elvis.inakalabs.com)) that
@@ -492,9 +492,9 @@ the actual bits and bytes.
 
 ## References
 
-* [on-commit-messages](http://who-t.blogspot.com/2009/12/on-commit-messages.html)
-* [effective-code-review](http://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/)
-* [styles-guidelines](https://docs.google.com/a/inakanetworks.com/spreadsheets/d/16PW-DJ_RlAQsUHcTVD2xqbY1ZMb10jSiZAQIYVl55xw/edit?usp=sharing)
-* [styles-guidelines2](https://docs.google.com/a/inakanetworks.com/document/d/1zqSOpyTaCayFX-P10NdC5VH18_-tTSQFNiCffiQoCt4/edit?usp=sharing)
-* [workflow](https://github.com/inaka/inaka_corp/wiki/Inaka-Workflow)
-* [open-source](https://github.com/inaka/inaka_corp/wiki/Open-Source-checklist)
+[on-commit-messages]: http://who-t.blogspot.com/2009/12/on-commit-messages.html
+[effective-code-review]: http://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/
+[styles-guidelines]: https://docs.google.com/a/inakanetworks.com/spreadsheets/d/16PW-DJ_RlAQsUHcTVD2xqbY1ZMb10jSiZAQIYVl55xw/edit?usp=sharing
+[styles-guidelines2]: https://docs.google.com/a/inakanetworks.com/document/d/1zqSOpyTaCayFX-P10NdC5VH18_-tTSQFNiCffiQoCt4/edit?usp=sharing
+[workflow]: https://github.com/inaka/inaka_corp/wiki/Inaka-Workflow
+[open-source]: https://github.com/inaka/inaka_corp/wiki/Open-Source-checklist
