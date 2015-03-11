@@ -290,7 +290,6 @@ code review, keep in mind the following points:
   using [AW](http://github.com/inaka/assisted_workflow).
 * The blog post ["Effective Code Review"][effective-code-review] has a nice
   discussion of this topic.
-* [How-to on handling forks]
 
 ## Continuous Integration & Deploys
 
