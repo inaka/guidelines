@@ -20,7 +20,7 @@ that applies to the language you're using:
 
 * Develops functional and non-functional features including tests and
   documentation as specified by the project stage and task description.
-* Attends and actively participates in the daily stand-up and other meetings. [Add a link to the dailies]
+* Attends and actively participates in the daily stand-up and other meetings.
 * Follows the guidelines regarding tools and applications that can be used in
   the project.
 * Follows code conventions as defined in the corresponding guidelines document.
@@ -37,11 +37,14 @@ that applies to the language you're using:
 * Adds all important information/ logins needed for the project to the project
   wiki.
 * While consulting:
-  * Notify the technical lead or project manager whenever something outside the agreed scope of the project is requested by the client.
+  * Notify the technical lead or project manager whenever something outside the 
+    agreed scope of the project is requested by the client.
   * Always keep the client informed of holidays, sick days and vacations.
-  * Keep the technical lead up to date on any technical decisions you had to make.
+  * Keep the technical lead up to date on any technical decisions you had to
+    make.
   * Get to know your coworkers, you are not a mercenary waiting to get out.
-  * Do your best and be proactive, as @elbrujohalcon says, "remember you are the expert, make suggestions, improve things".
+  * Do your best and be proactive, as @elbrujohalcon says, "remember you are the
+    expert, make suggestions, improve things".
 
 #### CTO and Technical Coordinators
 
@@ -91,7 +94,8 @@ that applies to the language you're using:
 * Makes sure all necessary repos are set up before development start
 * Makes sure the ops team sets up the required environments and our standard
   project tools for each project.
-* Is responsible for relaying messages, improvements and suggestions between the developers and the client in an appropriate and clear way.
+* Is responsible for relaying messages, improvements and suggestions between the
+  developers and the client in an appropriate and clear way.
 
 #### Operations:
 
@@ -102,8 +106,10 @@ that applies to the language you're using:
 * Documents the project environment set up including deployment instructions for
   each project.
 * Is in charge of maintaining and monitoring running systems.
-* Checks performance issues and, if needed, relays them to the appropriate developers and PMs.
-* Keeps the inaka dashboard up and running with relevant information for the current projects.
+* Checks performance issues and, if needed, relays them to the appropriate
+  developers and PMs.
+* Keeps the inaka dashboard up and running with relevant information for the
+  current projects.
 * Collaborates on deployement with the devs
 * Is in charge of the office hardware
 
@@ -116,14 +122,15 @@ that applies to the language you're using:
   the one day rule whenever possible).
 * Design/ UI tasks always need to have a screenshot attached in the task
 * Milestones/ Sprints need to be added, as well Release Dates
-* The Pivotal tasks shouldn't be used as sub tasks, we use them as a checklist of what needs to be done.
+* The Pivotal tasks shouldn't be used as sub tasks, we use them as a checklist
+  of what needs to be done.
 * The client is not allowed to assign Pivotals to the developers directly. If
   the client has feedback/ rejections/ new issues he must assign the task to the
   PM. The PM must read it, check if all information the developer needs is
   there and if so then assign it to the developer. If not circle back with the
   client.
-* Never mix different issues in one Pivotal. Do not modify the original Pivotal and
-  open a new one if needed.
+* Never mix different issues in one Pivotal. Do not modify the original Pivotal
+  and open a new one if needed.
 * Always label Pivotals (ios, android, server, admin, design, etc.).
 * Check that the developers use Piv IDs and Jira IDs for time tracking.
 * If there is missing information from the client, e.g. an API is still not
@@ -139,8 +146,9 @@ that applies to the language you're using:
 #### For developers
 * Pivotal/ Jira must be always up to date and reflect what you are currently
   working on and what is next.
-* Make sure you read the whole Ticket/Story and review attachments before you start
-  working on them. If the tasks are not 100% clear to you reach out to the PM.
+* Make sure you read the whole Ticket/Story and review attachments before you
+  start working on them. If the tasks are not 100% clear to you reach out to the
+  PM.
 * Work in the order of the Pivotals. If you think a different order makes sense
   reach out to the Project Management for discussion and the PM then will update
   Pivotal.
@@ -390,7 +398,8 @@ technologies or even new programming concepts in general.
 
 If you don't know where to start or if you want a fresh new book to read, check
 [this impressively long list of free books](http://resrc.io/list/10/list-of-free-programming-books).
-You can also suggest books and ask managment about paid books if you feel you need them.
+You can also suggest books and ask managment about paid books if you feel you
+need them.
 
 
 ## Developer Values
@@ -418,6 +427,9 @@ You can also suggest books and ask managment about paid books if you feel you ne
     In that order :)
 
 3. **Respect your colleagues and customers.**
+
+    Write code so that other people will read it with pleasure. Respect the
+    coding conventions pertaining your language.
 
     Have the global `README.md` file explaining what your project does and how
     to run it.
@@ -456,8 +468,8 @@ You can also suggest books and ask managment about paid books if you feel you ne
 
 A lot has been said about roles, procedures, what to do, what not to do, etc,
 but sometimes even methodically following all of these guidelines is not enough
-to ensure the positive outcome of a project. Most of what we've talked about here,
-can be easily fixed if problems arise. You can always move code back to a
+to ensure the positive outcome of a project. Most of what we've talked about
+here, can be easily fixed if problems arise. You can always move code back to a
 working state, undo a commit, improve your estimates, etc, but what is very
 difficult to fix are issues that arise from a lack of proper communication.
 
