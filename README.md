@@ -36,8 +36,12 @@ that applies to the language you're using:
 * Must track the hours using the ticket ID daily in freckle.
 * Adds all important information/ logins needed for the project to the project
   wiki.
-* [Add list of tasks when consulting]
-* [Helping other developers]
+* While consulting:
+  * Notify the technical lead or project manager whenever something outside the agreed scope of the project is requested by the client.
+  * Always keep the client informed of holidays, sick days and vacations.
+  * Keep the technical lead up to date on any technical decisions you had to make.
+  * Get to know your coworkers, you are not a mercenary waiting to get out.
+  * Do your best and be proactive, as @elbrujohalcon says, "remember you are the expert, make suggestions, improve things".
 
 #### CTO and Technical Coordinators
 
@@ -55,7 +59,6 @@ that applies to the language you're using:
 * Solves blocking issues for the developers, and if necessary, escalates the
   problem with system administrators or technical coordinators.
 * Identifies common patterns and new approaches to be reused in future projects.
-* [Monthly meetings with employees]
 
 #### Sales/ Management
 
@@ -88,20 +91,19 @@ that applies to the language you're using:
 * Makes sure all necessary repos are set up before development start
 * Makes sure the ops team sets up the required environments and our standard
   project tools for each project.
-* [Team to client communication]
+* Is responsible for relaying messages, improvements and suggestions between the developers and the client in an appropriate and clear way.
 
 #### Operations:
 
-* Sets up all required environments and hardware for client projects
+* Sets up all required environments, including hardware, for client projects
 * Needs to make sure all projects use the standard tools (e. g. Jenkins,
   logstash, pingdom, monit, etc.).
 * Researches new ops solutions and possible improvements to our ops processes.
 * Documents the project environment set up including deployment instructions for
   each project.
 * Is in charge of maintaining and monitoring running systems.
-* Scalates performance issues to developers
-* [Dashboard]
-* [Cost estimation]
+* Checks performance issues and, if needed, relays them to the appropriate developers and PMs.
+* Keeps the inaka dashboard up and running with relevant information for the current projects.
 * Collaborates on deployement with the devs
 * Is in charge of the office hardware
 
@@ -149,7 +151,6 @@ that applies to the language you're using:
   task.
 * If you leave a comment/ question in the Pivotal mention the person you need
   feedback from.
-* [Propose new stories to improve the product]
 
 ## TDD
 We encourage the use of TDD as a method of development as much as it makes
@@ -326,12 +327,12 @@ master. Then Jenkins can build the corresponding artifacts or deploy the the
 server.
 
 **Tags:** Once the version is fully tested in a safe environment and its ready
-for release it is tagged as `production` and so that Jenkins can build and deploy
-the same version.
+for release it is tagged as `production` and so that Jenkins can build and
+deploy the same version.
 
 **Releases:** After a deploy we tag the commit as a `release` with the date of
-the deploy so that we can keep a clear history of what was working on production at
-different dates.
+the deploy so that we can keep a clear history of what was working on production
+at different dates.
 
 ## Time tracking
 
@@ -366,8 +367,8 @@ For example: ``#4252514, Implemented Facebook SDK``
   the `Inaka Internal` project. If you take vacations, for each vacation day
   enter 8 hours labelled "vacation" under the `Inaka Internal` project.
 * For unpaid additional vacation you take (or days off) do the same, but the
-  description instead of vacation use "unpaid off".
-* As well as "holiday" for holidays.
+  description instead of vacation use "unpaid off". The same concept applies to
+  holidays, in which case we use "holiday" as the description.
 
 ## Open source projects
 
