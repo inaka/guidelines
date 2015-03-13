@@ -124,6 +124,8 @@ that applies to the language you're using:
 * Is in charge of the office hardware
 * Monitors and maintains the internal network.
 * Is in charge of the initial setup of machines for employees.
+* Keeps standards checklist for each project up to date.
+* Creates memos for each ops/PM meeting and shares them with all participants.
 
 #### QA:
 
@@ -164,6 +166,8 @@ that applies to the language you're using:
   is "The text in the title is right-aligned", the description or at least a
   comment in that pivotal should say something like "The text in the title
   should be centered".
+* Add release lines indicating "above for QA", "above for PM" and "above for client". Tasks approved by QA need to be above the PM line and tasks ready for testing for the client need to be above for client line.
+* Specify estimates on the pivotal story title.
 
 #### For developers
 
