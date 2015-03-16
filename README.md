@@ -490,8 +490,6 @@ the project, but they can  also feel like they share ownership of it.
 A successful project will most likely be defined by this item alone instead of
 the actual bits and bytes.
 
-## References
-
 [on-commit-messages]: http://who-t.blogspot.com/2009/12/on-commit-messages.html
 [effective-code-review]: http://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/
 [styles-guidelines]: https://docs.google.com/a/inakanetworks.com/spreadsheets/d/16PW-DJ_RlAQsUHcTVD2xqbY1ZMb10jSiZAQIYVl55xw/edit?usp=sharing
