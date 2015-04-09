@@ -1,6 +1,7 @@
 # General Inaka Development Guidelines
 
 ## Introduction
+
 This document describes the general guidelines we expect **all** our company
 members (a.k.a. _inakos_) to comply with in all of our projects. For code
 guidelines and best practices regarding specific languages please refer to the
@@ -30,29 +31,34 @@ that applies to the language you're using:
   out to not be accurate.
 * Is responsable to inform the Project Manager or techincal lead about any
   technical concerns regarding the project.
+* Defines technical estimate of possible new projects.
 * Keeps Pivotal updated over all tasks by properly setting the status of each
   task.
-* Defines technical estimate of possible new projects.
-* Must track the hours using the ticket ID daily in freckle.
+* Must track hours daily using the ticket ID in freckle.
 * Adds all important information/ logins needed for the project to the project
   wiki.
+* Helps other team members with technical issues they may not be familiar with
+  and passing on general and project-specific know-how.
 
 #### CTO and Technical Coordinators
 
-* Coordinates and creates estimates for proposals
+* Coordinates and creates estimates for proposals.
 * Defines the architectural and technical decisions, and makes them publicly
   available for all team members.
 * Keeps all team members updated with any changes regarding the original
   technical decisions.
 * Might act as a project manager.
-* Communicates initial design and goals of a project and main increments to the
-  team. It is then up to the team and the lead to refine and extend the design
-  and identify the tasks.
+* During the kickoff meeting, communicates initial design and goals of a project
+  and main increments to the team. It is then up to the team and the lead to
+  refine and extend the design and identify the tasks.
 * Supervises the progress of tasks, ensuring they are implemented according to
   the agreed design and timeline as well verifying their quality.
 * Solves blocking issues for the developers, and if necessary, escalates the
   problem with system administrators or technical coordinators.
 * Identifies common patterns and new approaches to be reused in future projects.
+* Puts team members with necessary know-how in contact.
+* Sets up monthly meetings with developers in order to stay up to date with
+  current events, problems, situations, etc.
 
 #### Sales/ Management
 
@@ -66,7 +72,7 @@ that applies to the language you're using:
 
 #### Project Management
 
-* Is involved in preparing the estimation and proposal documents for new
+* Is involved in reviewing the estimation and proposal documents for new
   projects.
 * Needs to make sure that all project wikis are up to date.
 * Informs all team members about important client decisions.
@@ -74,7 +80,7 @@ that applies to the language you're using:
 * Coordinates the work within the team.
 * Is responsible for priorities and timelines in the project.
 * Updates and documents regularly the project status and informs the client
-* He needs to know about every customer interaction and has to assure the tone
+* Needs to know about every customer interaction and has to assure the tone
   is always proper and that every request is handled appropriately.
 * Follows the conventions as defined in the [guidelines document](https://docs.google.com/a/inakanetworks.com/document/d/1QaNdEa-_hcq6m-Jmn4xHlzxlqTmxmMv19V4JO58LQdI/edit)
 * Makes sure before the project kick off to have all relevant materials
@@ -88,31 +94,37 @@ that applies to the language you're using:
 
 #### Operations:
 
-* Sets up all required environments for client projects
+* Sets up all required environments and hardware for client projects (including
+  web hooks for Hipchat).
 * Needs to make sure all projects use the standard tools (e. g. Jenkins,
   logstash, pingdom, monit, etc.).
+* Creates and maintains accounts on different platforms.
 * Researches new ops solutions and possible improvements to our ops processes.
 * Documents the project environment set up including deployment instructions for
   each project.
 * Is in charge of maintaining running systems.
+* Collaborates with developers on deployment issues.
+* Performs cost estimation for required services.
+* Monitors all systems to prevent and detect operational problems.
 
-
-## How to use Pivotal/JIRA
+## How to use Pivotal/ JIRA
 
 #### For PMs
-* Pivotal/ Jira needs to get set up as detailed as possible. Separate UI from
+
+* Pivotal/ JIRA needs to get set up as detailed as possible. Separate UI from
   functional tasks. Do NOT just copy paste the tasks from the proposals. Add
-  detailed descriptions and try to separate them as much as possible.
+  detailed descriptions and try to separate them so as to have each task as
+  close to being one-day (or less) in duration as possible.
 * Design/ UI tasks always need to have a screenshot attached in the task
-* Milestones/ Sprints need to be added, as well Release Dates
-* The tasks in Pivotal shouldn't be used as sub tasks, we use them for hints
+* Milestones need to be added, as well Release Dates
+* The Pivotal tasks shouldn't be used as sub tasks, we use them as checklists
   about the task.
 * The client is not allowed to assign Pivotals to the developers directly. If
   the client has feedback/ rejections/ new issues he must assign the task to the
   PM. The PM must read it, check if all information the developer needs is
   there and if so then assign it to the developer. If not circle back with the
   client.
-* Do never mix different issues in one Pivotal. Close the original Pivotal and
+* Never mix different issues in one Pivotal. Close the original Pivotal and
   open a new one, if needed.
 * Always label Pivotals (ios, android, server, admin, design, etc.).
 * Check that the developers use Piv IDs and Jira IDs for time tracking.
@@ -127,7 +139,8 @@ that applies to the language you're using:
   should be centered".
 
 #### For developers
-* Pivotal/ Jira must be always up to date and reflect what you are currently
+
+* Pivotal/ JIRA must be always up to date and reflect what you are currently
   working on and what is next.
 * Make sure you read the whole Ticket and review attachments before you start
   working on them. If the tasks are not 100% clear to you reach out to the PM.
@@ -141,9 +154,11 @@ that applies to the language you're using:
   task.
 * If you leave a comment/ question in the Pivotal mention the person you need
   feedback from.
-
+* If you find a bug, let your PM know and have them create a new task/story for
+  it.
 
 ## TDD
+
 We encourage the use of TDD as a method of development as much as it makes
 sense. The reasons behind this approach are:
 
@@ -154,35 +169,38 @@ sense. The reasons behind this approach are:
   as many times as you want and also get the other devs to automatically run it
   in every change, without actually having to remind and/or describe them how to
   test such a thing.
-* Writing the tests before the actual code, forces you to think about _what_
-  your program should do before focusing on _how_ to achieve it. That leads to
+* Writing the tests before the actual code forces you to think about _what_
+  your program should do before focusing on _how_ to achieve it. This leads to
   more accurate and, generally, simpler code.
 * Having a good test coverage in your code base, increases your general trust
   on the written code and allows for easier and safer refactoring if needed.
 * If well written, tests usually works as documentation as well.
 
 #### When to TDD
+
 TDD is not suited for **all** scenarios, but there are some projects where it
 **MUST** be used:
-* If you're working on a API server project
-* If you're working on an open-source library
+* If you're working on a API server project.
+* If you're working on an open-source library.
 * If your project involves UI work and your language has the proper tools to
-  write tests for it (e.g. rspec)
-* If you're writing an internal library with no UI pieces
+  write tests for it (e.g. rspec).
+* If you're writing an internal library with no UI pieces.
 
 ## Version Control
 
 #### Github
-* With only a few exceptions, all or our projects are hosted on Github under
+
+* With only a few exceptions, all of our projects are hosted on Github under
   the Inaka organization account.
 * When starting a new project, either for a client or an open source one, ask
   the CTO to create a new repository for you and give him a brief description as
   well as the main programming language under which the project will be
   developed.
 * For a more detailed guide on how to use Github on your day to day taks, refer
-  to this document: [Inaka Workflow][workflow]
+  to this document: [Inaka Workflow][workflow].
 
 #### Commit Messages
+
 Good commit messages serve at least three important purposes:
 
 * To speed up the reviewing process.
@@ -190,25 +208,6 @@ Good commit messages serve at least three important purposes:
 * To help the future maintainers of the code (it could be you!), say five years
   into the future, to find out why a particular change was made to the code or
   why a specific feature was added.
-
-Structure your commit message like this:
-
-    [#PIV or JIRA ID] Summarize clearly in one line what the commit is about
-
-    Describe the problem the commit solves or the use case for a new feature.
-    Justify why you chose the particular solution. This part is optional.
-
-Consider the following guidelines:
-
-* Write the summary line and description of what you have done in the imperative
-  mode, that is as if you were commanding someone. Write "fix", "add", and
-  "change" instead of "fixed", "added", and "changed". Think of how it would
-  sound if you would like to apply the patch: don't describe what you did,
-  describe what the patch will do if applied.
-* Always leave the second line blank.
-* Line break the commit message (to make the commit message readable without
-  having to scroll horizontally in `gitk`). Keep the lines (including the first
-  line) under 80 characters.
 
 The blog post ["On commit messages"][on-commit-messages] has a nice discussion
 of commit messages.
@@ -221,30 +220,41 @@ several commits using `git add -p`.
 
 Check-in/push rules for the main repository/branch are the following:
 
-* Code must compile – All code merged must **fully** compile and produce
-  **no warnings**. This should be true for all commits in the history, because
-  if there are commits that don’t fully compile, it will be  more difficult to
-  use git bisect.
+* Code must compile – All code merged must **fully** compile. This should be
+  true for all commits in the history, because if there are commits that don’t
+  fully compile, it will be  more difficult to use git bisect. Partial commits
+  with non-working code can be allowed if prior to submitting the pull request,
+  the branch is rebased interactively and the partial commits squashed into a
+  single commit. If desired, the work progress history can be retained in the
+  extended commit message.
 
-## Code Review
+## Development Flow
+
 In all of our projects (specially those hosted in our own github repositories)
 we work with Pull Requests and Code Reviews. The process in a nutshell is:
 * Grab a pivotal story/jira issue/github issue and mark it as started (e. g.
   let's say I want to work on piv `#123456` which is a piv story about editing
   this document).
 * Open a branch with your name and the story id on it (e. g.
-  `elbrujohalcon.123456.edit.this.document`).
+  `elbrujohalcon.123456.edit.this.document`). One or more commits per pivotal
+  story, but no more than one pivotal id per commit.
 * Tag all your commits with the story id
   (e. g. `git commit -m "[#123456] First edition"`).
 * Once you're done, submit a Pull Request in github and assign it to a colleague
   of yours to review it (if none of them are available, assign it to your CTO).
   + While you wait for that review, you can pick a different task and start this
-    process over.
+    process over. If the PR is a blocker, warn whoever is responsible to
+    communicate your block.
+* When opening a pull request to generate a page on which the changes can be
+  discussed, make sure to have [WIP] at the beginning of the pull request title so
+  that it is not merged. When the discussion concludes, change the title to
+  remove [WIP] and notify the reviewer so they can merge the pull request.
 * The reviewer will then write comments on the PR and you'll have the chance to
   discuss them and/or fix them.
 * We also have automated tools (like [elvis](http://elvis.inakalabs.com)) that
   will review your code.
 * When the review is done, your reviewer will merge your code into master.
+* The branch should then be deleted.
 
 Note that, mostly depending on the language and the product, there might be some
 exceptions in the aforementioned workflow, but the PRs and Code Reviews will
@@ -381,6 +391,12 @@ technologies or even simply new programming concepts in general.
 If you don't know where to start or if you want a fresh new book to read, check
 [this impressively long list of free books](http://resrc.io/list/10/list-of-free-programming-books).
 
+If you would like to purchase some resource, let our CTO or CEO know via email,
+specifying all the pertinent details.
+
+Also remember that Inaka has a public Dropbox
+[folder](https://www.dropbox.com/sh/afv2cr0m50fdyy6/AACwdnfMiwK2NZMsGnvNfIdKa?dl=0)
+with electronic versions of several books.
 
 ## Developer Values
 
@@ -436,9 +452,6 @@ If you don't know where to start or if you want a fresh new book to read, check
     hipster fashion.
 
 9. **Report the project’s progress.**
-
-    There should be a "Progress Reports" wiki entry on all projects. Use
-    it for writing **short** reports, preferably once per week or fortnight.
 
 10. **Share your knowledge and experience and learn from others.**
 
