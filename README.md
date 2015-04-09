@@ -96,6 +96,15 @@ that applies to the language you're using:
   each project.
 * Is in charge of maintaining running systems.
 
+#### QA:
+
+* Check that a build is stable and not crashing before send it to the client.
+* Corroborate that delivered bugs or tasks are implemented as pivotal describes.
+* Take notes about build versions/numbers used for submitting.
+* Make sure that app is still working properly after client/server deploys or changes.
+* To document test results if required by PMs.
+* Perform update test once a new iOS release build is ready to sent to the client.
+
 
 ## How to use Pivotal/JIRA
 
