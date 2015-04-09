@@ -98,12 +98,12 @@ that applies to the language you're using:
 
 #### QA:
 
-* Check that a build is stable and not crashing before send it to the client.
-* Corroborate that delivered bugs or tasks are implemented as pivotal describes.
-* Take notes about build versions/numbers used for submitting.
-* Make sure that app is still working properly after client/server deploys or changes.
-* To document test results if required by PMs.
-* Perform update test once a new iOS release build is ready to sent to the client.
+* Checks that a build is stable and not crashing before sending it to the client.
+* Corroborates that delivered bugs or tasks are implemented as they were described in pivotal.
+* Takes notes about build versions/numbers used for submitting.
+* Makes sure that app is still working properly after client/server deploys or changes.
+* Documents test results if required by PMs.
+* Performs update tests once a new iOS release build is ready to be sent to the client.
 
 
 ## How to use Pivotal/JIRA
