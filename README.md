@@ -103,7 +103,7 @@ that applies to the language you're using:
 * Takes notes about build versions/numbers used for submitting.
 * Makes sure that app is still working properly after client/server deploys or changes.
 * Documents test results if required by PMs.
-* Performs update tests once a new iOS release build is ready to be sent to the client.
+* Performs 'Update tests' once a new iOS release build is ready to be sent to the client.
 
 
 ## How to use Pivotal/JIRA
