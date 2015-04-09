@@ -39,6 +39,15 @@ that applies to the language you're using:
   wiki.
 * Helps other team members with technical issues they may not be familiar with
   and passing on general and project-specific know-how.
+* While consulting:
+  * Notify the technical lead or project manager whenever something outside the 
+    agreed scope of the project is requested by the client.
+  * Always keep the client informed of holidays, sick days and vacations.
+  * Keep the technical lead up to date on any technical decisions you had to
+    make.
+  * Get to know your coworkers, you are not a mercenary waiting to get out.
+  * Do your best and be proactive, as @elbrujohalcon says, "remember you are the
+    expert, make suggestions, improve things".
 
 #### CTO and Technical Coordinators
 
@@ -91,6 +100,8 @@ that applies to the language you're using:
 * Makes sure all necessary repos are set up before development start
 * Makes sure the ops team sets up the required environments and our standard
   project tools for each project.
+* Is responsible for relaying messages, improvements and suggestions between the
+  developers and the client in an appropriate and clear way.
 
 #### Operations:
 
@@ -103,9 +114,14 @@ that applies to the language you're using:
 * Documents the project environment set up including deployment instructions for
   each project.
 * Is in charge of maintaining running systems.
+* Checks performance issues and, if needed, relays them to the appropriate
+  developers and PMs.
+* Keeps the inaka dashboard up and running with relevant information for the
+  current projects.
 * Collaborates with developers on deployment issues.
 * Performs cost estimation for required services.
 * Monitors all systems to prevent and detect operational problems.
+* Is in charge of the office hardware
 
 ## How to use Pivotal/ JIRA
 
@@ -142,13 +158,14 @@ that applies to the language you're using:
 
 * Pivotal/ JIRA must be always up to date and reflect what you are currently
   working on and what is next.
-* Make sure you read the whole Ticket and review attachments before you start
-  working on them. If the tasks are not 100% clear to you reach out to the PM.
+* Make sure you read the whole Ticket/Story and review attachments before you
+  start working on them. If the tasks are not 100% clear to you reach out to the
+  PM.
 * Work in the order of the Pivotals. If you think a different order makes sense
   reach out to the Project Management for discussion and the PM then will update
   Pivotal.
 * As soon as you start working on a task start the ticket.
-* Don't deliver the task until it is not testeable for the PM/ QA (either
+* Don't deliver the task until it is testeable for the PM/ QA (either
   available on staging or the build is ready to test).
 * For ios and Android: Add the build number as a comment when you deliver the
   task.
@@ -158,7 +175,6 @@ that applies to the language you're using:
   it.
 
 ## TDD
-
 We encourage the use of TDD as a method of development as much as it makes
 sense. The reasons behind this approach are:
 
@@ -172,12 +188,11 @@ sense. The reasons behind this approach are:
 * Writing the tests before the actual code forces you to think about _what_
   your program should do before focusing on _how_ to achieve it. This leads to
   more accurate and, generally, simpler code.
-* Having a good test coverage in your code base, increases your general trust
+* Having a good test coverage in your code base increases your general trust
   on the written code and allows for easier and safer refactoring if needed.
 * If well written, tests usually works as documentation as well.
 
-#### When to TDD
-
+#### When to incorporate TDD
 TDD is not suited for **all** scenarios, but there are some projects where it
 **MUST** be used:
 * If you're working on a API server project.
@@ -273,7 +288,7 @@ exceptions in the aforementioned workflow, but the PRs and Code Reviews will
 
 To get all the best from code reviews, while either submitting or performing a
 code review, keep in mind the following points:
-* Adopt a positive attitude.
+* Adopt a positive attitude!
 * Try to evaluate the actual code (Is it easy to understand? is it maintanable?
   Are the right data structures being used? Are the variable and function/method
   names descriptive enough?, etc) instead of the formatting. Ideally the
@@ -318,7 +333,7 @@ server configuration and deploys.
 * New versions are deployed in servers using Ansible playbooks avoiding human
   errors during the process.
 * When compilation of the code or artefacts generation is required we have a
-  separate job in order to avoid loosing time during deploys.
+  separate job in order to avoid losing time during deploys.
 
 #### Tags and github releases
 
@@ -327,17 +342,17 @@ master. Then Jenkins can build the corresponding artifacts or deploy the the
 server.
 
 **Tags:** Once the version is fully tested in a safe environment and its ready
-for release it is taged as `production` and so that Jenkins can build and deploy
-the same version.
+for release it is tagged as `production` and so that Jenkins can build and
+deploy the same version.
 
 **Releases:** After a deploy we tag the commit as a `release` with the date of
-the deploy so that we keep a clear history of what was working on production at
-each moment.
+the deploy so that we can keep a clear history of what was working on production
+at different dates.
 
 ## Time tracking
 
 For tracking our hours, we use Freckle. Basically we use it to keep track of how
-long we spend working on each task. There are several ways to track your time,
+long we spent working on each task. There are several ways to track your time,
 whichever you choose is up to you.
 
 One of the ways is to use Freckle's own timer app to start/stop the timer every
@@ -367,7 +382,8 @@ For example: ``#4252514, Implemented Facebook SDK``
   the `Inaka Internal` project. If you take vacations, for each vacation day
   enter 8 hours labelled "vacation" under the `Inaka Internal` project.
 * For unpaid additional vacation you take (or days off) do the same, but the
-  description instead of vacation use "unpaid off".
+  description instead of vacation use "unpaid off". The same concept applies to
+  holidays, in which case we use "holiday" as the description.
 
 ## Open source projects
 
@@ -377,7 +393,7 @@ Each developer has one day per month to spend on open source projects/ tasks.
 * You can pick any already existing Inaka open source project or come up with a
   new idea.
 * Check with the CTO if your idea is accepted.
-* Make sure to let the PM know at least a few days before the day you want to
+* Make sure to let your PM know at least a few days before the day you want to
   use for open source so the PM can coordinate any project needs around it.
 * When working on an open source project for Inaka, refer to the following
   document: ["Open Source checklist"][open-source].
@@ -386,10 +402,12 @@ Each developer has one day per month to spend on open source projects/ tasks.
 
 At Inaka, we encourage our devs to do research, learn and share knogledge as
 much as possible. You're always welcome to learn new languages, paradigms,
-technologies or even simply new programming concepts in general.
+technologies or even new programming concepts in general.
 
 If you don't know where to start or if you want a fresh new book to read, check
 [this impressively long list of free books](http://resrc.io/list/10/list-of-free-programming-books).
+You can also suggest books and ask managment about paid books if you feel you
+need them.
 
 If you would like to purchase some resource, let our CTO or CEO know via email,
 specifying all the pertinent details.
@@ -403,7 +421,7 @@ with electronic versions of several books.
 1. **Concentrate on the task at hand.**
 
     Focus on your tasks above all. Deliver on time, but never compromise
-    quality. Follow the processes but with reason (don’t create a detailed
+    quality. Follow the processes but within reason (don’t create a detailed
     design and manual for a code review project for example).
 
     Document as much as required by the customer, and keep your colleagues and
@@ -464,8 +482,8 @@ with electronic versions of several books.
 
 A lot has been said about roles, procedures, what to do, what not to do, etc,
 but sometimes even methodically following all of these guidelines is not enough
-to ensure a positive outcome of a project. Most of what we've talked about here,
-can be easily fixed if problems arise. You can always move code back to a
+to ensure the positive outcome of a project. Most of what we've talked about
+here, can be easily fixed if problems arise. You can always move code back to a
 working state, undo a commit, improve your estimates, etc, but what is very
 difficult to fix are issues that arise from a lack of proper communication.
 
@@ -473,7 +491,7 @@ At the start of a project, things are usually fine, but as it advances, you
 might end up losing track of what your responsibilities are or what the other
 team members are up to. They are, of course, focused on their own tasks, but
 with no communication between team members, it's easy to get lost in your own
-little world and lose focus on the big picture. So make sure you don't get too
+little world and lose focus of the big picture. So make sure you don't get too
 deep into your own tasks and forget about the other people. Try to keep track of
 what is being talked about in the chat room, instead of just showing up when
 you're mentioned. Do your best to listen and demand to be listened to in the
