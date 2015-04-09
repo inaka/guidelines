@@ -125,7 +125,7 @@ This is the way we expect iOS project files to be organized:
 * Every iOS project must include a *build_support* folder located at the root level, whose contain must include every file that is generated in order to support building and distrubution processes and also push notification support related files. Typically it involves **.mobileprovision** files, **.p12** files, **.pem** files and **.cer** files.
 * Those files must be properly named as to identify the environment they work with (*development* vs. *distribution*).
 * That folder must always be up to date. Thus, each time a new certificate is generated, a new device is added to a provisioning profile or any other updating process occurs, then all the involved files must be updated.
-* The aim of having such a folder and maintaining it updated is that it helps other developers avoiding code signing issues and lowering in consequence involved time spent to setup app's distribution process, since they will always have everything they need inside a folder that's included in the project's git repo.
+* There are two purposes why having such a folder and maintaining it updated. The first one is that it helps other developers avoiding code signing issues and lowering in consequence involved time spent to setup app's distribution process, since they will always have everything they need inside a folder that's included in the project's git repo. The second purpose is that these files are usually required to be set on Jenkins in order for it to perform continuous integration builds.
 
 ***
 
