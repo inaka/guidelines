@@ -123,6 +123,15 @@ that applies to the language you're using:
 * Monitors all systems to prevent and detect operational problems.
 * Is in charge of the office hardware
 
+#### QA:
+
+* Checks that a build is stable and not crashing before sending it to the client.
+* Corroborates that delivered bugs or tasks are implemented as they were described in pivotal.
+* Takes notes about build versions/numbers used for submitting.
+* Makes sure that app is still working properly after client/server deploys or changes.
+* Documents test results if required by PMs.
+* Performs 'Update tests' once a new iOS release build is ready to be sent to the client.
+
 ## How to use Pivotal/ JIRA
 
 #### For PMs
