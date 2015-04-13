@@ -122,6 +122,8 @@ that applies to the language you're using:
 * Performs cost estimation for required services.
 * Monitors all systems to prevent and detect operational problems.
 * Is in charge of the office hardware
+* Monitors and maintains the internal network.
+* Is in charge of the initial setup of machines for employees.
 
 #### QA:
 
