@@ -48,6 +48,7 @@ that applies to the language you're using:
   * Get to know your coworkers, you are not a mercenary waiting to get out.
   * Do your best and be proactive, as @elbrujohalcon says, "remember you are the
     expert, make suggestions, improve things".
+* Participates in the hipchat [daily](DAILY.md)
 
 #### CTO and Technical Coordinators
 
@@ -68,6 +69,7 @@ that applies to the language you're using:
 * Puts team members with necessary know-how in contact.
 * Sets up monthly meetings with developers in order to stay up to date with
   current events, problems, situations, etc.
+* Participates in the hipchat [daily](DAILY.md)
 
 #### Sales/ Management
 
@@ -79,7 +81,7 @@ that applies to the language you're using:
   technical customer contact info and the project plan (deliverables, deadline,
   agreed effort and mix of engineers/senior engineers).
 
-#### Project Management
+#### Project Managers
 
 * Is involved in reviewing the estimation and proposal documents for new
   projects.
@@ -102,6 +104,7 @@ that applies to the language you're using:
   project tools for each project.
 * Is responsible for relaying messages, improvements and suggestions between the
   developers and the client in an appropriate and clear way.
+* Participates in the hipchat [daily](DAILY.md)
 
 #### Operations:
 
@@ -126,15 +129,20 @@ that applies to the language you're using:
 * Is in charge of the initial setup of machines for employees.
 * Keeps standards checklist for each project up to date.
 * Creates memos for each ops/PM meeting and shares them with all participants.
+* Participates in the hipchat [daily](DAILY.md)
 
 #### QA:
 
 * Checks that a build is stable and not crashing before sending it to the client.
-* Corroborates that delivered bugs or tasks are implemented as they were described in pivotal.
+* Corroborates that delivered bugs or tasks are implemented as they were
+  described in pivotal.
 * Takes notes about build versions/numbers used for submitting.
-* Makes sure that app is still working properly after client/server deploys or changes.
+* Makes sure that app is still working properly after client/server deploys
+  or changes.
 * Documents test results if required by PMs.
-* Performs 'Update tests' once a new iOS release build is ready to be sent to the client.
+* Performs 'Update tests' once a new iOS release build is ready to be sent to
+  the client.
+* Participates in the hipchat [daily](DAILY.md)
 
 ## How to use Pivotal/ JIRA
 
