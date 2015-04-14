@@ -1,11 +1,15 @@
 # General Inaka Development Guidelines
 
+
+
 ## Introduction
 
 This document describes the general guidelines we expect **all** our company
 members (a.k.a. _inakos_) to comply with in all of our projects. For code
 guidelines and best practices regarding specific languages please refer to the
 corresponding `inaka/[language]_guidelines` github repo.
+
+
 
 ## Specific Guidelines for your Language
 
@@ -14,6 +18,8 @@ that applies to the language you're using:
 * [iOS](IOS.md)
 * [Android](ANDROID.md)
 * [Erlang](ERLANG.md)
+
+
 
 ## Roles and Responsibilities in a Project
 
@@ -106,7 +112,7 @@ that applies to the language you're using:
   developers and the client in an appropriate and clear way.
 * Participates in the hipchat [daily](DAILY.md)
 
-#### Operations:
+#### Operations
 
 * Sets up all required environments and hardware for client projects (including
   web hooks for Hipchat).
@@ -131,7 +137,7 @@ that applies to the language you're using:
 * Creates memos for each ops/PM meeting and shares them with all participants.
 * Participates in the hipchat [daily](DAILY.md)
 
-#### QA:
+#### QA
 
 * Checks that a build is stable and not crashing before sending it to the client.
 * Corroborates that delivered bugs or tasks are implemented as they were
@@ -143,6 +149,8 @@ that applies to the language you're using:
 * Performs 'Update tests' once a new iOS release build is ready to be sent to
   the client.
 * Participates in the hipchat [daily](DAILY.md)
+
+
 
 ## How to use Pivotal/ JIRA
 
@@ -197,7 +205,10 @@ that applies to the language you're using:
 * If you find a bug, let your PM know and have them create a new task/story for
   it.
 
+
+
 ## TDD
+
 We encourage the use of TDD as a method of development as much as it makes
 sense. The reasons behind this approach are:
 
@@ -223,6 +234,8 @@ TDD is not suited for **all** scenarios, but there are some projects where it
 * If your project involves UI work and your language has the proper tools to
   write tests for it (e.g. rspec).
 * If you're writing an internal library with no UI pieces.
+
+
 
 ## Version Control
 
@@ -265,6 +278,8 @@ Check-in/push rules for the main repository/branch are the following:
   the branch is rebased interactively and the partial commits squashed into a
   single commit. If desired, the work progress history can be retained in the
   extended commit message.
+
+
 
 ## Development Flow
 
@@ -330,6 +345,8 @@ code review, keep in mind the following points:
 * The blog post ["Effective Code Review"][effective-code-review] has a nice
   discussion of this topic.
 
+
+
 ## Continuous Integration & Deploys
 
 We use Jenkins in all our projects to automate testing, artefacts generation,
@@ -372,6 +389,8 @@ deploy the same version.
 the deploy so that we can keep a clear history of what was working on production
 at different dates.
 
+
+
 ## Time tracking
 
 For tracking our hours, we use Freckle. Basically we use it to keep track of how
@@ -408,6 +427,8 @@ For example: ``#4252514, Implemented Facebook SDK``
   description instead of vacation use "unpaid off". The same concept applies to
   holidays, in which case we use "holiday" as the description.
 
+
+
 ## Open source projects
 
 Each developer has one day per month to spend on open source projects/ tasks.
@@ -419,7 +440,9 @@ Each developer has one day per month to spend on open source projects/ tasks.
 * Make sure to let your PM know at least a few days before the day you want to
   use for open source so the PM can coordinate any project needs around it.
 * When working on an open source project for Inaka, refer to the following
-  document: ["Open Source checklist"][open-source].
+  document: ["Open Source checklist"][OPEN-SOURCE.md].
+
+
 
 ## Research and Resources
 
@@ -438,6 +461,8 @@ specifying all the pertinent details.
 Also remember that Inaka has a public Dropbox
 [folder](https://www.dropbox.com/sh/afv2cr0m50fdyy6/AACwdnfMiwK2NZMsGnvNfIdKa?dl=0)
 with electronic versions of several books.
+
+
 
 ## Developer Values
 
@@ -501,6 +526,8 @@ with electronic versions of several books.
     post-project summaries. Write down stuff you have learned and make it
     publicly available on the wiki.
 
+
+
 ## Communication
 
 A lot has been said about roles, procedures, what to do, what not to do, etc,
@@ -536,4 +563,3 @@ the actual bits and bytes.
 [styles-guidelines]: https://docs.google.com/a/inakanetworks.com/spreadsheets/d/16PW-DJ_RlAQsUHcTVD2xqbY1ZMb10jSiZAQIYVl55xw/edit?usp=sharing
 [styles-guidelines2]: https://docs.google.com/a/inakanetworks.com/document/d/1zqSOpyTaCayFX-P10NdC5VH18_-tTSQFNiCffiQoCt4/edit?usp=sharing
 [workflow]: https://github.com/inaka/inaka_corp/wiki/Inaka-Workflow
-[open-source]: https://github.com/inaka/inaka_corp/wiki/Open-Source-checklist
