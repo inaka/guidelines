@@ -248,7 +248,7 @@ TDD is not suited for **all** scenarios, but there are some projects where it
   well as the main programming language under which the project will be
   developed.
 * For a more detailed guide on how to use Github on your day to day taks, refer
-  to this document: [Inaka Workflow][workflow].
+  to the [Inaka Workflow][WORKFLOW.md].
 
 #### Commit Messages
 
@@ -573,4 +573,3 @@ the actual bits and bytes.
 [effective-code-review]: http://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/
 [styles-guidelines]: https://docs.google.com/a/inakanetworks.com/spreadsheets/d/16PW-DJ_RlAQsUHcTVD2xqbY1ZMb10jSiZAQIYVl55xw/edit?usp=sharing
 [styles-guidelines2]: https://docs.google.com/a/inakanetworks.com/document/d/1zqSOpyTaCayFX-P10NdC5VH18_-tTSQFNiCffiQoCt4/edit?usp=sharing
-[workflow]: https://github.com/inaka/inaka_corp/wiki/Inaka-Workflow
