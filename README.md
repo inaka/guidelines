@@ -429,6 +429,17 @@ For example: ``#4252514, Implemented Facebook SDK``
 
 
 
+## Project Documentation
+
+All github projects are required to have a clear and useful README file on their
+root folder, so that it's properly displayed on github.
+Besides that, all products (i.e. applications, servers, etc.) that are developed
+for a client (as opposed to internal products) should have a wiki in the
+associated github repository that must comply with our
+[wiki guidelines](WIKIS.md).
+
+
+
 ## Open source projects
 
 Each developer has one day per month to spend on open source projects/ tasks.
