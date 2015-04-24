@@ -1,5 +1,5 @@
 ## Introduction
-Every day at 11AM (ART) we do our _daily_.
+Every day at 11AM (ART) we do our _daily_ in the Inaka hipchat room.
 The daily is supposed to function in place of a daily standup, which can be
 inefficient and time consuming. It is designed to be a brief description that
 both improves communication between your team members and assists with project
