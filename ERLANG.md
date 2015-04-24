@@ -23,13 +23,13 @@
 ### Steps for New Releases
    1. Increase the number version inside of your `*.app.src` file.
    2. Create a pull request to get that merged into `master`.
-   2. Create a new release in Github. To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
-   3. In your terminal change the current branch to `master` and execute a `git pull`.
-   4. Create a new branch in order to update the change log.
-   5. If you don't already have a GitHub access token, create a [new one](https://github.com/settings/tokens).
-   6. In the project's directory execute the script `github_changelog_generator -t [YOUR_ACCESS_TOKEN]`.
-   7. Commit the changes with the comment "[#ISSUE] Updated Changelog".
-   8. Create a pull request.
-   9. :boom:
+   3. Create a new release in Github. To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
+   4. In your terminal change the current branch to `master` and execute a `git pull`.
+   5. Create a new branch in order to update the change log.
+   6. If you don't already have a GitHub access token, create a [new one](https://github.com/settings/tokens).
+   7. In the project's directory execute the script `github_changelog_generator -t [YOUR_ACCESS_TOKEN]`.
+   8. Commit the changes with the comment "[#ISSUE] Updated Changelog".
+   9. Create a pull request.
+   10. :boom:
 
 
