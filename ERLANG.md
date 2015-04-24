@@ -20,7 +20,7 @@
 ##  Building and Releasing
   We use [erlang.mk](http://github.com/ninenines/erlang.mk) & relx. (Juan, Aki or Euen should iprove this one)
 
-  ### Steps for New Releases
+### Steps for New Releases
    1. Increase the number version inside of your `*.app.src` file.
    2. Create a pull request to get that merged into `master`.
    2. Create a new release in Github. To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
