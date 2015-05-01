@@ -20,16 +20,15 @@
 ##  Building and Releasing
   We use [erlang.mk](http://github.com/ninenines/erlang.mk) & relx. (Juan, Aki or Euen should iprove this one)
 
-### Steps for New Releases
+### Steps for New Releases / Version Bumps
    1. Increase the number version inside the project's `*.app.src` file.
-   2. Create a pull request to get that merged into `master`.
-   3. Create a new release in Github. To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
-   4. In your terminal change the current branch to `master` and execute a `git pull`.
-   5. Create a new branch in order to update the change log.
-   6. If you don't already have a GitHub access token, create a [new one](https://github.com/settings/tokens).
-   7. In the project's directory execute the script `github_changelog_generator -t [YOUR_ACCESS_TOKEN]`.
-   8. Commit the changes with the comment "[#ISSUE] Updated Changelog".
-   9. Create a pull request.
-   10. :boom:
+   2. In the project's root directory execute the script `github_changelog_generator -t [YOUR_ACCESS_TOKEN] --unreleased-label [NAME OF FUTURE RELEASE]`.
+      * If you don't already have a GitHub access token, create a [new one](https://github.com/settings/tokens).
+   3. Commit those changes and create a pull request to get them merged into `master`.
+   4. Create the new release in Github.
+      * To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
+      * Use `[NAME OF FUTURE RELEASE]` as its name
+      * Add `To see what's new check the [CHANGELOG](CHANGELOG.md)` as the change description
+   5. :boom:
 
 
