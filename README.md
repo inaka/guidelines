@@ -248,7 +248,7 @@ TDD is not suited for **all** scenarios, but there are some projects where it
   well as the main programming language under which the project will be
   developed.
 * For a more detailed guide on how to use Github on your day to day taks, refer
-  to the [Inaka Workflow][WORKFLOW.md].
+  to the [Inaka Workflow](WORKFLOW.md).
 
 #### Commit Messages
 
