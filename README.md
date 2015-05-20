@@ -40,7 +40,7 @@ that applies to the language you're using:
 * Defines technical estimate of possible new projects.
 * Keeps Pivotal updated over all tasks by properly setting the status of each
   task.
-* Must track hours daily using the ticket ID in freckle.
+* Must track hours daily using the ticket ID in freckle. See  [Time Tracking](#time-tracking) for more information. 
 * Adds all important information/ logins needed for the project to the project
   wiki.
 * Helps other team members with technical issues they may not be familiar with
