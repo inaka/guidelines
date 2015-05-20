@@ -40,8 +40,7 @@ that applies to the language you're using:
 * Defines technical estimate of possible new projects.
 * Keeps Pivotal updated over all tasks by properly setting the status of each
   task.
-* Must track hours daily using the ticket ID in freckle.
-* When creating an entry in freckle, a developer must add enough descriptive text so that the PM or Client will clearly understand where and on what specifically the time was spent. It should only be necessary to consult the pivotal or Jira # if further clarification is needed on the motives for this task. 
+* Must track hours daily using the ticket ID in freckle. When creating an entry in freckle, a developer must add enough descriptive text so that the PM or Client will clearly understand where and on what specifically the time was spent. It should only be necessary to consult the pivotal or Jira # if further clarification is needed on the motives for this task. 
 * Adds all important information/ logins needed for the project to the project
   wiki.
 * Helps other team members with technical issues they may not be familiar with
