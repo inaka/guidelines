@@ -409,6 +409,7 @@ following format: ``#PIV_ID, short description of the task``
 
 For example: ``#4252514, Implemented Facebook SDK``
 
+* Be sure to add enough descriptive text so that the PM or Client will clearly understand where and on what specifically the time was spent. It should only be necessary to consult the pivotal or Jira # if further clarification is needed on the motives for this task. 
 * Any time you spend working on tasks that are not related to any billable
   projects, like preparing for a presentation, working on an estimate, working
   on an open source project, etc. should be logged under the `Inaka Internal`
