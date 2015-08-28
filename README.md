@@ -463,7 +463,7 @@ much as possible. You're always welcome to learn new languages, paradigms,
 technologies or even new programming concepts in general.
 
 If you don't know where to start or if you want a fresh new book to read, check
-[this impressively long list of free books](http://resrc.io/list/10/list-of-free-programming-books).
+[this impressively long list of free books](http://web.archive.org/web/20150503111059/http://resrc.io/list/10/list-of-free-programming-books/).
 You can also suggest books and ask managment about paid books if you feel you
 need them.
 
