@@ -55,6 +55,7 @@ that applies to the language you're using:
   * Do your best and be proactive, as @elbrujohalcon says, "remember you are the
     expert, make suggestions, improve things".
 * Participates in the hipchat [daily](DAILY.md)
+* Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
 
 #### CTO and Technical Coordinators
 
@@ -76,6 +77,7 @@ that applies to the language you're using:
 * Sets up monthly meetings with developers in order to stay up to date with
   current events, problems, situations, etc.
 * Participates in the hipchat [daily](DAILY.md)
+* Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the Devs/Ops
 
 #### Sales/ Management
 
@@ -136,6 +138,7 @@ that applies to the language you're using:
 * Keeps standards checklist for each project up to date.
 * Creates memos for each ops/PM meeting and shares them with all participants.
 * Participates in the hipchat [daily](DAILY.md)
+* Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
 
 #### QA
 
