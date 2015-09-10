@@ -396,9 +396,9 @@ at different dates.
 
 ## Time tracking
 
-For tracking our hours, we use Freckle. Basically we use it to keep track of how
-long we spent working on each task. There are several ways to track your time,
-whichever you choose is up to you.
+For tracking our hours, we use [Freckle](https://inaka.letsfreckle.com).
+Basically we use it to keep track of how long we spent working on each task.
+There are several ways to track your time, whichever you choose is up to you.
 
 One of the ways is to use Freckle's own timer app to start/stop the timer every
 time you start working on a new task, so that you know exactly how long you've
@@ -407,16 +407,26 @@ worked on during the day, and log them into Freckle at the end of the day.
 Whichever way you choose, remember to always leave Freckle updated at the end of
 the day.
 
-When logging hours related to a specific project, they should be in the
-following format: ``#PIV_ID, short description of the task``
+* When logging hours related to a specific project, they should be in the
+following format: `[#ISSUE] short description of the task`, where `ISSUE` is either the `PIV_ID` or the `JIRA_ID` or the `GITHUB_ISSUE` associated with the task (depending on the tool the project uses).
 
-For example: ``#4252514, Implemented Facebook SDK``
+For example: `[#4252514] Implemented Facebook SDK``
 
-* Be sure to add enough descriptive text so that the PM or Client will clearly understand where and on what specifically the time was spent. It should only be necessary to consult the pivotal or Jira # if further clarification is needed on the motives for this task. 
-* Any time you spend working on tasks that are not related to any billable
-  projects, like preparing for a presentation, working on an estimate, working
-  on an open source project, etc. should be logged under the `Inaka Internal`
-  project.
+* If you're working on an open-source project, instead of the `#PIV_ID`, use the
+  github issue number.
+* Be sure to add enough descriptive text so that the PM or Client will clearly
+  understand where and on what specifically the time was spent. It should only
+  be necessary to consult the pivotal or Jira # if further clarification is
+  needed on the motives for this task. 
+* Any time you spend working on tasks that are not related to any project, like
+  preparing for a presentation, attending english lessons, etc. should be logged
+  under the `Inaka Internal` project.
+* Any time you spend working on a project (billable, internal or open-source)
+  should be tracked in the corresponding freckle project. If you're about to
+  track your time and you find there is no freckle project for the project you've
+  been working on, ask your PM, CEO or CTO (whoever assigned the task to you).
+  They might decide that the hours fall into `Inaka Internal` or they might
+  create a new freckle project for you.
 * Time **must** be entered daily, preferably throughout the day.
 * Please divide your entries in tasks and try to track as exact as possible the
   time you spend on a task.
