@@ -467,7 +467,18 @@ Each developer has one day per month to spend on open source projects/ tasks.
 * When working on an open source project for Inaka, refer to the following
   document: ["Open Source checklist"][OPEN-SOURCE.md].
 
+### Ownership vs. Authorship
 
+Inaka will reserve the ownership of all open-source projects created by devs while
+working at the company. Therefore, while you can cite yourself as the author of
+a particular open-source project, it still has to be created under the inaka
+organization account in github and it has to be licensed under the Apache v2 LICENSE
+as specified in the [Open Source checklist][OPEN-SOURCE.md]. The copyright portion
+in that license file should read:
+
+```
+   Copyright 2015 Erlang Solutions Ltd.
+```
 
 ## Research and Resources
 
