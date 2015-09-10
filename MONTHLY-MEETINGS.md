@@ -1,6 +1,6 @@
 ## Introduction
 
-Every developer and operations employee at the company will have an scheduled meeting **every 4 weeks** with the CTO.
+Every developer and operations employee at the company will have a scheduled meeting **every 4 weeks** with the CTO.
 The goal of such meetings is to keep both the CTO and the dev up to date on the latest news on the technology and projects the dev is working on and also to identify stuff that deserves to be shared with the rest of the Inaka team.
 
 ## Checklist
