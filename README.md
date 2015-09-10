@@ -405,7 +405,7 @@ Whichever way you choose, remember to always leave Freckle updated at the end of
 the day.
 
 * When logging hours related to a specific project, they should be in the
-following format: `[#PIV_ID] short description of the task``
+following format: `[#ISSUE] short description of the task`, where `ISSUE` is either the `PIV_ID` or the `JIRA_ID` or the `GITHUB_ISSUE` associated with the task (depending on the tool the project uses).
 
 For example: `[#4252514] Implemented Facebook SDK``
 
