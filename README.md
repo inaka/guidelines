@@ -105,8 +105,8 @@ that applies to the language you're using:
 * Makes sure before the project kick off to have all relevant materials
   available for the developers (required wireframes, assets, as well as our
   templated document describing the font sizes, typefaces, color palette, etc.
-  You can view these documents here [here][styles-guidelines] and
-  [here][styles-guidelines2]).
+  You can view these documents here [here](styles-guidelines) and
+  [here](styles-guidelines2)).
 * Makes sure all necessary repos are set up before development start
 * Makes sure the ops team sets up the required environments and our standard
   project tools for each project.
@@ -263,7 +263,7 @@ Good commit messages serve at least three important purposes:
   into the future, to find out why a particular change was made to the code or
   why a specific feature was added.
 
-The blog post ["On commit messages"][on-commit-messages] has a nice discussion
+The blog post ["On commit messages"](on-commit-messages) has a nice discussion
 of commit messages.
 
 Tip: if it seems difficult to summarize what your commit does, it may be because
@@ -345,7 +345,7 @@ code review, keep in mind the following points:
   the PR description
 * You can easily reduce the burden of the whole workflow to just 3 commands
   using [AW](http://github.com/inaka/assisted_workflow).
-* The blog post ["Effective Code Review"][effective-code-review] has a nice
+* The blog post ["Effective Code Review"](effective-code-review) has a nice
   discussion of this topic.
 
 
@@ -465,7 +465,7 @@ Each developer has one day per month to spend on open source projects/ tasks.
 * Make sure to let your PM know at least a few days before the day you want to
   use for open source so the PM can coordinate any project needs around it.
 * When working on an open source project for Inaka, refer to the following
-  document: ["Open Source checklist"][OPEN-SOURCE.md].
+  document: ["Open Source checklist"](OPEN-SOURCE.md).
 
 ### Ownership vs. Authorship
 
@@ -473,7 +473,7 @@ Inaka will reserve the ownership of all open-source projects created by devs whi
 working at the company. Therefore, while you can cite yourself as the author of
 a particular open-source project, it still has to be created under the inaka
 organization account in github and it has to be licensed under the Apache v2 LICENSE
-as specified in the [Open Source checklist][OPEN-SOURCE.md]. The copyright portion
+as specified in the [Open Source checklist](OPEN-SOURCE.md). The copyright portion
 in that license file should read:
 
 ```
