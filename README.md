@@ -105,8 +105,7 @@ that applies to the language you're using:
 * Makes sure before the project kick off to have all relevant materials
   available for the developers (required wireframes, assets, as well as our
   templated document describing the font sizes, typefaces, color palette, etc.
-  You can view these documents here [here](styles-guidelines) and
-  [here](styles-guidelines2)).
+  You can view these documents here [here][styles-guidelines] and [here][styles-guidelines2]).
 * Makes sure all necessary repos are set up before development start
 * Makes sure the ops team sets up the required environments and our standard
   project tools for each project.
@@ -263,7 +262,7 @@ Good commit messages serve at least three important purposes:
   into the future, to find out why a particular change was made to the code or
   why a specific feature was added.
 
-The blog post ["On commit messages"](on-commit-messages) has a nice discussion
+The blog post ["On commit messages"][on-commit-messages] has a nice discussion
 of commit messages.
 
 Tip: if it seems difficult to summarize what your commit does, it may be because
@@ -345,7 +344,7 @@ code review, keep in mind the following points:
   the PR description
 * You can easily reduce the burden of the whole workflow to just 3 commands
   using [AW](http://github.com/inaka/assisted_workflow).
-* The blog post ["Effective Code Review"](effective-code-review) has a nice
+* The blog post ["Effective Code Review"][effective-code-review] has a nice
   discussion of this topic.
 
 
