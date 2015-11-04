@@ -3,6 +3,7 @@
 
 
 ## Introduction
+
 This document describes the general guidelines we expect **all** our company
 members (a.k.a. _inakos_) to comply with in all of our projects. For code
 guidelines and best practices regarding specific languages please refer to the
