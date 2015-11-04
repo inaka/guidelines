@@ -18,7 +18,7 @@
  Exported functions in all your modules and the modules themselves, specially for open-source projects, should be documented using edoc comments. If possible, the project should provide a way to build the documentation in the Makefile using [erldocs](http://github.com/erldocs/erldocs)
 
 ##  Building and Releasing
-  We use [erlang.mk](http://github.com/ninenines/erlang.mk) & relx. (Juan, Aki or Euen should iprove this one)
+  We use [erlang.mk](http://github.com/ninenines/erlang.mk) & relx. (Juan, Aki or Euen should improve this one)
 
 ### Steps for New Releases / Version Bumps
    1. Increase the number version inside the project's `*.app.src` file.
