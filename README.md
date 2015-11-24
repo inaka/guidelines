@@ -452,6 +452,16 @@ associated github repository that must comply with our
 [wiki guidelines](WIKIS.md).
 
 
+## Talks & Conferences
+
+As a developer, Inaka might give you the chance to speak at a conference.
+If that's the case, these are the rules you have to follow for your presentation
+to be valid:
+
+* You have to present a subject that's at least tangentially related to our work
+* You have to use the standard google slides template to build your slides
+* Before submitting your talk proposal, it has to be approved by the CTO and the CEO
+* Before presenting your talk, the slides and general content has to be approved by the CTO and the CEO
 
 ## Open source projects
 
