@@ -25,9 +25,10 @@ Each project should have a github repo with github issues enabled. As the main d
 - [ ] It provides a sample application
 - [ ] Examples of use are documented in the README or linked from there
 
-## For Erlang Projects
+## For Erlang/Elixir Projects
 - [ ] It's checked with [Gadget](http://gadget.inakalabs.com)
 - [ ] It's shared on [Erlang Central](http://erlangcentral.org/add-news/)
+- [ ] It's published on [Hex.pm](https://hex.pm)
 
 ## For Ruby Projects
 - [ ] It's checked with [Hound](https://houndci.com)
