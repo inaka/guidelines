@@ -30,6 +30,5 @@
       * To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
       * Use `[NAME OF FUTURE RELEASE]` as its name
       * Add `To see what's new check the [CHANGELOG](CHANGELOG.md)` as the change description
-   5. :boom:
-
-
+   5. optionally publish the project to [hex.pm](http://hex.pm) using `hexer`
+   6. :boom:
