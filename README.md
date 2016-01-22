@@ -40,13 +40,13 @@ that applies to the language you're using:
 * Defines technical estimate of possible new projects.
 * Keeps Pivotal updated over all tasks by properly setting the status of each
   task.
-* Must track hours daily using the ticket ID in freckle. See  [Time Tracking](#time-tracking) for more information. 
+* Must track hours daily using the ticket ID in freckle. See  [Time Tracking](#time-tracking) for more information.
 * Adds all important information/ logins needed for the project to the project
   wiki.
 * Helps other team members with technical issues they may not be familiar with
   and passing on general and project-specific know-how.
 * While consulting:
-  * Notify the technical lead or project manager whenever something outside the 
+  * Notify the technical lead or project manager whenever something outside the
     agreed scope of the project is requested by the client.
   * Always keep the client informed of holidays, sick days and vacations.
   * Keep the technical lead up to date on any technical decisions you had to
@@ -138,6 +138,8 @@ that applies to the language you're using:
 * Creates memos for each ops/PM meeting and shares them with all participants.
 * Participates in the hipchat [daily](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
+* Maintains weekly meetings with all PMs and CTO to coordinate ops priorities.
+* Writting and maintaining Disaster Recovery Plan documentation for all projects. Link located at Operations Hipchat room.
 
 #### QA
 
@@ -416,7 +418,7 @@ For example: `[#4252514] Implemented Facebook SDK``
 * Be sure to add enough descriptive text so that the PM or Client will clearly
   understand where and on what specifically the time was spent. It should only
   be necessary to consult the pivotal or Jira # if further clarification is
-  needed on the motives for this task. 
+  needed on the motives for this task.
 * Any time you spend working on tasks that are not related to any project, like
   preparing for a presentation, attending english lessons, etc. should be logged
   under the `Inaka Internal` project.
