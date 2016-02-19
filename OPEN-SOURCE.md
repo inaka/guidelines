@@ -10,8 +10,8 @@ Each project should have a github repo with github issues enabled. As the main d
 - [ ] It's has a clear and useful README.md
 - [ ] It's documented (with examples)
 - [ ] It's tested
-- [ ] It's hooked to the [open-source hipchat room](https://www.hipchat.com/gpBpW3SsT)
-- [ ] It has a link to the [open-source hipchat room](https://www.hipchat.com/gpBpW3SsT) in its README
+- [ ] It's hooked to the [open-source hipchat room](http://inaka.net/hipchat)
+- [ ] It has a link to the [open-source hipchat room](http://inaka.net/hipchat) in its README
 - [ ] It has a link to [inaka.github.io](http://inaka.github.io) in its README and/or landing page
 
 ## Exhibition
