@@ -25,6 +25,15 @@ Each project should have a github repo with github issues enabled. As the main d
 - [ ] It provides a sample application
 - [ ] Examples of use are documented in the README or linked from there
 
+## For Erlang Projects
+- [ ] It follows the rules for our [Project Setup](ERLANG.md#project-setup)
+  * [ ] erlang.mk up to date
+  * [ ] Makefile plugins in place
+  * [ ] DEPS coming from hex.pm
+  * [ ] elvis.config up to date
+  * [ ] Meta testing in place
+  * [ ] hex.pm data in place
+
 ## For Erlang/Elixir Projects
 - [ ] It's checked with [Gadget](http://gadget.inakalabs.com)
 - [ ] It's shared on [Erlang Central](http://erlangcentral.org/add-news/)
