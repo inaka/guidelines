@@ -81,6 +81,14 @@ Then add a `your_app_meta_SUITE.erl` file to the project's `test` folder:
 init_per_suite(Config) -> [{application, your_app} | Config].
 ```
 
+And now before we can run the `meta testing` suite we need to generate the [`PLT`](http://erlang.org/doc/apps/dialyzer/dialyzer_chapter.html#id59082) (*required for Dialyzer test case*) using the following command:
+
+``` bash
+$ make plt-all
+```
+
+**Note:** The rule for `plt-all` is within `inaka_mk` (previously added to `BUILD_DEPS` in the **Makefile** section).
+
 ### Data for hex.pm
 The project's app.src file should include the following tuples:
 ```erlang
