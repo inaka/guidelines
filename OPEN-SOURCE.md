@@ -28,7 +28,7 @@ Each project should have a github repo with github issues enabled. As the main d
 ## For Erlang Projects
 - [ ] It follows the rules for our [Project Setup](ERLANG.md#project-setup)
   * [ ] erlang.mk up to date
-  * [ ] Makefile plugins in place
+  * [ ] Makefile plugins (hexer.mk and inaka.mk) correctly present in Makefile
   * [ ] DEPS coming from hex.pm
   * [ ] elvis.config up to date
   * [ ] Meta testing in place
