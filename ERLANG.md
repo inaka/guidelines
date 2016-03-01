@@ -111,7 +111,7 @@ The project's app.src file should include the following tuples:
    `github_changelog_generator -t [YOUR_ACCESS_TOKEN] --future-release [NAME OF FUTURE RELEASE]`.
       * If you don't have a GitHub access token already, create a [new one](https://github.com/settings/tokens).
    3. Commit those changes and create a pull request to get them merged into `master`.
-   4. Create the new release in Github.
+   4. Create the new release in Github (this automatically creates the tag).
       * To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
       * Use `[NAME OF FUTURE RELEASE]` as its name
       * Add `To see what's new check the [CHANGELOG](CHANGELOG.md)` as the change description
