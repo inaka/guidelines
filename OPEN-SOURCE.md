@@ -43,7 +43,7 @@ Each project should have a github repo with github issues enabled. As the main d
 - [ ] It's checked with [Hound](https://houndci.com)
 
 ## For iOS Libraries
-- [ ] It is [podified]()
+- [ ] It is [podified](how-to-podify.md)
 
 ## For Node Projects
 - [ ] It's published as an npm package
