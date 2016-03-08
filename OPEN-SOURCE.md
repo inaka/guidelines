@@ -27,12 +27,12 @@ Each project should have a github repo with github issues enabled. As the main d
 
 ## For Erlang Projects
 - [ ] It follows the rules for our [Project Setup](ERLANG.md#project-setup)
-  * [ ] erlang.mk up to date
-  * [ ] Makefile plugins (hexer.mk and inaka.mk) correctly present in Makefile
-  * [ ] DEPS coming from hex.pm
-  * [ ] elvis.config up to date
-  * [ ] Meta testing in place
-  * [ ] hex.pm data in place
+      * [ ] erlang.mk up to date
+      * [ ] Makefile plugins (hexer.mk and inaka.mk) correctly present in Makefile
+      * [ ] DEPS coming from hex.pm
+      * [ ] elvis.config up to date
+      * [ ] Meta testing in place
+      * [ ] hex.pm data in place
 
 ## For Erlang/Elixir Projects
 - [ ] It's checked with [Gadget](http://gadget.inakalabs.com)
@@ -43,7 +43,7 @@ Each project should have a github repo with github issues enabled. As the main d
 - [ ] It's checked with [Hound](https://houndci.com)
 
 ## For iOS Libraries
-- [ ] It is podyfied
+- [ ] It is [podified](how-to-podify.md)
 
 ## For Node Projects
 - [ ] It's published as an npm package
