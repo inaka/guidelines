@@ -252,7 +252,7 @@ TDD is not suited for **all** scenarios, but there are some projects where it
   well as the main programming language under which the project will be
   developed.
 * For a more detailed guide on how to use Github on your day to day taks, refer
-  to the [Inaka Workflow](WORKFLOW.md).
+  to this [Youtube Playlist](https://www.youtube.com/playlist?list=PL75bT2qMwxlWC9PsShtzOy5rBzYjSWPv7) by our CTO [@elbrujohalcon](https://github.com/elbrujohalcon).
 
 #### Commit Messages
 
@@ -313,9 +313,7 @@ we work with Pull Requests and Code Reviews. The process in a nutshell is:
 * When the review is done, your reviewer will merge your code into master.
 * The branch should then be deleted.
 
-Note that, mostly depending on the language and the product, there might be some
-exceptions in the aforementioned workflow, but the PRs and Code Reviews will
-**always** be there. We embrace code reviews for a number of reasons:
+Note that, mostly depending on the language and the product, there might be some exceptions in the aforementioned workflow, but the PRs and Code Reviews will **always** be there. We embrace code reviews for a number of reasons:
 * It helps the devs spot small issues that would've gone undetected without a
   review.
 * It keeps the general knowledge of the projects shared between, at least,
