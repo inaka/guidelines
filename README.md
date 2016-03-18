@@ -154,7 +154,16 @@ that applies to the language you're using:
   the client.
 * Participates in the hipchat [daily](DAILY.md)
 
+#### Social Media Manager
 
+* Actively manages all company social networks including Facebook, Twitter, Linkedin, etc. 
+* Posts all important activities such as conferences our employees attend, internal events, important topics in technology, open source projects
+* Responds to notifications/questions on social media immediately if urgent, and if not frequently
+* Interacts with our social media followers
+* Always makes interactions on social media relevant and apropriate 
+* Actively manages blog
+* Makes sure there is always a queue of upcoming blog posts to post at least 2 a month
+* Follows up with developers to ensure they are writing blog posts in a timely manner
 
 ## How to use Pivotal/ JIRA
 
