@@ -162,7 +162,7 @@ that applies to the language you're using:
 * Interacts with our social media followers
 * Always makes interactions on social media relevant and apropriate 
 * Actively manages blog
-* Makes sure there is always a queueu of upcomign blog posts to post at least 2 a month
+* Makes sure there is always a queue of upcoming blog posts to post at least 2 a month
 * Follows up with developers to ensure they are writing blog posts in a timely manner
 
 ## How to use Pivotal/ JIRA
