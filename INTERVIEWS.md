@@ -15,6 +15,7 @@ When interviewing candidates for whatever position, keep the following in mind:
 Ask them:
 * Can you describe a time when your work was criticized?
 * Tell me about an important issue you encountered recently.
+* Talk about something new you learned this month.
 * What are you expecting from this firm in the future?
 * Tell about a time that you had to adapt to a difficult situation.
 * What is your greatest achievement outside of work?
@@ -23,6 +24,7 @@ Ask them:
 * What techniques and tools do you use to keep yourself organized?
 * What attracted you to this company?
 * What type of work environment do you prefer?
+* If you join a project where code is using tabs for identation but you prefer spaces, what would you do?
 
 ### Technical Positions
 
@@ -43,6 +45,8 @@ When interviewing candidates for technical positions, keep the following in mind
 
 * Do they know how to use and understand git? Other source control management
   tools?
+* Do they have github accounts? 
+* What's their recent open source contributions?
 * Are they familiar with the command-line? Are they comfortable scripting or
   automating tasks?
 * Do they understand the technologies involved in web development?
@@ -87,3 +91,54 @@ For technical evaluations, you can:
 1. To include a file in Erlang what is the command used?
 1. How are run-time errors handled in Erlang?
 1. How are processes created?
+
+#### Ruby Interview Questions
+
+1. What is a class, what is an object and why we need modules?
+1. Ruby has open classes, could you explain what that means?
+1. How can you get a Hash with ordered keys?
+1. Is this a valid ruby code?
+
+  ```ruby
+  if user&.profile&.settings&.deliver?
+    UserMailer.notify(user).deliver_later
+  end
+  ```
+
+1. Have you already created and published a gem?
+
+#### Ruby On Rails Interview Questions
+
+1. How to you decide when to use `has_many through` or `has_and_belongs_to_many` in a model class?
+1. How can we prevent using view helpers in order to have a more clear and object oriented solution?
+1. How can you generate test data to run unit tests?
+1. What's a good technique to improve tests where external apis requests are required?
+
+### General Frontend Interview Questions
+
+1. Can you enumerate 3 ways to decrease page load time.
+1. What does CORS stand for and what issue does it address?
+1. Describe the difference between a cookie, sessionStorage and localStorage.
+
+### Javascript Questions
+
+1. What is a closure, and how/why would you use one?
+1. What are the pros and cons of using Promises instead of callbacks?
+1. From the new features introduced by ES2015, what's the difference between using `var`, `let` and `const`?
+1. Which javascript frameworks have you already used?
+
+### AngularJS Questions
+
+1. How do you organize the code inside your javascript folder for an AngularJS application?
+1. Do you follow a styleguide or use a lint tool?
+1. Could you explain what is a directive?
+1. What is dependency injection and how does it work in AngularJS?
+1. How to implement routing in Angular?
+1. Do you know what is Karma and Protractor?
+1. What do you think about AngularJS 2? What about Typescript?
+
+### BackboneJS Questions
+
+1. What are the basic components provided by the Backbone framework?
+1. How would you make a Backbone Collection deal with API responses when the response is not an array?
+1. Why should we bind events using “listenTo()” instead of “on()”?
