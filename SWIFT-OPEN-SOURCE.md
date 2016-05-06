@@ -2,7 +2,7 @@
 
 ***
 
-Notes: 
+**Notes:**
 
 - I based this tutorial on how [**Jayme**](https://github.com/inaka/Jayme) library was built. Check it out for further reference. 
 - Whenever you see `Jayme` -like names in the examples, you must think of it in terms of your library name (e.g. if your library is named `Foo`, whenever you see, for example `JaymeTests`, think of `FooTests` instead).
