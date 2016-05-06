@@ -9,7 +9,7 @@ When discussed and approved there, it should be turned in a PR. You can use [aw]
 ## Acceptance criteria
 
 * If you're working on an iOS guideline, you should assign the PR to [@pablolvillar](https://github.com/pablolvillar)
-* If you're working on an Android guideline, you should assign the PR to [@quiqueqs](https://github.com/quiqueqs)
+* If you're working on an Android guideline, you should assign the PR to [@tenmaster](https://github.com/tenmaster)
 * If you're working on an Erlang guideline, you should assign the PR to [@elbrujohalcon](https://github.com/elbrujohalcon)
 * If you're working on an General guideline, you should assign the PR to [@marfre](https://github.com/marfre)
 
