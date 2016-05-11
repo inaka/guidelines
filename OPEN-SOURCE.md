@@ -42,8 +42,8 @@ Each project should have a github repo with github issues enabled. As the main d
 ## For Ruby Projects
 - [ ] It's checked with [Hound](https://houndci.com)
 
-## For iOS Libraries
-- [ ] It is [podified](how-to-podify.md)
+## For Swift Libraries
+- [ ] It follows our [Swift open-source guidelines](SWIFT-OPEN-SOURCE.md)
 
 ## For Node Projects
 - [ ] It's published as an npm package
