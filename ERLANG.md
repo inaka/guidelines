@@ -17,46 +17,123 @@
 ## Project Setup
 All erlang projects, specially open-source libraries, should comply to these rules:
 
-### Erlang.mk
-The project must use the latest version of [erlang.mk](http://github.com/ninenines/erlang.mk).
-To be sure you are using the latest version, grab any recently modern version of `erlang.mk` and run:
-```bash
-$ make erlang-mk
+### rebar.config
+The project must use rebar3, for that, you will need a `rebar.config`.
+
+The following lines are an example of `rebar.config`:
+```erlang
+%% -*- mode: erlang;erlang-indent-level: 2;indent-tabs-mode: nil -*-
+%% ex: ts=4 sw=4 ft=erlang et
+
+%% == Erlang Compiler ==
+
+%% Erlang compiler options
+{erl_opts,  [ warn_unused_vars
+            , warn_export_all
+            , warn_shadow_vars
+            , warn_unused_import
+            , warn_unused_function
+            , warn_bif_clash
+            , warn_unused_record
+            , warn_deprecated_function
+            , warn_obsolete_guard
+            , strict_validation
+            , warn_export_vars
+            , warn_exported_vars
+            , warn_missing_spec
+            , warn_untyped_record
+            , debug_info
+         ]}.
+
+{profiles, [
+  {test, [
+    {deps, [
+      {test_dep, {git, "https://github.com/inaka/test_dep.git", {tag, "0.0.1"}}}
+    ]}
+  ]},
+  {shell, [
+    {deps, [
+      %% Sync don't have releases so we use this stable version
+      {sync, {git, "https://github.com/rustyio/sync.git", {ref, "9c78e7b"}}}
+    ]}
+  ]}
+]}.
+
+%% == Common Test ==
+
+{ct_compile_opts, [ warn_unused_vars
+                  , warn_export_all
+                  , warn_shadow_vars
+                  , warn_unused_import
+                  , warn_unused_function
+                  , warn_bif_clash
+                  , warn_unused_record
+                  , warn_deprecated_function
+                  , warn_obsolete_guard
+                  , strict_validation
+                  , warn_export_vars
+                  , warn_exported_vars
+                  , warn_missing_spec
+                  , warn_untyped_record
+                  , debug_info
+                 ]}.
+
+{ct_opts, []}.
+
+%% == Cover ==
+
+{cover_enabled, true}.
+
+{cover_opts, [verbose]}.
+
+%% == Dependencies ==
+
+{deps, [ inaka_mk            % latest version of package
+       , {hexer_mk, "1.0.0"} % version 1.0.0 of a package
+       ]}.
+
+%% == Dialyzer ==
+
+{dialyzer, [
+    {warnings, [ underspecs
+               , no_return
+               , unmatched_returns
+               , error_handling
+               ]},
+    {get_warnings, true},
+    {plt_apps, top_level_deps},
+    {plt_extra_apps, []},
+    {plt_location, local},
+    {base_plt_apps, [stdlib, kernel]},
+    {base_plt_location, global}
+]}.
+
+%% == Shell ==
+
+{shell, [{apps, [sync]}]}.
+
 ```
-
-### Makefile
-The following lines must be included in `Makefile`:
-```Makefile
-PROJECT = your_app
-
-BUILD_DEPS = inaka_mk hexer_mk
-DEP_PLUGINS = inaka_mk hexer_mk
-
-include erlang.mk
-
-ERLC_OPTS := +warn_unused_vars +warn_export_all +warn_shadow_vars +warn_unused_import +warn_unused_function
-ERLC_OPTS += +warn_bif_clash +warn_unused_record +warn_deprecated_function +warn_obsolete_guard +strict_validation
-ERLC_OPTS += +warn_export_vars +warn_exported_vars +warn_missing_spec +warn_untyped_record +debug_info
-```
+for more information you can consult the [official documentation](https://www.rebar3.org/docs/) or check the [full example](https://github.com/erlang/rebar3/blob/master/rebar.config.sample).
 
 ### Dependencies
-All `DEPS` should use the packages in [hex.pm](http://hex.pm). For `SHELL_DEPS`, `TEST_DEPS`, etc. it's a _nice to have_, but not mandatory.
-
-### Rebar
-Adding `rebar.config` is optional, but if the project includes it, it must keep the deps versions and `erl_opts` in sync with `Makefile`
+All deps used in the `default` profile should use the packages in [hex.pm](http://hex.pm). For deps used in other profiles, etc. it's a _nice to have_, but not mandatory.
 
 ### Elvis
 The project should include an updated `elvis.config` file. Both `test` and `src` folders and their subfolders must be checked.
 
 ### Meta Testing
 The project must include meta testing, using [katana-test](http://github.com/inaka/katana-test).
-To do that, add these lines to `Makefile`:
+To do that, add these lines to `rebar.config`:
 
-```Makefile
-TEST_DEPS += katana mixer
-
-dep_mixer = [[THE MOST RECENT VERSION]]
-dep_katana = [[THE MOST RECENT VERSION]]
+```erlang
+{profiles, [
+  {test, [
+    {deps, [
+      {katana_test, {git, "https://github.com/inaka/katana-test.git", {tag, "THE MOST RECENT VERSION"}}},
+      {mixer,       {git, "https://github.com/inaka/mixer.git",       {tag, "THE MOST RECENT VERSION"}}}
+    ]}
+  ]}
+]}.
 ```
 
 Then add a `your_app_meta_SUITE.erl` file to the project's `test` folder:
@@ -84,10 +161,12 @@ init_per_suite(Config) -> [{application, your_app} | Config].
 And now before we can run the `meta testing` suite we need to generate the [`PLT`](http://erlang.org/doc/apps/dialyzer/dialyzer_chapter.html#id59082) (*required for Dialyzer test case*) using the following command:
 
 ``` bash
-$ make plt-all
+$ rebar3 dialyzer
 ```
-
-**Note:** The rule for `plt-all` is within `inaka_mk` (previously added to `BUILD_DEPS` in the **Makefile** section).
+Now you can run:
+``` bash
+$ rebar3 ct
+```
 
 ### Data for hex.pm
 The project's app.src file should include the following tuples:
@@ -103,7 +182,12 @@ The project's app.src file should include the following tuples:
 ```
 
 ##  Building and Releasing
-  We use [erlang.mk](http://github.com/ninenines/erlang.mk) & relx.
+  We use [rebar3](http://www.rebar3.org/) & relx.
+
+  To generate the release you have to run:
+  ``` bash
+  $ rebar3 release
+  ```
 
 ### Steps for New Releases / Version Bumps
    1. Increase the number version inside the project's `*.app.src` file.
