@@ -17,7 +17,7 @@ For a deeper explanation, check [this blog post](http://inaka.net/blog/2015/02/2
 Install [excoveralls](https://github.com/parroty/excoveralls) in you project and check the coverage before pushing new changes. If it's open-source, make sure to setup up [coveralls.io](https://coveralls.io) and add the coverage badge to your README file.
 When using Travis CI, you can ask it to trigger a code coverage task after a successful build (check [.travis.yml](#travisyml) example below).
 
-##	Documentation
+## Documentation
 
 Exported functions in all your modules and the modules themselves, specially for open-source projects, should be documented using `@moduledoc` and `@doc` comments. Remember to install [ex_doc](https://github.com/elixir-lang/ex_doc) and have a proper task to build the doc files when needed. For open-source projects, [Inch CI](https://inch-ci.org) is useful to check the documentation coverage, and you can also integrate it with Travis CI (check [.travis.yml](#travisyml) example below).
 
