@@ -1,5 +1,18 @@
 # General Elixir Guidelines
 
+## Table of Contents
+
+1. [Coding Guidelines](#coding-guidelines)
+1. [Build Tools](#build-tools)
+1. [Test Coverage](#test-coverage)
+1. [Documentation](#documentation)
+1. [Project Setup](#project-setup)
+  1. [Dependencies](#dependencies)
+  1. [Data for hex.pm](#data-for-hexpm)
+  1. [Travis.yml](#travisyml)
+1. [Building and Releasing](#building-and-releasing)
+  1. [Steps for New Releases / Version Bumps](#steps-for-new-releases--version-bumps)
+
 ## Coding Guidelines
 
 Make sure you comply with [elixir style guide](https://github.com/rrrene/elixir-style-guide). In order to automate the style checking, install [Credo](https://github.com/rrrene/credo) and run it before creating a new Pull Request. If possible always run credo with `strict` flag: `mix credo --strict`.
@@ -101,12 +114,13 @@ To generate the release you must update the version in your mix.exs and run:
 1. Increase the number version inside the project's `mix.exs` file.
 2. In the project's root directory execute the script:
 `github_changelog_generator -t [YOUR_ACCESS_TOKEN] --future-release [NAME OF FUTURE RELEASE]`.
+  * Install github_changelog_generator as a ruby gem: `$ gem install github_changelog_generator` 
   * If you don't have a GitHub access token already, create a [new one](https://github.com/settings/tokens).
 3. Commit those changes and create a pull request to get them merged into `master`.
 4. Create the new release in Github (this automatically creates the tag).
   * To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
   * Use `[NAME OF FUTURE RELEASE]` as its name
   * Add `To see what's new check the [CHANGELOG](CHANGELOG.md)` as the change description
-5. optionally publish the project to [hex.pm](http://hex.pm) using `mix hex.publish`
-6. update hex.pm docs for the project using `mix hex.docs`
+5. Optionally publish the project to [hex.pm](http://hex.pm) using `mix hex.publish`
+6. Update hex.pm docs for the project using `mix hex.docs`
 7. :boom:
