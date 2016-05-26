@@ -97,6 +97,20 @@ Cocoapods only fetches versions of your repo that are Releases. Therefore, each 
 
 If you ever forget something and you already created the release, it won't be enough with deleting the release and re-creating it; you will first need to delete its associated tag and re-create it, pointing to the new commit where you want your release. Here's a [quick guide](http://stackoverflow.com/a/8044605) on how to do so.
 
+Also, here's a useful checklist for those scenarios where you need to **rename** stuff in your code (variables, classes, protocols, etc):
+
+```markdown
+Renaming process checklist:
+
+[ ] Every appearance in code is renamed
+[ ] Every according file is renamed
+[ ] Project builds successfully
+[ ] Tests pass successfully
+[ ] There is a deprecation/migration mechanism implemented in code
+[ ] README is updated
+[ ] CHANGELOG is updated
+```
+
 #### iii. Documentation
 
 Cocoapods fetches your `README.md` for presenting it in your pod spec page. You can check it out by using a URL like http://cocoadocs.org/docsets/Jayme/1.0.4/.
