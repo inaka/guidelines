@@ -12,7 +12,7 @@
  Check your code with all the available tools: xref, dialyzer and elvis. You can use [gadget](http://gadget.inakalabs.com) but don't just rely on it. Use the tools in your local environment as well.
 
 ##	Documentation
- Exported functions in all your modules and the modules themselves, specially for open-source projects, should be documented using edoc comments. If possible, the project should provide a way to build the documentation in the Makefile using [erldocs](http://github.com/erldocs/erldocs)
+ Exported functions in all your modules and the modules themselves, specially for open-source projects, should be documented using edoc comments.
 
 ## Project Setup
 All erlang projects, specially open-source libraries, should comply to these rules:
@@ -88,16 +88,14 @@ The following lines are an example of `rebar.config`:
 
 %% == Dependencies ==
 
-{deps, [ inaka_mk            % latest version of package
-       , {hexer_mk, "1.0.0"} % version 1.0.0 of a package
+{deps, [ sumo_db           % latest version of package
+       , {zipper, "1.0.0"} % version 1.0.0 of a package
        ]}.
 
 %% == Dialyzer ==
 
 {dialyzer, [
-    {warnings, [ underspecs
-               , no_return
-               , unmatched_returns
+    {warnings, [ unmatched_returns
                , error_handling
                ]},
     {get_warnings, true},
@@ -119,7 +117,7 @@ for more information you can consult the [official documentation](https://www.re
 All deps used in the `default` profile should use the packages in [hex.pm](http://hex.pm). For deps used in other profiles, etc. it's a _nice to have_, but not mandatory.
 
 ### Elvis
-The project should include an updated `elvis.config` file. Both `test` and `src` folders and their subfolders must be checked.
+The project should include an **updated** `elvis.config` file. Both `test` and `src` folders and their subfolders must be checked.
 
 ### Meta Testing
 The project must include meta testing, using [katana-test](http://github.com/inaka/katana-test).
