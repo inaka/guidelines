@@ -27,12 +27,19 @@ Each project should have a github repo with github issues enabled. As the main d
 
 ## For Erlang Projects
 - [ ] It follows the rules for our [Project Setup](ERLANG.md#project-setup)
-      * [ ] erlang.mk up to date
-      * [ ] Makefile plugins (hexer.mk and inaka.mk) correctly present in Makefile
-      * [ ] DEPS coming from hex.pm
+      * [ ] proper rebar.config
+      * [ ] rebar3 `compile`, `dialyzer`, `doc` and `ct` work with **no warnings**
+      * [ ] `deps` coming from hex.pm
       * [ ] elvis.config up to date
       * [ ] Meta testing in place
-      * [ ] hex.pm data in place
+      * [ ] proper data for hex.pm on app.src
+
+## For Elixir Projects
+- [ ] It follows the rules for our [Project Setup](ELIXIR.md#project-setup)
+      * [ ] all default deps in hex.pm
+      * [ ] assigned to [HexFactor](https://beta.hexfaktor.org/)
+      * [ ] proper data for hex.pm on mix.exs
+      * [ ] travis.yml up to date
 
 ## For Erlang/Elixir Projects
 - [ ] It's checked with [Gadget](http://gadget.inakalabs.com)
@@ -43,7 +50,9 @@ Each project should have a github repo with github issues enabled. As the main d
 - [ ] It's checked with [Hound](https://houndci.com)
 
 ## For Swift Libraries
+- [ ] It's checked with [Hound](https://houndci.com)
 - [ ] It follows our [Swift open-source guidelines](SWIFT-OPEN-SOURCE.md)
 
 ## For Node Projects
+- [ ] It's checked with [Hound](https://houndci.com)
 - [ ] It's published as an npm package
