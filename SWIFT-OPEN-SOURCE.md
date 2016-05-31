@@ -81,7 +81,7 @@ Make sure you don't expose internal stuff that you don't need to expose to other
 
 In order to ensure that your library does work as a third party component in other project, you must have a release working with cocoapods already. Create a new fresh Xcode project, just for testing integration, and fetch your library as a pod from that project. Try using your library, if you get no compiler errors and you're able to work with all the components as you would expect to, then you're good to go. Otherwise, you have to make sure you've declared all your public APIs as `public`, and once done, upload a new version of the library with those fixes. 
 
-💡 A quick way of testing access control changes without making a new release is copy-pasting the updated files from your library to overwrite the equivalent files that your testing project is using under its pods folder. `CMD+Shift+J` + *Show in Finder* in Xcode will help you out.
+💡 A quick way of testing access control changes without making a new release is editing the `podfile` of your integration test project by using a line that specifies the branch or specific commit that you need to test, for example: `pod 'Jayme', :git => 'git@github.com:inaka/Jayme.git', :branch => 'v2'` and running `pod install`.
 
 #### ii. Tags and Versioning
 
