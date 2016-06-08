@@ -93,6 +93,7 @@ Cocoapods only fetches versions of your repo that are Releases. Therefore, each 
 
 - All your files are updated with all the changes you need.
 - The `.podspec` file is updated with its `s.version` field pointing to the tag you're about to create.
+- Your library has passed successfully `pod lib lint` and `pod spec lint` commands.
 - The `README.md` and any required documentation is updated.
 
 If you ever forget something and you already created the release, it won't be enough with deleting the release and re-creating it; you will first need to delete its associated tag and re-create it, pointing to the new commit where you want your release. Here's a [quick guide](http://stackoverflow.com/a/8044605) on how to do so.
