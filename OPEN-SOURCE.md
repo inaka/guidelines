@@ -44,6 +44,7 @@ Each project should have a github repo with github issues enabled. As the main d
 
 ## For Swift Libraries
 - [ ] It follows our [Swift open-source guidelines](SWIFT-OPEN-SOURCE.md)
+- [ ] All `.swift` created files have the [MIT license comment header](open-source-header.swift)
 
 ## For Node Projects
 - [ ] It's published as an npm package
