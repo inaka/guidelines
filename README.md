@@ -296,31 +296,42 @@ Check-in/push rules for the main repository/branch are the following:
 
 ## Development Flow
 
-In all of our projects (specially those hosted in our own github repositories)
-we work with Pull Requests and Code Reviews. The process in a nutshell is:
+We are an agile development shop. This means we tackle projects in an iterative
+fashion (with each iteration called a sprint which lasts one or two weeks in
+duration) and show results early and often as we progress through a project.
+Our clients set the priorities of each sprint and are ultimately in control of
+the final outcome.  Tools we most often use with our clients to aid with
+managing work and controlling source code are: pivotal, jira and github.
+
+From a project day to day point of view, our developers work with Pull
+Requests and Code Reviews. To any one of our developers, the process (in a 
+nutshell) is as follows:
 * Grab a pivotal story/jira issue/github issue and mark it as started (e. g.
   let's say I want to work on piv `#123456` which is a piv story about editing
   this document).
 * Open a branch with your name and the story id on it (e. g.
-  `elbrujohalcon.123456.edit.this.document`). One or more commits per pivotal
-  story, but no more than one pivotal id per commit.
+  `elbrujohalcon.123456.edit.this.document`).
 * Tag all your commits with the story id
   (e. g. `git commit -m "[#123456] First edition"`).
-* Once you're done, submit a Pull Request in github and assign it to a colleague
-  of yours to review it (if none of them are available, assign it to your CTO).
-  + While you wait for that review, you can pick a different task and start this
+* Remember you can have one or more commits per pivotal story,
+  but no more than one pivotal id per commit.
+* Once done, submit a Pull Request in github and assign it to a colleague
+  so they may review it (if none are available, then assign it to your CTO).
+  + While you wait for the review, you can pick a different task and start this
     process over. If the PR is a blocker, warn whoever is responsible to
     communicate your block.
 * When opening a pull request to generate a page on which the changes can be
-  discussed, make sure to have [WIP] at the beginning of the pull request title so
-  that it is not merged. When the discussion concludes, change the title to
-  remove [WIP] and notify the reviewer so they can merge the pull request.
+  discussed, make sure to have [WIP] at the beginning of the pull request title
+  (or use the WIP label if available) so that it is not merged. When the
+  discussion concludes, change the title to remove [WIP] (or just remove the label)
+  and notify the reviewer so they can merge the pull request.
 * The reviewer will then write comments on the PR and you'll have the chance to
   discuss them and/or fix them.
-* We also have automated tools (like [elvis](http://elvis.inakalabs.com)) that
-  will review your code.
+* We also have automated tools (like [Elvis](http://elvis.inakalabs.com),
+  [Credo](http://credoci.inakalabs.com), [Gadget](http://gadget.inakalabs.com) and
+  [Hound](https://houndci.com/)) that will review your code and emmit comments.
 * When the review is done, your reviewer will merge your code into master.
-* The branch should then be deleted.
+* The name/story id branch should then be deleted.
 
 Note that, mostly depending on the language and the product, there might be some exceptions in the aforementioned workflow, but the PRs and Code Reviews will **always** be there. We embrace code reviews for a number of reasons:
 * It helps the devs spot small issues that would've gone undetected without a
