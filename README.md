@@ -245,12 +245,12 @@ sense. The reasons behind this approach are:
   more accurate and, generally, simpler code.
 * Having a good test coverage in your code base increases your general trust
   on the written code and allows for easier and safer refactoring if needed.
-* If well written, tests usually works as documentation as well.
+* If well written, tests usually work as documentation as well.
 
 #### When to incorporate TDD
 TDD is not suited for **all** scenarios, but there are some projects where it
 **MUST** be used:
-* If you're working on a API server project.
+* If you're working on an API server project.
 * If you're working on an open-source library.
 * If your project involves UI work and your language has the proper tools to
   write tests for it (e.g. rspec).
@@ -268,7 +268,7 @@ TDD is not suited for **all** scenarios, but there are some projects where it
   the CTO to create a new repository for you and give him a brief description as
   well as the main programming language under which the project will be
   developed.
-* For a more detailed guide on how to use Github on your day to day taks, refer
+* For a more detailed guide on how to use Github on your day to day tasks, refer
   to this [Youtube Playlist](https://www.youtube.com/playlist?list=PL75bT2qMwxlWC9PsShtzOy5rBzYjSWPv7) by our CTO [@elbrujohalcon](https://github.com/elbrujohalcon).
 
 #### Commit Messages
@@ -295,7 +295,7 @@ Check-in/push rules for the main repository/branch are the following:
 * Code must compile – All code merged must **fully** compile. This should be
   true for all commits in the history, because if there are commits that don’t
   fully compile, it will be  more difficult to use git bisect. Partial commits
-  with non-working code can be allowed if prior to submitting the pull request,
+  with non-working code can be allowed if prior to submitting the pull request
   the branch is rebased interactively and the partial commits squashed into a
   single commit. If desired, the work progress history can be retained in the
   extended commit message.
@@ -456,18 +456,24 @@ For example: `[#4252514] Implemented Facebook SDK``
   create a new freckle project for you.
 * Time **must** be entered daily, preferably throughout the day.
 * Please divide your entries in tasks and try to track as exact as possible the
-  time you spend on a task.
+  time you spend on a task. There should be almost no eight hour entries.
 * Descriptions need to be clear and need to include a pivotal ID.
 * Do not enter in one freckle entry several pivotal tasks. Divide them in
   several freckle entries so we know exactly how long each task took.
-* Additionally, you need to add sick days and personal vacations into freckle.
+* Additionally, you need to add sick days, study days and personal vacation into freckle.
   I. e. if you take a sick day, enter for that day 8 hours labelled "sick" under
   the `Inaka Internal` project. If you take vacations, for each vacation day
-  enter 8 hours labelled "vacation" under the `Inaka Internal` project.
+  enter 8 hours labelled "vacation" under the `Inaka Internal` project. If you take a study day, for each study day
+  enter 8 hours labelled "study day" under the `Inaka Internal` project.
 * For unpaid additional vacation you take (or days off) do the same, but the
   description instead of vacation use "unpaid off". The same concept applies to
   holidays, in which case we use "holiday" as the description.
 
+## Working hours
+* Respect the working hours and the work from home days! If you need to change anything tell your PM/ CEO before, so we can see if its ok with your current project. 
+* The ones who have special hours agreed with Inaka due to university/ kids etc please make sure you respect those hours. Inaka is flexible adjusting the work schedules to your needs, in exchange Inaka expects that everyone respects the hours agreed on.
+* If you are running late: Let the PMs/ CEO/ CTO know.
+* Regular working hours: Standard work day is 8 working hours per day which excludes the lunch time. 
 
 
 ## Project Documentation
