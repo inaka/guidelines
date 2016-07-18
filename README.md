@@ -56,6 +56,7 @@ that applies to the language you're using:
     expert, make suggestions, improve things".
 * Participates in the hipchat [daily](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
+* While not assigned to a client project, works on Inaka open-source projects, the ESL TODO list or writes blog posts.
 
 #### CTO and Technical Coordinators
 
@@ -78,6 +79,7 @@ that applies to the language you're using:
   current events, problems, situations, etc.
 * Participates in the hipchat [daily](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the Devs/Ops
+* Provides support for the sales team.
 
 #### Sales/ Management
 
@@ -88,11 +90,14 @@ that applies to the language you're using:
 * Notifies the project manager about the start of the project, providing the
   technical customer contact info and the project plan (deliverables, deadline,
   agreed effort and mix of engineers/senior engineers).
+* Is in charge of setting up the contract and SOW based on the estimates provided by the team.
+* Curates opportunity until it is signed.
 
 #### Project Managers
 
 * Is involved in reviewing the estimation and proposal documents for new
   projects.
+* Provides support for the sales team.
 * Needs to make sure that all project wikis are up to date.
 * Informs all team members about important client decisions.
 * Updates Pivotal always to reflect the latest scope of the project.
@@ -139,7 +144,8 @@ that applies to the language you're using:
 * Participates in the hipchat [daily](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
 * Maintains weekly meetings with all PMs and CTO to coordinate ops priorities.
-* Writting and maintaining Disaster Recovery Plan documentation for all projects. Link located at Operations Hipchat room.
+* Writes and maintains Disaster Recovery Plan documentation for all projects (Link located at Operations' Hipchat room)
+* Keeps the list of team members on inaka's website up to date.
 
 #### QA
 
@@ -153,6 +159,7 @@ that applies to the language you're using:
 * Performs 'Update tests' once a new iOS release build is ready to be sent to
   the client.
 * Participates in the hipchat [daily](DAILY.md)
+* Maintains weekly meetings with all PMs to discuss tasks for QA.
 
 #### Social Media Manager
 
@@ -197,6 +204,7 @@ that applies to the language you're using:
   should be centered".
 * Add release lines indicating "above for QA", "above for PM" and "above for client". Tasks approved by QA need to be above the PM line and tasks ready for testing for the client need to be above for client line.
 * Specify estimates on the pivotal story title.
+* Mark out of scope tasks as such.
 
 #### For developers
 
