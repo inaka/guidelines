@@ -56,7 +56,7 @@ that applies to the language you're using:
     expert, make suggestions, improve things".
 * Participates in the hipchat [daily](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
-* While not assigned to a client project should be working on Inaka open source projects, the ESL ToDo list or wirting a blog post.
+* While not assigned to a client project, works on Inaka open-source projects, the ESL TODO list or writes blog posts.
 
 #### CTO and Technical Coordinators
 
@@ -79,7 +79,7 @@ that applies to the language you're using:
   current events, problems, situations, etc.
 * Participates in the hipchat [daily](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the Devs/Ops
-* Needs to support the sales team.
+* Provides support for the sales team.
 
 #### Sales/ Management
 
@@ -90,13 +90,14 @@ that applies to the language you're using:
 * Notifies the project manager about the start of the project, providing the
   technical customer contact info and the project plan (deliverables, deadline,
   agreed effort and mix of engineers/senior engineers).
-* Is in charge of setting up the contract and SOW based on the estimates provided by the team, curates opportunity until it is signed.
+* Is in charge of setting up the contract and SOW based on the estimates provided by the team.
+* Curates opportunity until it is signed.
 
 #### Project Managers
 
 * Is involved in reviewing the estimation and proposal documents for new
   projects.
-* Needs to support the sales team.
+* Provides support for the sales team.
 * Needs to make sure that all project wikis are up to date.
 * Informs all team members about important client decisions.
 * Updates Pivotal always to reflect the latest scope of the project.
@@ -144,7 +145,7 @@ that applies to the language you're using:
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
 * Maintains weekly meetings with all PMs and CTO to coordinate ops priorities.
 * Writing and maintaining Disaster Recovery Plan documentation for all projects. Link located at Operations Hipchat room.
-* Keep the team members on inaka.net updated.
+* Keeps the list of team members on inaka's website up to date.
 
 #### QA
 
