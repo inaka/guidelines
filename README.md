@@ -144,7 +144,7 @@ that applies to the language you're using:
 * Participates in the hipchat [daily](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
 * Maintains weekly meetings with all PMs and CTO to coordinate ops priorities.
-* Writing and maintaining Disaster Recovery Plan documentation for all projects. Link located at Operations Hipchat room.
+* Writes and maintains Disaster Recovery Plan documentation for all projects (Link located at Operations' Hipchat room)
 * Keeps the list of team members on inaka's website up to date.
 
 #### QA
