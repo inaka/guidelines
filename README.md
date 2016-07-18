@@ -299,8 +299,8 @@ Check-in/push rules for the main repository/branch are the following:
 We are an agile development shop. This means we tackle projects in an iterative
 fashion (with each iteration called a sprint which lasts one or two weeks in
 duration) and show results early and often as we progress through a project.
-Our clients set the priorities of each sprint and are ultimately in control of
-the final outcome.  Tools we most often use with our clients to aid with
+With our clients, we set the priorities of each sprint so they are ultimately in
+control of the final outcome. Tools we most often use with our clients to aid with
 managing work and controlling source code are: pivotal, jira and github.
 
 From a project day to day point of view, our developers work with Pull
