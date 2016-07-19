@@ -470,8 +470,8 @@ For example: `[#4252514] Implemented Facebook SDK``
   holidays, in which case we use "holiday" as the description.
 
 ## Working hours
-* Respect the working hours and the work from home days! If you need to change anything tell your PM/ CEO before, so we can see if its ok with your current project. 
-* The ones who have special hours agreed with Inaka due to university/ kids etc please make sure you respect those hours. Inaka is flexible adjusting the work schedules to your needs, in exchange Inaka expects that everyone respects the hours agreed on.
+* Respect the working hours and the work from home days! If you need to change anything tell your PM/ CEO before, so they can see if its ok with your current project. 
+* If you have special hours agreed with the company due to university schedule, kids care or other personal matters, please make sure you respect those hours. Inaka is open to adjusting the work schedules to the needs of each employee, in exchange Inaka expects everyone to respect the hours agreed on.
 * If you are running late: Let the PMs/ CEO/ CTO know.
 * Regular working hours: Standard work day is 8 working hours per day which excludes the lunch time. 
 
@@ -509,6 +509,7 @@ Each developer has one day per month to spend on open source projects/ tasks.
   use for open source so the PM can coordinate any project needs around it.
 * When working on an open source project for Inaka, refer to the following
   document: ["Open Source checklist"](OPEN-SOURCE.md).
+* In some occassions it can be required to skip the open source day to ensure already agreed milestones and timelines with clients. 
 
 ### Ownership vs. Authorship
 
@@ -520,7 +521,7 @@ as specified in the [Open Source checklist](OPEN-SOURCE.md). The copyright porti
 in that license file should read:
 
 ```
-   Copyright 2015 Erlang Solutions Ltd.
+   Copyright 2016 Erlang Solutions Ltd.
 ```
 
 ## Research and Resources
