@@ -1,10 +1,10 @@
 ## How to contribute
 
-If you feel this list of guidelines could benefit from a new item, or some other modification, we would like to know!
+If you feel this list of guidelines could benefit from a new item, or some other modification, let us know!
 
 Suggestions should be added as [Github issues](issues) in this same repository.
 
-When discussed and approved there, it should be turned in a PR. You can use [aw](http://github.com/inaka/assisted_workflow) for that.
+When discussed and approved there, it should be turned into a PR. You can use [aw](http://github.com/inaka/assisted_workflow) for that.
 
 ## Acceptance criteria
 
