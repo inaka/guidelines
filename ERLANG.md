@@ -111,7 +111,7 @@ The following lines are an example of `rebar.config`:
 {shell, [{apps, [sync]}]}.
 
 ```
-for more information you can consult the [official documentation](https://www.rebar3.org/docs/) or check the [full example](https://github.com/erlang/rebar3/blob/master/rebar.config.sample).
+For more information, you can check out the [official documentation](https://www.rebar3.org/docs/) or the [full example](https://github.com/erlang/rebar3/blob/master/rebar.config.sample).
 
 ### Dependencies
 All deps used in the `default` profile should use the packages in [hex.pm](http://hex.pm). For deps used in other profiles, etc. it's a _nice to have_, but not mandatory.
@@ -156,7 +156,7 @@ Then add a `your_app_meta_SUITE.erl` file to the project's `test` folder:
 init_per_suite(Config) -> [{application, your_app} | Config].
 ```
 
-And now before we can run the `meta testing` suite we need to generate the [`PLT`](http://erlang.org/doc/apps/dialyzer/dialyzer_chapter.html#id59082) (*required for Dialyzer test case*) using the following command:
+And now, before we can run the `meta testing` suite, we need to generate the [`PLT`](http://erlang.org/doc/apps/dialyzer/dialyzer_chapter.html#id59082) (*required for Dialyzer test case*) using the following command:
 
 ``` bash
 $ rebar3 dialyzer
@@ -188,14 +188,14 @@ The project's app.src file should include the following tuples:
   ```
 
 ### Steps for New Releases / Version Bumps
-   1. Increase the number version inside the project's `*.app.src` file.
-   2. In the project's root directory execute the script:
+   1. Increase the version number inside the project's `*.app.src` file.
+   2. In the project's root directory, execute the script:
    `github_changelog_generator -t [YOUR_ACCESS_TOKEN] --future-release [NAME OF FUTURE RELEASE]`.
       * If you don't have a GitHub access token already, create a [new one](https://github.com/settings/tokens).
    3. Commit those changes and create a pull request to get them merged into `master`.
    4. Create the new release in Github (this automatically creates the tag).
       * To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
-      * Use `[NAME OF FUTURE RELEASE]` as its name
-      * Add `To see what's new check the [CHANGELOG](CHANGELOG.md)` as the change description
-   5. optionally publish the project to [hex.pm](http://hex.pm) using `hexer`
+      * Use `[NAME OF FUTURE RELEASE]` as its name.
+      * Add `To see what's new check the [CHANGELOG](CHANGELOG.md)` as the change's description.
+   5. Optionally, publish the project to [hex.pm](http://hex.pm) using `hexer`
    6. :boom:
