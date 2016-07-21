@@ -12,4 +12,4 @@ $ cd guidelines
 $ grip [THE FILE].md
 ```
 
-Then, navigate to [localhost:5000](http://localhost:5000) on your machine… and print that page as a PDF :)
+Then, navigate to [localhost:5000](http://localhost:5000) on your machine and... print that page as a PDF :)
