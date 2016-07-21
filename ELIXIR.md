@@ -111,7 +111,7 @@ To generate the release you must update the version in your mix.exs and run:
 
 ### Steps for New Releases / Version Bumps
 
-1. Increase the number version inside the project's `mix.exs` file.
+1. Increase the version number inside the project's `mix.exs` file.
 2. In the project's root directory, execute the script:
 `github_changelog_generator -t [YOUR_ACCESS_TOKEN] --future-release [NAME OF FUTURE RELEASE]`.
   * Install github_changelog_generator as a ruby gem: `$ gem install github_changelog_generator` 
@@ -120,7 +120,7 @@ To generate the release you must update the version in your mix.exs and run:
 4. Create the new release in Github (this automatically creates the tag).
   * To do this, go to the project's home page, `Releases` and press the `Draft a new release` button.
   * Use `[NAME OF FUTURE RELEASE]` as its name.
-  * Add `To see what's new check the [CHANGELOG](CHANGELOG.md)` as the change description.
-5. Optionally publish the project to [hex.pm](http://hex.pm) using `mix hex.publish`
+  * Add `To see what's new check the [CHANGELOG](CHANGELOG.md)` as the change's description.
+5. Optionally, publish the project to [hex.pm](http://hex.pm) using `mix hex.publish`
 6. Update hex.pm docs for the project using `mix hex.docs`
 7. :boom:
