@@ -1,7 +1,7 @@
 ## Introduction
 All Inaka's github main project repos (i.e. the repos containing the main
 application code, not the library ones) are required to have a README file and a
-wiki
+wiki.
 
 ## README file
 Besides what's in the wiki, each project should have a README file in its root
@@ -21,28 +21,28 @@ Project wiki's should include **at least** the information listed below
     reasoning behind them).
 
 * **Design / Architecture**:
-  - If there are some design or architecture graphics, there should a wiki page
-    to hold them
+  - If there are some design or architecture graphics, there should be a wiki page
+    to hold them.
   - Even if there are no graphics, but some design/architecture decisions are
-    not evident from the code or the rest of the docs, there should be listed
-    and described in the wiki
+    not evident from the code or the rest of the docs, they should be listed
+    and described in the wiki.
 
 * **Account information**:
-  - If the project requires facebook, twitter, linkedin, or just applications
+  - If the project requires facebook, twitter, linkedin, or just application
     users for testing/support purposes, there should be a list of them (with
     their passwords) in the wiki.
   - If the project uses mixpanel, urban airship and/or flurry, the wiki should
-    include the required users and passwords
+    include the required users and passwords.
 
 
 ### iOS Specific Pages
 * **AppStore Information**, including dev account login and app name (individual
-  identifier)
+  identifier).
 
 
 ### Android Specific Pages
 * **Google Play Information**, including account login, keystore and package
-  name
+  name.
 
 
 ### Server Specific Pages
@@ -50,12 +50,12 @@ Project wiki's should include **at least** the information listed below
   descriptions and the required information to log into them using ssh.
   Or heroku app descriptions with names, users, passwords, etc.
 * **Monitoring Info**: If the server is monitored by pingdom or other monitor
-  system, this page should describe how to check/edit its configuration
+  system, this page should describe how to check/edit its configuration.
 * **Scale Testing**: A page stating the desired scale bounds, the current system
   bounds and the way to test them, including the instructions to set up a
   machine (or group of machines) to run the tests and how to interpret the
   results.
-* **API Description**: If the server provides an API there should be a page
+* **API Description**: If the server provides an API, there should be a page
   (or more likely *some pages*) documenting it.
-* **Expected API Usage**: If the server provides an API there should be a page
+* **Expected API Usage**: If the server provides an API, there should be a page
   describing how clients are supposed to use it, i.e. the expected workflow.
