@@ -5,7 +5,7 @@
 **Notes:**
 
 - I based this tutorial on how [**Jayme**](https://github.com/inaka/Jayme) library was built. Check it out for further reference. 
-- Whenever you see `Jayme`, like on the names in the examples, you must think of it in terms of your library name (e.g. if your library is named `Foo`, whenever you see `JaymeTests` fro example, think of `FooTests` instead).
+- Whenever you see `Jayme`, like on the names in the examples, you must think of it in terms of your library name (e.g. if your library is named `Foo`, whenever you see `JaymeTests` for example, think of `FooTests` instead).
 - This tutorial is strictly under [Inaka's guidelines](https://github.com/inaka/guidelines/) and it's not meant to be a general guideline for every Swift developer, although we encourage you to follow it.
 
 ---
@@ -71,7 +71,7 @@ Inside those folders, you can group and organize stuff physically and logically 
 
 You must follow [this guide](https://github.com/inaka/guidelines/blob/master/how-to-podify.md) for a step-by-step reference on how to podify your Swift repo.
 
-⚠️ **Important:** Knowing *how-to* is not enough. There are some gotchas that you need to be aware of. You'll finde them described below:
+⚠️ **Important:** Knowing *how-to* is not enough. There are some gotchas that you need to be aware of. You'll find them described below:
 
 #### i. Access Control
 
