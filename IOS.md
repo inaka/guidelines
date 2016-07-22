@@ -11,18 +11,18 @@ When asked to work on a new estimate for a potential project for a client, keep 
 - Are they standard or customized?
 - How much customization do they need?
 - Have you worked with them before?
-- Are they available in all API levels request by the client?
+- Are they available in all API levels requested by the client?
 - While looking at the designs, also try to make a mental map of how the overall communication of the app will be.
 - How will the user transition from one view to another?
 - Are there animations involved? Will certain views need to be updated automatically?
 
-Make sure you take those items into account and include them into your estimates. If you have a feeling a certain design will not be easy to accomplish, create a separate item for them in the estimate's document. Estimating designs is an important part of the estimation process, but it is not the only one. You also need to take into consideration other factors such as the backing data model, backwards compatibility with older iOS API levels, integration with social networks, etc...
+Make sure you take those items into account and include them into your estimates. If you have a feeling a certain design will not be easy to accomplish, create a separate item for them in the estimates document. Estimating designs is an important part of the estimation process, but it is not the only one. You also need to take into consideration other factors such as the backing data model, backwards compatibility with older iOS API levels, integration with social networks, etc...
 - Will the app need to keep a local cache of the data?
 - How many API calls do you imagine the app to have?
 - How will you communicate with the backend?
 - Etc., etc., you get the point.
 
-If you have any doubts, questions, comments, heads-up, suggestions etc., write them down in the estimate's document and keep in mind that it's better to under-promise and over-deliver than to over-promise and under-deliver.
+If you have any doubts, questions, comments, heads-up, suggestions etc., write them down in the estimates document and keep in mind that it's better to under-promise and over-deliver than to over-promise and under-deliver.
 
 *** 
 
