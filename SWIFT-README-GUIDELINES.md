@@ -33,7 +33,7 @@ Optionally, to give more chances to your library for becoming popular, you can a
 
 - **Badges** to expose your library status (e.g. [Travis CI](http://travis-ci.org/), [codecov.io](https://codecov.io/gh), [cocoapods](https://cocoapods.org/), [Twitter](https://twitter.com/inaka)).
 
-- A **Features** section describing some features of your library, such as which things it supports, or other outstanding cool features that are worth it to remark.
+- A **Features** section describing some features of your library, such as which things it supports, or other outstanding cool features worth remarking.
 
 - A section explaining how your library works in detail.
 
@@ -43,7 +43,7 @@ Optionally, to give more chances to your library for becoming popular, you can a
 
 ✍️ You need to know how to work with [**markdown syntax**]().
 
-I personally suggest these 2 mac applications to work with markdown:
+I personally suggest these 2 Mac applications to work with markdown:
 
-- [Typora ](http://typora.io/)when writing documentation and you want preview live.
+- [Typora ](http://typora.io/) when you're writing documentation and you want preview live.
 - [Sublime Text]() when you need to get picky with specific structures in your file (e.g. links, images with links, etc) and live preview becomes annoying.
