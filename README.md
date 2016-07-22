@@ -81,18 +81,6 @@ that applies to the language you're using:
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the Devs/Ops.
 * Provides support for the sales team.
 
-#### Sales/ Management
-
-* Handles the initial contact and discussions with the customers. Sets up and
-  coordinates the assignment, including high level requirement collection,
-  time/budget information and required level of service needed (e.g. proof of
-  concept or complete product).
-* Notifies the project manager about the start of the project, providing the
-  technical customer contact info and the project plan (deliverables, deadline,
-  agreed effort and mix of engineers/senior engineers).
-* Is in charge of setting up the contract and SOW based on the estimates provided by the team.
-* Curates opportunity until it is signed.
-
 #### Project Managers
 
 * Is involved in reviewing the estimation and proposal documents for new
@@ -106,11 +94,10 @@ that applies to the language you're using:
 * Updates and documents regularly the project's status and informs the client
 * Needs to know about every customer interaction and has to assure the tone
   is always proper and that every request is handled appropriately.
-* Follows the conventions as defined in the [guidelines document](https://docs.google.com/a/inakanetworks.com/document/d/1QaNdEa-_hcq6m-Jmn4xHlzxlqTmxmMv19V4JO58LQdI/edit)
+* Follows the conventions defined at Inaka
 * Makes sure before the project's kick off to have all relevant materials
   available for the developers (required wireframes, assets, as well as our
   templated document describing the font sizes, typefaces, color palette, etc.
-  You can view these documents here [here][styles-guidelines] and [here][styles-guidelines2]).
 * Makes sure all necessary repos are set up before development starts.
 * Makes sure the ops team sets up the required environments and our standard
   project tools for each project.
@@ -160,17 +147,6 @@ that applies to the language you're using:
   the client.
 * Participates in the hipchat [daily](DAILY.md)
 * Maintains weekly meetings with all PMs to discuss tasks for QA.
-
-#### Social Media Manager
-
-* Actively manages all company social networks including Facebook, Twitter, Linkedin, etc. 
-* Posts all important activities such as conferences our employees attend, internal events, important topics in technology, open source projects, etc.
-* Responds to notifications/questions on social media immediately if urgent, and if not frequently. 
-* Interacts with our social media followers.
-* Always makes relevant and apropriate interactions on social media.  
-* Actively manages the blog and blog posts.
-* Makes sure there is always a queue of upcoming blog posts to post, at least, 2 per month.
-* Follows up with developers to ensure they are writing blog posts in a timely manner.
 
 ## How to use Pivotal/ JIRA
 
@@ -418,62 +394,6 @@ deploy the same version.
 **Releases:** After a deploy, we tag the commit as a `release` with the date of
 the deploy, so we can keep precise record of what was working on production
 at different dates.
-
-
-
-## Time tracking
-
-For tracking hours, we use [Freckle](https://inaka.letsfreckle.com).
-Basically, we use it to keep record of how long we spent working on each task.
-There are several ways to track your time, whichever you choose is up to you.
-
-One way is to use Freckle's own timer app to start/stop it every
-time you start working on a new task, so that you know exactly how long you've
-spent working on it. Another way is to simply keep track of the tasks you've
-worked on during the day, and log them into Freckle at the end of the day.
-Whichever way you choose, remember to always leave Freckle updated at the end of
-the day.
-
-* When logging hours related to a specific project, they should be entered in the
-following format: `[#ISSUE] short description of the task`, where `ISSUE` is either the `PIV_ID` or the `JIRA_ID` or the `GITHUB_ISSUE` associated with the task (depending on the tool the project uses).
-
-For example: `[#4252514] Implemented Facebook SDK``
-
-* If you're working on an open-source project, instead of the `#PIV_ID`, use the
-  github issue number.
-* Be sure to add enough descriptive text so that the PM or Client will clearly
-  understand where and on what was the time specifically spent. It should only
-  be necessary to consult the pivotal or Jira # if further clarification is
-  needed on the motives for this task.
-* Any time you spend working on tasks that are not related to any project, like
-  preparing for a presentation, attending english lessons, etc. they should be logged
-  under the `Inaka Internal` project.
-* Any time you spend working on a project (billable, internal or open-source) it
-  should be tracked in the corresponding freckle project. If you're about to
-  track your time and you find there is no freckle project for the one you've
-  been working on, ask your PM, CEO or CTO (whoever assigned the task to you).
-  They might decide that the hours fall into `Inaka Internal` or they might
-  create a new freckle project for you.
-* Time **must** be entered daily, preferably throughout the day.
-* Please divide your entries in tasks and try to track as exact as possible the
-  time you spend on a task. There should be almost no eight hour entries.
-* Descriptions need to be clear and need to include a pivotal ID.
-* Do not enter in one freckle entry several pivotal tasks. Divide them in
-  several freckle entries so we know exactly how long each task took.
-* Additionally, you need to add sick days, study days and personal vacation into freckle,
-  i.e.: if you take a sick day, enter for that day 8 hours labelled "sick" under
-  the `Inaka Internal` project. If you take vacations, for each vacation day
-  enter 8 hours labelled "vacation" under the `Inaka Internal` project. If you take a study day, for each study day
-  enter 8 hours labelled "study day" under the `Inaka Internal` project.
-* For unpaid additional vacation you take (or days off) do the same, but the
-  description instead of vacation use "unpaid off". The same concept applies to
-  holidays, in which case we use "holiday" as the description.
-
-## Working hours
-* Respect the working hours and the work from home days! If you need to change anything, tell your PM/ CEO before, so they can see if it's ok with your current project. 
-* If you have special hours agreed with the company due to university schedule, kids care or other personal matters, please make sure you respect those hours. Inaka is open to adjusting the work schedules to the needs of each employee, in exchange Inaka expects everyone to respect the hours agreed on.
-* If you are running late: Let the PMs/ CEO/ CTO know.
-* Regular working hours: Standard work day is 8 working hours per day which excludes the lunch time. 
 
 
 ## Project Documentation
