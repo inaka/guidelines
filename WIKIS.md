@@ -1,14 +1,12 @@
 ## Introduction
 All Inaka's github main project repos (i.e. the repos containing the main
-application code, not the library ones) are required to have a README file and a
-wiki.
+application code, not the library ones) are required to have a README file and a wiki.
 
 ## README file
 Besides what's in the wiki, each project should have a README file in its root
 folder with instructions on everything a dev will need to set up a development
 environment and get the project working. If there is a way to generate
-documentation from source code, it should be described there. The way to run the
-system tests and check their coverage should be described there, too.
+documentation from source code, it should be described there. The way to run the system tests and check their coverage should be described there, too.
 
 ## Wiki Pages
 Project wiki's should include **at least** the information listed below
@@ -21,8 +19,7 @@ Project wiki's should include **at least** the information listed below
     reasoning behind them).
 
 * **Design / Architecture**:
-  - If there are some design or architecture graphics, there should be a wiki page
-    to hold them.
+  - If there are some design or architecture graphics, there should be a wiki page to hold them.
   - Even if there are no graphics, but some design/architecture decisions are
     not evident from the code or the rest of the docs, they should be listed
     and described in the wiki.
@@ -36,14 +33,11 @@ Project wiki's should include **at least** the information listed below
 
 
 ### iOS Specific Pages
-* **AppStore Information**, including dev account login and app name (individual
-  identifier).
-
+* **AppStore Information**, including dev account login and app name (individual identifier).
 
 ### Android Specific Pages
 * **Google Play Information**, including account login, keystore and package
   name.
-
 
 ### Server Specific Pages
 * **Server Access Instructions**: Including lists of amazon servers, with

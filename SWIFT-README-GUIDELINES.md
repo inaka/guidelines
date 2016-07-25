@@ -45,5 +45,5 @@ Optionally, to give more chances to your library for becoming popular, you can a
 
 I personally suggest these 2 Mac applications to work with markdown:
 
-- [Typora ](http://typora.io/) when you're writing documentation and you want preview live.
-- [Sublime Text]() when you need to get picky with specific structures in your file (e.g. links, images with links, etc) and live preview becomes annoying.
+- [Typora](http://typora.io/) when you're writing documentation and you want preview live.
+- [Sublime Text](https://www.sublimetext.com/) when you need to get picky with specific structures in your file (e.g. links, images with links, etc) and live preview becomes annoying.
