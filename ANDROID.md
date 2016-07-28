@@ -9,7 +9,7 @@ The following are lessons learned from having worked on different Android projec
 Please make sure to comply with our [android guidelines](https://github.com/inaka/android_guidelines).
 
 ## Project Estimation
-When asked to work on a new estimate for a potential project for a client, keep in mind that, despite what you may hear, there's a good chance your estimates will get converted into deadlines, so really take your time to work on them. If given the designs or wireframes, look at them carefully..
+When asked to work on a new estimate for a potential project for a client, make sure to take your time to work on them. If given the designs or wireframes, look at them carefully...
 - What are the UI widgets you need to use to construct those designs?
 - Are they standard or customized?
 - How much customization do they need?
@@ -25,7 +25,7 @@ Make sure you take those items into account and include them into your estimates
 - How will you communicate with the backend?
 - Etc, etc. You got the point.
 
-If you have any doubts, questions, comments, heads-up, suggestions etc, write them down in the estimate's document and keep in mind that it's better to under-promise and over-deliver then to over-promise and under-deliver.
+If you have any doubts, questions, comments, heads-up, suggestions etc, write them down in the estimate's document and keep in mind that it's better to under-promise and over-deliver than to over-promise and under-deliver.
 
 ## Tips
 #### Use Android Studio and Gradle

@@ -45,7 +45,7 @@ When interviewing candidates for technical positions, keep the following questio
 
 * Do they know how to use and understand git? Other source control management
   tools?
-* Do they have github accounts? 
+* Do they have github accounts?
 * What are their recent open source contributions?
 * Are they familiar with the command-line? Are they comfortable scripting or
   automating tasks?

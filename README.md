@@ -13,113 +13,86 @@ corresponding `inaka/[language]_guidelines` github repo.
 
 ## Specific Guidelines for your Language
 
-In this same repo we have 3 other guideline files, so make sure you check the one
-that applies to the language you're using:
-* [iOS](IOS.md)
-* [Android](ANDROID.md)
-* [Erlang](ERLANG.md)
+In this same repo we also have several other guideline files, specifically tailored to some languages or platforms (e.g. [iOS](IOS.md), [Android](ANDROID.md), [Erlang](ERLANG.md), [Elixir](ELIXIR.md), etc.). Check them out to find out how we work in those particular cases.
 
-
+---
 
 ## Roles and Responsibilities in a Project
 
+See below a list of some of the different roles we have inside our company, each one with a list of its associated responsibilities. This list is not exhaustive, we have other roles, these are just the main ones.
+
 #### Developer
 
-* Develops functional and non-functional features including tests and
-  documentation as specified by the project's stage and task's description.
+* Develops functional and non-functional features including tests and documentation as specified by the project's stage and task's description.
 * Attends and actively participates in the daily stand-up and other meetings.
-* Follows the guidelines regarding tools and applications that can be used in
-  the project.
+* Follows the guidelines regarding tools and applications that should be used in the projects he works on.
 * Follows code conventions as defined in the corresponding guidelines document.
-* Is responsible to raise warnings if unable to keep the deadlines on the
-  assigned tasks, ensuring the project leader can take appropriate actions.
-* Needs to notify the Project Manager immediately if an earlier estimate turns
-  out not to be accurate.
-* Is responsable to inform the Project Manager or techincal lead about any
-  technical concerns regarding the project.
-* Defines technical estimate of possible new projects.
-* Keeps Pivotal updated over all tasks by properly setting the status of each
-  task.
-* Must track hours daily using the ticket ID in freckle. See  [Time Tracking](#time-tracking) for more information.
-* Adds all important information/ logins needed for the project to the project's
-  wiki.
-* Helps other team members with technical issues they may not be familiar with
-  and passing on general and project-specific know-how.
+* Is responsible to raise warnings if unable to keep the deadlines on the assigned tasks, ensuring the project manager can take appropriate actions.
+* Notifies the Project Manager immediately if an earlier estimate turns out not to be accurate.
+* Is responsable to inform the Project Manager or Techincal Lead about any technical concerns regarding the project.
+* Defines technical estimates of possible new projects.
+* Keeps project tracking tools updated by properly setting the status of each task.
+* Helps other team members with technical issues they may not be familiar with and passing on general and project-specific know-how.
 * While consulting:
-  * Notify the technical lead or project manager whenever something outside the
-    agreed scope of the project is requested by the client.
-  * Always keep the client informed of holidays, sick days and vacations.
-  * Keep the technical lead up to date on any technical decisions you had to
-    make.
-  * Get to know your coworkers, you are not a mercenary waiting to get out.
-  * Do your best and be proactive, as @elbrujohalcon says, "remember you are the
-    expert, make suggestions, improve things".
-* Participates in the hipchat [daily](DAILY.md)
+  * Notifies the technical lead or project manager whenever something outside the agreed scope of the project is requested by the client.
+  * Always keeps the client informed of holidays, sick days and vacations.
+  * Keeps the technical lead up to date on any technical decisions.
+  * Does their best to be proactive, as [@elbrujohalcon](https://github.com/elbrujohalcon) says: _"remember you are the expert, make suggestions, improve things"_.
+* Participates in the [daily standup](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
-* While not assigned to a client project, works on Inaka open-source projects, the ESL TO DO list, or writes blog posts.
+* While not assigned to a client project, works on Inaka open-source projects, the ESL TO-DO list, or writes blog posts.
 
 #### CTO and Technical Coordinators
 
-* Coordinates and creates estimates for proposals.
-* Defines the architectural and technical decisions, and makes them publicly
-  available for all team members.
-* Keeps all team members updated with any changes regarding the original
-  technical decisions.
-* Might act as a Project Manager.
-* During the kickoff meeting, communicates initial design and goals of a project
-  and main increments to the team. It is then up to the team and the lead to
-  refine and extend the design and identify the tasks.
-* Supervises the progress of tasks, ensuring they are implemented according to
-  the agreed design and timeline as well verifying their quality.
-* Solves blocking issues for the developers and, if necessary, escalates the
-  problem with System Administrators or Technical Coordinators.
+* Works with the country managers, sales and/or project managers in the process of creating and reviewing estimates for potential clients.
+* Defines the company-wide architectural and technical standards and make them publicly available for all team members.
+* Keeps all team members updated with any changes regarding the original technical decisions of a project.
+* Has the ability to act as a project manager, if needed.
+* During the kickoff meeting of each project, communicates initial design and goals of a project and main increments to the team.
+* Supervises the progress of tasks, ensuring they are implemented according to the agreed design and timeline verifying as well their quality.
+* Solves blocking issues for the developers and, if necessary, escalates the problem with System Administrators or Technical Coordinators.
 * Identifies common patterns and new approaches to be reused in future projects.
 * Puts team members with necessary know-how in contact.
-* Sets up monthly meetings with developers in order to stay up to date with
-  current events, problems, situations, etc.
-* Participates in the hipchat [daily](DAILY.md)
-* Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the Devs/Ops.
-* Provides support for the sales team.
+* Speaks with the local developers on a [monthly basis](MONTHLY-MEETINGS.md) staying on top of their challenges and providing any technical support they might need, or where necessary, acting as a door opener to other parts of the company.
+* Participates in the [daily standup](DAILY.md)
+* Coordinates open source projects.
+* Stays on top of tooling, research and larger projects in the wider company, promoting them where applicable, in their local offices.
+* Looks for opportunities to cross promote toolings and other capabilities within the company.
+* Sets the recruitment standard in the various offices, and helps with interviews.
+* Helps the sales teams with business development.
+* Arranges tech days, hackathons and other activities aimed at promoting the personal development of the tech staff.
+* Works with the country managers to decide what tasks to assign to staff on the bench.
+* Works with the country managers and resourcing teams to decide who are the best developers to assign to each client job.
 
 #### Project Managers
 
-* Is involved in reviewing the estimation and proposal documents for new
-  projects.
-* Provides support for the sales team.
-* Needs to make sure that all project's wikis are up to date.
-* Informs all team members about important client decisions.
-* Always updates Pivotal to reflect the latest scope of the project.
+* Is involved in reviewing the estimation and proposal documents for new projects.
+* Works with sales team on proposal creation.
+* Makes sure all project documentation is up to date.
+* Informs team members about important client decisions.
+* Keeps the scope of the project updated.
 * Coordinates the work within the team.
 * Is responsible for priorities and timelines in the project.
-* Updates and documents regularly the project's status and informs the client
-* Needs to know about every customer interaction and has to assure the tone
-  is always proper and that every request is handled appropriately.
-* Follows the conventions defined at Inaka
-* Makes sure before the project's kick off to have all relevant materials
-  available for the developers (required wireframes, assets, as well as our
-  templated document describing the font sizes, typefaces, color palette, etc.
+* Updates and documents the project status and informs the client regularly about it.
+* Knows about every customer interaction and has to assure the tone is always proper and that every request is handled appropriately.
+* Follows the PM conventions defined at Inaka.
+* Makes sure before the project's kick off to have all relevant materials available for the developers.
 * Makes sure all necessary repos are set up before development starts.
-* Makes sure the ops team sets up the required environments and our standard
-  project tools for each project.
-* Is responsible for relaying messages, improvements and suggestions between
-  developers and the client in an appropriate and clear way.
-* Participates in the hipchat [daily](DAILY.md)
+* Makes sure the ops team sets up the required environments and our standard project tools for each project.
+* Is responsible for relaying messages, improvements and suggestions between developers and the client in an appropriate and clear way.
+* Participates in the [daily standup](DAILY.md)
+
 
 #### Operations
 
-* Sets up all required environments and hardware for client projects (including
-  web hooks for Hipchat).
-* Needs to make sure all projects use the standard tools (e.g. Jenkins,
-  Logstash, Pingdom, Monit, etc.).
+* Sets up all required environments and hardware for client projects.
+* Ensures all projects use the standard tools.
 * Creates and maintains accounts on different platforms.
 * Researches new ops solutions and possible improvements to our ops processes.
-* Documents the project environment set up, including deployment instructions for
-  each project.
+* Documents the project environment set up, including deployment instructions for each project.
 * Is in charge of maintaining running systems.
-* Checks performance issues and, if needed, relays them to the appropriate
-  developers and PMs.
-* Keeps inaka's dashboard up and running with relevant information for the
-  current projects.
+* Checks performance issues and, if needed, relays them to the appropriate developers and PMs.
+* Keeps inaka's dashboard up and running with relevant information for the current projects.
 * Collaborates with developers on deployment issues.
 * Performs cost estimation for required services.
 * Monitors all systems to prevent and detect operational problems.
@@ -127,28 +100,28 @@ that applies to the language you're using:
 * Monitors and maintains the internal network.
 * Is in charge of the initial setup of machines for employees.
 * Keeps standard checklists for each project up to date.
-* Creates memos for each ops/PM meeting and shares them with all participants.
-* Participates in the hipchat [daily](DAILY.md)
+* Participates in the [daily standup](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO.
 * Maintains weekly meetings with all PMs and CTO to coordinate ops priorities.
+* Creates memos for each ops/PM meeting and shares them with all participants.
 * Writes and maintains Disaster Recovery Plan documentation for all projects (Link located at Operations' Hipchat room)
-* Keeps the list of team members on inaka's website up to date.
 
 #### QA
 
 * Checks that a build is stable and not crashing before sending it to the client.
-* Corroborates that delivered bugs or tasks are implemented as they were
-  described in pivotal.
-* Takes notes about build versions/numbers used for submitting.
-* Makes sure that the app is still working properly after client/server deploys
-  or changes.
+* Corroborates that delivered bugs or tasks are implemented as they were described.
+* Controls build versions/numbers used for submitting.
+* Makes sure that each app is still working properly after client/server deploys or changes.
 * Documents test results if required by PMs.
-* Performs 'Update tests' once a new iOS release build is ready to be sent to
-  the client.
-* Participates in the hipchat [daily](DAILY.md)
+* Performs 'Update tests' once a new iOS release build is ready to be sent to the client.
+* Participates in the [daily standup](DAILY.md)
 * Maintains weekly meetings with all PMs to discuss tasks for QA.
 
-## How to use Pivotal/ JIRA
+---
+
+## How we use Pivotal/ JIRA
+
+For project tracking we use [Pivotal](http://pivotaltracker.com) or [JIRA](https://www.atlassian.com/software/jira). Below you'll find our particular rules on how to use these systems.
 
 #### For PMs
 
@@ -156,53 +129,41 @@ that applies to the language you're using:
   functional tasks. Do NOT just copy/paste the tasks from the proposals. Add
   detailed descriptions and try to separate them so as to have each task as
   close to being one-day (or less) in duration as possible.
-* Design/ UI tasks always need to have a screenshot attached in the task. 
-* Milestones need to be added, as well Release Dates. 
+* Design / UI tasks always need to have a screenshot attached in the task.
+* Milestones need to be added, as well Release Dates.
 * The Pivotal tasks shouldn't be used as sub tasks; we use them as checklists
-  about the task.
+  related to the main task.
 * The client is not allowed to assign Pivotals to the developers directly. If
-  the client has feedback/ rejections/ new issues, he must assign the task to the
-  PM. The PM must read it, check if all information the developer needs is
-  there and, if so, then assign it to the developer. If not, circle back with the
-  client.
+  the client has feedback/rejections/new issues, he must assign the task to the PM. The PM must read it, check if all information the developer needs is
+  there and, if so, then assign it to the developer. If not, circle back with the client.
 * Never mix different issues in one Pivotal. Close the original Pivotal and
   open a new one, if needed.
 * Always label Pivotals (ios, android, server, admin, design, etc.).
 * Check that the developers use Piv IDs and Jira IDs for time tracking.
 * If there is missing information from the client, e.g. an API is still not
-  final and there's no final documentation, do push back and do not assign the Pivotal to
-  the developer. The developers should not work on it until at least the
-  documentation is final.
-* If there is a pivotal task that says "XXX is not working correctly", it should
-  also include an explanation on how it should work, for example: if the pivotal title
-  is "The text in the title is right-aligned", the description or at least a
-  comment in that pivotal should say something like "The text in the title
-  should be centered".
+  final and there's no final documentation, do push back and do not assign the Pivotal to the developer. The developers should not work on it until at least the documentation is final.
+* If there is a pivotal task that says "XXX is not working correctly", it should also include an explanation on how it should work, for example: if the pivotal title is "The text in the title is right-aligned", the description or at least a comment in that pivotal should say something like "The text in the title should be centered".
 * Add release lines indicating "above for QA", "above for PM" and "above for client". Tasks approved by QA need to be above the PM line and tasks ready for the client to test need to be above the client's line.
 * Specify estimates on the pivotal story title.
 * Mark out of scope tasks as such.
 
 #### For developers
 
-* Pivotal/ JIRA must be always up to date and reflect what you are currently
+* Pivotal/JIRA must be always up to date and reflect what you are currently
   working on and what is next.
 * Make sure you read the whole Ticket/Story and review attachments before you
-  start working on them. If the tasks are not 100% clear to you, reach out to the
-  PM.
-* Work in the order the Pivotals are listed. If you think a different order makes sense,
-  reach out to the Project Manager for discussion, so that the PM can then update
-  Pivotal.
+  start working on them. If the tasks are not 100% clear to you, reach out to the PM.
+* Work in the order the Pivotals are listed. If you think a different order makes sense, reach out to the Project Manager for discussion, so that the PM can then update Pivotal.
 * As soon as you start working on a task, start the ticket.
-* Don't deliver the task until it is testeable for the PM/ QA (either
+* Don't deliver the task until it is testeable for the PM/QA (either
   available on staging or the build is ready to test).
-* For ios and Android: Add the build number as a comment when you deliver the
+* For iOS and Android: Add the build number as a comment when you deliver the
   task.
-* If you leave a comment/ question in the Pivotal, mention the person you need
-  feedback from.
+* If you leave a comment or question in the Pivotal, mention the person you need feedback from.
 * If you find a bug, let your PM know and have them create a new task/story for
   it.
 
-
+---
 
 ## TDD
 
@@ -214,8 +175,7 @@ sense. The reasons behind this approach are:
   changes manually can also be spent writing an automated test for that same
   thing. That comes with an additional benefit: you can repeat that test
   as many times as you want and also get the other devs to automatically run it
-  in every change, without actually having to remind and/or describe them how to
-  test such a thing.
+  in every change, without actually having to remind and/or describe them how to test such a thing.
 * Writing the tests before the actual code forces you to think about _what_
   your program should do before focusing on _how_ to achieve it. This leads to
   more accurate and, generally, simpler code.
@@ -232,7 +192,7 @@ TDD is not suited for **all** scenarios, but there are some projects where it
   write tests for it (e.g. rspec).
 * If you're writing an internal library with no UI pieces.
 
-
+---
 
 ## Version Control
 
@@ -241,11 +201,8 @@ TDD is not suited for **all** scenarios, but there are some projects where it
 * With only a few exceptions, all of our projects are hosted on Github under
   Inaka's organization account.
 * When starting a new project, either for a client or an open source one, ask
-  the CTO to create a new repository for you and give him a brief description and 
-  the main programming language under which the project will be
-  developed.
-* For a more detailed guide on how to use Github on your day to day tasks, refer
-  to this [Youtube Playlist](https://www.youtube.com/playlist?list=PL75bT2qMwxlWC9PsShtzOy5rBzYjSWPv7) by our CTO [@elbrujohalcon](https://github.com/elbrujohalcon).
+  the CTO to create a new repository for you and give him a brief description and the main programming language under which the project will be developed.
+* For a more detailed guide on how to use Github on your day to day tasks, refer to this [Youtube Playlist](https://www.youtube.com/playlist?list=PL75bT2qMwxlWC9PsShtzOy5rBzYjSWPv7) by our CTO [@elbrujohalcon](https://github.com/elbrujohalcon).
 
 #### Commit Messages
 
@@ -260,9 +217,7 @@ Good commit messages serve at least three important purposes:
 The blog post ["On commit messages"][on-commit-messages] has a nice discussion
 about commit messages.
 
-Tip: if it seems difficult to summarize what your commit does, it may be because
-it includes several logical changes or bug fixes, and are better split up into
-several commits using `git add -p`.
+Tip: if it seems difficult to summarize what your commit does, it may be because it includes several logical changes or bug fixes, and are better split up into several commits using `git add -p`.
 
 #### Commit Rules
 
@@ -271,24 +226,19 @@ Check-in/push rules for the main repository/branch are the following:
 * Code must compile. All code merged must **fully** compile. This should be
   true for all commits in the history, because if there are commits that don’t
   fully compile, it will be more difficult to use git bisect. Partial commits
-  with non-working code can be allowed if, prior to submitting the pull request,
-  the branch is rebased interactively and the partial commits squashed into a
-  single one. If desired, the work progress history can be retained in the
-  extended commit message.
+  with non-working code can be allowed if, prior to submitting the pull request, the branch is rebased interactively and the partial commits squashed into a single one. If desired, the work progress history can be retained in the extended commit message.
 
-
+---
 
 ## Development Flow
 
 We are an agile development shop. This means we tackle projects in an iterative
 fashion (with each iteration called a sprint, which lasts one or two weeks in
 duration) and show results early and often as we progress through a project.
-With our clients, we set the priorities of each sprint so they are ultimately in
-control of the final outcome. Tools we most often use with our clients to aid with
-managing work and controlling source code are: pivotal, jira and github.
+With our clients, we set the priorities of each sprint so they are ultimately in control of the final outcome. Tools we most often use with our clients to aid with managing work and controlling source code are: pivotal, jira and github.
 
 From a project day to day point of view, our developers work with Pull
-Requests and Code Reviews. To any one of our developers, the process (in a 
+Requests and Code Reviews. To any one of our developers, the process (in a
 nutshell) is as follows:
 * Grab a pivotal story/jira issue/github issue and mark it as started (e.g.
   let's say I want to work on piv `#123456` which is a piv story about editing
@@ -351,12 +301,11 @@ code review, keep in mind the following points:
 * The blog post ["Effective Code Review"][effective-code-review] has a nice
   discussion of this topic.
 
-
+---
 
 ## Continuous Integration & Deploys
 
-We use Jenkins in all our projects to automate testing, artefacts generation,
-server configuration and deploys.
+We use Jenkins and Ansible in all our projects to automate testing, and for artefacts generation, server configuration and deploys.
 
 #### Continuous integration
 
@@ -383,8 +332,7 @@ server configuration and deploys.
 
 #### Tags and github releases
 
-**Master:** Testeable versions of our products are merged with a pull request to
-master. Then, Jenkins can build the corresponding artifacts or deploy to the
+**Master:** Testeable versions of our products are merged with a pull request to master. Then, Jenkins can build the corresponding artifacts or deploy to the
 server.
 
 **Tags:** Once the version is fully tested in a safe environment and its ready
@@ -395,27 +343,26 @@ deploy the same version.
 the deploy, so we can keep precise record of what was working on production
 at different dates.
 
+---
 
 ## Project Documentation
 
-All github projects are required to have a clear and useful README file on their
-root folder, so that it's properly displayed on github.
-Besides that, all products (i.e. applications, servers, etc.) that are developed
-for a client (as opposed to internal products) should have a wiki in the
-associated github repository that must comply with our
-[wiki guidelines](WIKIS.md).
+All github projects are required to have a clear and useful README file on their root folder, so that it's properly displayed on github.
+Besides that, all products (i.e. applications, servers, etc.) that are developed for a client (as opposed to internal products) should have a wiki in the associated github repository that must comply with our [wiki guidelines](WIKIS.md).
 
+---
 
 ## Talks & Conferences
 
 As a developer, Inaka might give you the chance to speak at a conference.
-If that's the case, these are the rules you have to follow for your presentation
-to be valid:
+If that's the case, these are the rules you have to follow for your presentation to be valid:
 
 * You have to present a subject that's at least tangentially related to our work.
 * You have to use the standard google slides template to build your slides.
 * Before submitting your talk proposal, it has to be approved by the CTO and the CEO.
 * Before presenting your talk, the slides and general content has to be approved by the CTO and the CEO.
+
+---
 
 ## Open source projects
 
@@ -429,16 +376,11 @@ Each developer has one day per month to spend on open source projects/tasks.
   use for open source, so he/she can coordinate any project needs around it.
 * When working on an open source project for Inaka, refer to the following
   document: ["Open Source checklist"](OPEN-SOURCE.md).
-* In some occassions, it can be required to skip the open source day to ensure already agreed milestones and timelines with clients. 
+* In some occassions, it can be required to skip the open source day to ensure already agreed milestones and timelines with clients.
 
 ### Ownership vs. Authorship
 
-Inaka will reserve the ownership of all open-source projects created by devs while
-working at the company. Therefore, while you can cite yourself as the author of
-a particular open-source project, it still has to be created under the inaka
-organization account in github and it has to be licensed under the Apache v2 LICENSE
-as specified in the [Open Source checklist](OPEN-SOURCE.md). The copyright portion
-in that license file should read:
+Inaka will reserve the ownership of all open-source projects created by devs while working at the company. Therefore, while you can cite yourself as the author of a particular open-source project, it still has to be created under the inaka organization account in github and it has to be licensed under the Apache v2 LICENSE as specified in the [Open Source checklist](OPEN-SOURCE.md). The copyright portion in that license file should read:
 
 ```
    Copyright 2016 Erlang Solutions Ltd.
@@ -458,13 +400,11 @@ need them.
 If you would like to purchase some resource, let our CTO or CEO know via email,
 specifying all the pertinent details.
 
-Also remember that Inaka has a public Dropbox
-[folder](https://www.dropbox.com/sh/afv2cr0m50fdyy6/AACwdnfMiwK2NZMsGnvNfIdKa?dl=0)
-with electronic versions of several books.
+---
 
+## Core Values
 
-
-## Developer Values
+Below you can see the list of our main values. The ones we think are essential to our company culture:
 
 1. **Concentrate on the task at hand.**
 
@@ -475,7 +415,7 @@ with electronic versions of several books.
     Document as much as required by the customer, and keep your colleagues and
     managers informed about the project experience (issues, problems and
     solutions, technical forums, progress reports, meeting minutes to log
-    customer requests). Always try to solve the issues by talking, and only 
+    customer requests). Always try to solve the issues by talking, and only
     log the outcome summary.
 
 2. **Don’t complicate things, keep your design as simple as possible.**
@@ -506,11 +446,11 @@ with electronic versions of several books.
 
 4. **Never break the master branch.**
 
-5. **Version control your code – Git is your friend.**
+5. **Version control your code** – Git is your friend.
 
-6. **Do code review – use pull requests.**
+6. **Do code review** – use pull requests.
 
-7. **Build your code – we have Jenkins as CI.**
+7. **Build your code** – we have Jenkins as CI.
 
 8. **Use the right tool for the job**
 
@@ -526,7 +466,7 @@ with electronic versions of several books.
     post-project summaries. Write down stuff you have learned and make it
     publicly available on the wiki.
 
-
+---
 
 ## Communication
 
@@ -541,19 +481,11 @@ At the start of a project, things are usually fine, but as it advances, you
 might end up losing track of what your responsibilities are or what the other
 team members are up to. They are, of course, focused on their own tasks, but
 with no communication between team members, it's easy to get lost in your own
-little world and loose focus of the big picture. So, make sure you don't get too
-deep into your own tasks and forget about the other people. Try to keep track of
-what is being talked about in the chat room instead of just showing up when
-you're mentioned. Do your best to listen and demand to be listened to in the
-daily standups. Don't be afraid to talk to your PM and let them know what the
-status of your work is, if you think you're not going to be able to deliver a
-task on time, etc.
+little world and loose focus of the big picture. So, make sure you don't get too deep into your own tasks and forget about the other people. Try to keep track of what is being talked about in the chat room instead of just showing up when you're mentioned. Do your best to listen and demand to be listened to in the daily standups. Don't be afraid to talk to your PM and let them know what the status of your work is, if you think you're not going to be able to deliver a task on time, etc.
 
 This is not only valid for developers. The same goes for Project Managers. If
 you can anticipate a storm is coming, don't wait for the rain to pour to let
-the clients know. Golden rule is: Never keep a client in the dark. Make a mental
-note to periodically send them a status update, so they're not only involved in
-the project, but they can also feel like they share ownership of it.
+the clients know. Golden rule is: Never keep a client in the dark. Make a mental note to periodically send them a status update, so they're not only involved in the project, but they can also feel like they share ownership of it.
 
 A successful project will most likely be defined by this item alone instead of
 the actual bits and bytes.

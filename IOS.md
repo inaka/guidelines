@@ -6,7 +6,7 @@ These guidelines are meant to help keep the code uniformly organized and standar
 ***
 
 ## Project Estimation
-When asked to work on a new estimate for a potential project for a client, keep in mind that, despite what you may hear, there's a good chance your estimates will get converted into deadlines, so really take your time to work on them. If given the designs or wireframes, look at them carefully.
+When asked to work on a new estimate for a potential project for a client, take your time to work on them. If given the designs or wireframes, look at them carefully.
 - What are the UI widgets you need to use to construct those designs?
 - Are they standard or customized?
 - How much customization do they need?
@@ -24,10 +24,10 @@ Make sure you take those items into account and include them into your estimates
 
 If you have any doubts, questions, comments, heads-up, suggestions etc., write them down in the estimates document and keep in mind that it's better to under-promise and over-deliver than to over-promise and under-deliver.
 
-*** 
+***
 
 ## Code Conventions
-As for writing Objective-C code, we have created our own **[Objective-C Coding Standards & Guidelines](https://github.com/inaka/ios_guidelines)** repo, where we have gathered many concepts from experience and arranged them into two main sections: 
+As for writing Objective-C code, we have created our own **[Objective-C Coding Standards & Guidelines](https://github.com/inaka/ios_guidelines)** repo, where we have gathered many concepts from experience and arranged them into two main sections:
 * [Rules](https://github.com/inaka/ios_guidelines/blob/master/rules.md) *(which must be strictly followed)*
 * [Suggestions](https://github.com/inaka/ios_guidelines/blob/master/suggestions.md) *(just good ideas to be considered when writing code, which are not mandatory to follow though highly suggested)*.
 
@@ -92,9 +92,9 @@ This is the way we expect iOS project files to be organized:
     >     * AppNameTests
     >     * Pods
 
-* Pay special attention to **AppName** folder and group (both marked in bold), because **AppName** is the folder where files that are logically located inside the **AppName** Xcode logic group must be placed into. 
+* Pay special attention to **AppName** folder and group (both marked in bold), because **AppName** is the folder where files that are logically located inside the **AppName** Xcode logic group must be placed into.
 
-* In addition, there must be a folder per each subgroup inside **AppName** group, so that every single file into the *Model* subgroup (for example) belongs with a folder named *Model* inside the **AppName** folder. 
+* In addition, there must be a folder per each subgroup inside **AppName** group, so that every single file into the *Model* subgroup (for example) belongs with a folder named *Model* inside the **AppName** folder.
 
 * Nonetheless, no more nesting levels are required as for correspondency between physical folders and logical groups. For instance: If you have a *User* subgroup inside the *Model* group, there must be no physical folder to put *User-related* files into; they would just go inside the *Model* folder.
 

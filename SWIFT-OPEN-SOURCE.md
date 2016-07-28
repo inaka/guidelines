@@ -4,7 +4,7 @@
 
 **Notes:**
 
-- I based this tutorial on how [**Jayme**](https://github.com/inaka/Jayme) library was built. Check it out for further reference. 
+- I based this tutorial on how [**Jayme**](https://github.com/inaka/Jayme) library was built. Check it out for further reference.
 - Whenever you see `Jayme`, like on the names in the examples, you must think of it in terms of your library name (e.g. if your library is named `Foo`, whenever you see `JaymeTests` for example, think of `FooTests` instead).
 - This tutorial is strictly under [Inaka's guidelines](https://github.com/inaka/guidelines/) and it's not meant to be a general guideline for every Swift developer, although we encourage you to follow it.
 
@@ -43,7 +43,7 @@ Inside that folder, you need to have:
   - `README.md`
   - Configuration files, such as:
     - `.gitignore`, `.git`
-    - Your library's `.podspec` (more on that [later](#2-cocoapods-integration)) 
+    - Your library's `.podspec` (more on that [later](#2-cocoapods-integration))
     - And possibly, others like `.codecov.yml` and `.travis.yml` (more on that [later](#4-ci-setup))
 
 
@@ -79,7 +79,7 @@ Every API that you need to expose (classes, protocols, variables, functions, etc
 
 Make sure you don't expose internal stuff that you don't need to expose to others. Check out [the official documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AccessControl.html) for further reference on the topic.
 
-In order to ensure that your library does work as a third party component in other project, you must have a release working with cocoapods already. Create a new fresh Xcode project, just for testing integration, and fetch your library as a pod from that project. Try using your library; if you get no compiler errors and you're able to work with all the components as you would expect to, then you're good to go. Otherwise, you have to make sure you've declared all your public APIs as `public`, and once done, upload a new version of the library with those fixes. 
+In order to ensure that your library does work as a third party component in other project, you must have a release working with cocoapods already. Create a new fresh Xcode project, just for testing integration, and fetch your library as a pod from that project. Try using your library; if you get no compiler errors and you're able to work with all the components as you would expect to, then you're good to go. Otherwise, you have to make sure you've declared all your public APIs as `public`, and once done, upload a new version of the library with those fixes.
 
 💡 A quick way of testing access control changes without making a new release is editing the `podfile` of your integration test project by using a line that specifies the branch or specific commit that you need to test, for example: `pod 'Jayme', :git => 'git@github.com:inaka/Jayme.git', :branch => 'v2'` and running `pod install`.
 
@@ -145,7 +145,7 @@ Continuous integration in your library is optional. However, is highly recommend
 
 #### i. [Travis CI](https://travis-ci.org/)
 
-Travis is a **continuous integration online platform** which is free for open-source projects. 
+Travis is a **continuous integration online platform** which is free for open-source projects.
 
 Setting it up in your library is straightforward:
 
