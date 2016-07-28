@@ -13,7 +13,7 @@ corresponding `inaka/[language]_guidelines` github repo.
 
 ## Specific Guidelines for your Language
 
-In this same repo we have also have several other guideline files, specifically tailored to some languages or platforms (e.g. [iOS](IOS.md), [Android](ANDROID.md), [Erlang](ERLANG.md), [Elixir](ELIXIR.md), etc.). Check them out to find out how we work in those particular cases.
+In this same repo we also have several other guideline files, specifically tailored to some languages or platforms (e.g. [iOS](IOS.md), [Android](ANDROID.md), [Erlang](ERLANG.md), [Elixir](ELIXIR.md), etc.). Check them out to find out how we work in those particular cases.
 
 ---
 
@@ -37,7 +37,6 @@ See below a list of some of the different roles we have inside our company, each
   * Notifies the technical lead or project manager whenever something outside the agreed scope of the project is requested by the client.
   * Always keeps the client informed of holidays, sick days and vacations.
   * Keeps the technical lead up to date on any technical decisions.
-  * Gets to know their coworkers, instead of acting like a mercenary waiting to get out.
   * Does their best to be proactive, as [@elbrujohalcon](https://github.com/elbrujohalcon) says: _"remember you are the expert, make suggestions, improve things"_.
 * Participates in the [daily standup](DAILY.md)
 * Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
@@ -59,8 +58,8 @@ See below a list of some of the different roles we have inside our company, each
 * Coordinates open source projects.
 * Stays on top of tooling, research and larger projects in the wider company, promoting them where applicable, in their local offices.
 * Looks for opportunities to cross promote toolings and other capabilities within the company.
-* Sets the recruitment standard in the various offices, and help with interviews.
-* Help the sales teams with business development.
+* Sets the recruitment standard in the various offices, and helps with interviews.
+* Helps the sales teams with business development.
 * Arranges tech days, hackathons and other activities aimed at promoting the personal development of the tech staff.
 * Works with the country managers to decide what tasks to assign to staff on the bench.
 * Works with the country managers and resourcing teams to decide who are the best developers to assign to each client job.
@@ -306,7 +305,7 @@ code review, keep in mind the following points:
 
 ## Continuous Integration & Deploys
 
-We use Jenkins and Ansible in all our projects to automate testing, artefacts generation, server configuration and deploys.
+We use Jenkins and Ansible in all our projects to automate testing, and for artefacts generation, server configuration and deploys.
 
 #### Continuous integration
 
@@ -400,8 +399,6 @@ need them.
 
 If you would like to purchase some resource, let our CTO or CEO know via email,
 specifying all the pertinent details.
-
-Also remember that Inaka has a public Dropbox [folder](https://www.dropbox.com/sh/afv2cr0m50fdyy6/AACwdnfMiwK2NZMsGnvNfIdKa?dl=0) with electronic versions of several books.
 
 ---
 

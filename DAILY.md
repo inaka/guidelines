@@ -26,4 +26,4 @@ days, if you feel like sharing.
 
 ## Tools
 Every day at 10:55AM (ART), **DailyGuy** (a chat bot) will remind all to
-publish their daily. It will check for uninformative or missing dailys every 15' after that, and ask the ones responsable for those messages to add/improve their comments. So, there is no reason for devs to not share their daily's at 11 AM each day.
+publish their daily. It will check for uninformative or missing dailys every 15' after that, and it will ask the ones responsable for those messages to add/improve their comments. So, there is no reason for devs to not share their daily's at 11 AM each day.

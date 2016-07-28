@@ -1,7 +1,7 @@
 ## Introduction
 
 Every developer and operations' employee at the company will have a scheduled meeting **every 4 weeks** with the Tech Lead.
-The goal of such meetings is to keep both the Tech Lead and the dev up to date on the latest news on the technology and projects the dev is working on, and also to identify stuff that deserves to be shared with the rest of the Inaka team.
+The goal of such meetings is to keep both the Tech Lead and the dev up to date on the latest news on the technology and projects the dev is working on, and also to identify items that deserves to be shared with the rest of the Inaka team.
 
 ## Checklist
 
