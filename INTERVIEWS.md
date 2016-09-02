@@ -12,7 +12,7 @@ When interviewing candidates for whatever position, keep the following questions
 * Do they have interests outside work?
 * How is their written and spoken English? Are they at least in an intermediate level?
 
-Ask them:
+Ask them some of these questions:
 * Can you describe a time when your work was criticized?
 * Tell me about an important issue you encountered recently.
 * Talk about something new you learned this month.
@@ -25,6 +25,8 @@ Ask them:
 * What attracted you to this company?
 * What type of work environment do you prefer?
 * If you join a project where code is using tabs for identation but you prefer spaces, what would you do?
+
+---
 
 ### Technical Positions
 
@@ -63,6 +65,8 @@ For technical evaluations, you can:
 * Ask them to pick an open issue on one of the open source projects and solve it
   over the weekend.
 
+---
+
 ### Questions to specific knowledge areas
 
 #### Computer Science
@@ -70,11 +74,13 @@ For technical evaluations, you can:
 * Do they know and understand the basic data structures?
 * Do they know what a stable sort is?
 * Do they understand what time and space complexity is, and can they estimate it for usual code?
-* Do they understand operating system concepts such as memory, virtual memory, libraries, linkers, multi-threading, resource management, stack vs heap?
+* Do they understand operating system concepts such as memory, virtual memory, libraries, 
+  linkers, multi-threading, resource management, stack vs heap?
 
 #### Programming
 
-* Can they do problem decomposition? i.e. Break up a problem into multiple functions, produce reusable code, encapsulate the aspects of the solution that are likely to change?
+* Can they do problem decomposition? i.e. Break up a problem into multiple functions,
+  produce reusable code, encapsulate the aspects of the solution that are likely to change?
 * Can they express/specify their ideas clearly?
 * Do they organize their code well, both within and across source files?
 * Is their code readable?
@@ -87,10 +93,12 @@ For technical evaluations, you can:
 
 1. What is Erlang?
 1. What are the key features of Erlang?
-1. What is the command to disconnect a node in Erlang?
-1. To include a file in Erlang, what is the command used?
 1. How are run-time errors handled in Erlang?
 1. How are processes created?
+1. Are you familiar with rebar3 or erlang.mk?
+1. How do you deploy Erlang applications?
+1. How do you _debug_ systems written in Erlang?
+1. What problems is Erlang _not good_ at solving?
 
 #### Ruby Interview Questions
 
@@ -142,3 +150,44 @@ For technical evaluations, you can:
 1. What are the basic components provided by the Backbone framework?
 1. How would you make a Backbone Collection deal with API responses when the response is not an array?
 1. Why should we bind events using “listenTo()” instead of “on()”?
+
+---
+
+## General Check-List
+At least in one of the interviews that we do with each candidate we need to assert the required
+training period that will be needed if hired. To do that, run a ping-pong of questions with the
+interviewee and check their level of expertise in our usual methodologies, practices, tools, etc.
+As a bare minimum, check the items in the list below. For each one, if the candidate says that he/she has
+experience on that, add a follow-up question to verify it. Examples are provided:
+- [ ] git
+  - [ ] Tell me about one git command that you know but not many people use regularly
+- [ ] github / bitbucket
+  - [ ] Show me an open-source repo to which you've contributed
+- [ ] unix command line
+  - [ ] What things do you do through command-line that you can't do with visual tools?
+- [ ] code reviews / pull requests
+  - [ ] What is in your mind the most important thing to keep in mind while reviewing code from others?
+  - [ ] Have you used any automated code reviewer before (e.g. houndci, credoci, elvis, gadget, etc.)?
+- [ ] Test-Driven Development
+  - [ ] Do you write your tests before or after writing your code?
+  - [ ] How often do you think it's worth it to invest time in analyzing and refactoring your code?
+- [ ] Blog and/or Non-Technical Documentation Writing
+  - [ ] If you have a blog, show me
+  - [ ] If you have written non-technical docs for an open-source library, show me
+  - [ ] Do you write in english or in your native language?
+- [ ] Teaching
+  - [ ] Have you given a course or only trained people individually?
+  - [ ] What's the best number of students for a course in your opinion?
+- [ ] Public Speaking
+  - [ ] Do you have videos of your talks online?
+- [ ] Pair Programming
+  - [ ] How many hours should a pair programming session last for it to be worth it in your opinion?
+  - [ ] What characteristics would you like you peer to have for your to pair program successfully?
+- [ ] Pivotal / Jira / …
+  - [ ] Have you ever had too many or too few tasks for a sprint? What did you do then?
+- [ ] Freckle
+  - [ ] If the interviewee used Freckle: Do you use the timer or enter all your hours at once?
+  - [ ] If **never** used Freckle: By the end of each day, would you be capable of describing what you did on it?
+- [ ] Estimates
+  - [ ] Do you usually underestimate or overestimate tasks? How do you feel about that?
+  - [ ] What was the hardest task for you to estimate?
