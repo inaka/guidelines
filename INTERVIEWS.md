@@ -98,7 +98,7 @@ For technical evaluations, you can:
 1. Are you familiar with rebar3 or erlang.mk?
 1. How do you deploy Erlang applications?
 1. How do you _debug_ systems written in Erlang?
-1. What problems Erlang is _not good_ at solving?
+1. What problems is Erlang _not good_ at solving?
 
 #### Ruby Interview Questions
 
