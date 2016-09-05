@@ -17,105 +17,208 @@ In this same repo we also have several other guideline files, specifically tailo
 
 ---
 
-## Roles and Responsibilities in a Project
+## Roles and Responsibilities (a.k.a. Career Path)
+Below you'll find an outline of the technical roles and career paths available at Inaka. Career progression defines the process of moving on to better assignments with more responsibility. In each case, we will be leveraging the strengths of each employee, helping them make this progression through training, mentorship, self study and professional experience. At any one time, employees can take on multiple roles. For example, an Architect can also be a Technical Lead or a Project Manager. A Country Manager may also take on technical, training and project management roles. Responsibilities whilst working for us will include customer facing projects, developing end-to-end solutions, internal products, support, code and architecture reviews, research and training. Keep in mind that his list is not exhaustive, we have other roles, these are just the main ones.
 
-See below a list of some of the different roles we have inside our company, each one with a list of its associated responsibilities. This list is not exhaustive, we have other roles, these are just the main ones.
+#### Developer in Training
+_Developers in Training_ are developers who are not ready to work independently on client projects or take on customer facing roles. That might be because they’re senior devs in other technologies and they’re learning a new one or because we specifically hired them considering their chances to learn any of the technologies we use on our projects. From being a developer in training, they can become _Developers_, _Senior Developers_ and _Architects_, depending on their previous experience. 
+
+A developer in training is expected to:
+
+* Develop functional and non-functional features including tests and documentation as specified by the project stage and task description.
+* Work for internal and/or open-source projects.
+* Work on client projects but not in client-facing tasks.
+* Be responsible to inform the Project Manager or Technical Lead about any technical concerns regarding the project.
+* Work under close supervision of a Developer, Senior Developer or Tech Lead.
 
 #### Developer
+A developer will have the experience of designing and delivering multiple projects in at least one industry vertical. A Master’s degree with two years of experience, a Bachelor's degree with three to four years of experience or more if they do not have a degree. This is total developer experience we are counting, not expertise in a particular language. A Developer is expected to understand all the areas and tools related to the technology (e.g. code, unit tests, integration tests, releases, builds, scale testing, cross-browser testing, cross-device testing, integration with 3rd-party components, libraries, APIs, etc.) as well as any underlying frameworks and middleware of the respective languages or technology they are specialised in. They should master release handling and version control in a varied number of environments and operating systems. A developer should be able to perform some tasks under supervision and others on their own.
 
-* Develops functional and non-functional features including tests and documentation as specified by the project's stage and task's description.
-* Attends and actively participates in the daily stand-up and other meetings.
-* Follows the guidelines regarding tools and applications that should be used in the projects he works on.
-* Follows code conventions as defined in the corresponding guidelines document.
-* Is responsible to raise warnings if unable to keep the deadlines on the assigned tasks, ensuring the project manager can take appropriate actions.
-* Notifies the Project Manager immediately if an earlier estimate turns out not to be accurate.
-* Is responsable to inform the Project Manager or Techincal Lead about any technical concerns regarding the project.
-* Defines technical estimates of possible new projects.
-* Keeps project tracking tools updated by properly setting the status of each task.
-* Helps other team members with technical issues they may not be familiar with and passing on general and project-specific know-how.
+A developer is expected to:
+
+* Develop functional and non-functional features including tests and documentation as specified by the project stage and task description.
+* Write subsystem specifications which can be used by other developers. 
+* Work on client projects under the supervision of a Senior Developer.
+* Work in internal and/or open-source projects.
+* Take control and ownership of pieces of code created by other developers, even outside our company.
+* Take responsibility for mentoring and coaching interns and graduate developers.
+* Follow the guidelines regarding tools and applications that can be used in the projects.
+* Follow code conventions as defined in the corresponding guidelines document.
+* Be responsible to raise warnings if unable to keep the deadlines on the assigned tasks, ensuring the project leader can take appropriate actions.
+* Be responsible to raise any concerns regarding implementations or specs as soon as they come up.
+* Keep close communication with the project manager.
+* Understand and be able to work with revision control software, software packaging and releases.
+* Attend and actively participate in the [daily standup](DAILY.md) and other meetings.
+* Follow the guidelines regarding tools and applications that should be used in the projects he works on.
+* Follow code conventions as defined in the corresponding guidelines document.
+* Keep project tracking tools updated by properly setting the status of each task.
 * While consulting:
-  * Notifies the technical lead or project manager whenever something outside the agreed scope of the project is requested by the client.
-  * Always keeps the client informed of holidays, sick days and vacations.
-  * Keeps the technical lead up to date on any technical decisions.
-  * Does their best to be proactive, as [@elbrujohalcon](https://github.com/elbrujohalcon) says: _"remember you are the expert, make suggestions, improve things"_.
-* Participates in the [daily standup](DAILY.md)
-* Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO
-* While not assigned to a client project, works on Inaka open-source projects, the ESL TO-DO list, or writes blog posts.
+  * Notify the technical lead or project manager whenever something outside the agreed scope of the project is requested by the client.
+  * Always keep the client informed of holidays, sick days and vacations.
+  * Keep the Technical Lead up to date on any technical decisions.
+  * Do their best to be proactive, as [@elbrujohalcon](https://github.com/elbrujohalcon) says: _"remember you are the expert, make suggestions, improve things"_.
+* Maintain [monthly meetings](MONTHLY-MEETINGS.md) with the Tech Lead
+* While not assigned to a client project, work on Inaka open-source projects, the ESL internal TO-DO list, or write blog posts.
 
-#### CTO and Technical Coordinators
+#### Senior Developer
+A senior developer is someone with five to six years of experience working in client-facing projects in a variety of industries. They will have shown leadership abilities and are able to take responsibility for other Software Engineers within a project team. They have the ability to design, code, test and support software, starting the engagement with the projects in the estimation phase. This includes writing and executing research proposals and grant applications. A Senior Developer should be up to date in the most important matters of his area of expertise and should act as a reference for others in that field. They should have experience in implementing and understanding protocol stacks, data consistency models and the tradeoffs which need to be made between scalability and reliability. And also experience in supporting products, understanding the operational requirements needed by our customers. 
 
-* Works with the country managers, sales and/or project managers in the process of creating and reviewing estimates for potential clients.
-* Defines the company-wide architectural and technical standards and make them publicly available for all team members.
-* Keeps all team members updated with any changes regarding the original technical decisions of a project.
-* Has the ability to act as a project manager, if needed.
-* During the kickoff meeting of each project, communicates initial design and goals of a project and main increments to the team.
-* Supervises the progress of tasks, ensuring they are implemented according to the agreed design and timeline verifying as well their quality.
-* Solves blocking issues for the developers and, if necessary, escalates the problem with System Administrators or Technical Coordinators.
-* Identifies common patterns and new approaches to be reused in future projects.
-* Puts team members with necessary know-how in contact.
-* Speaks with the local developers on a [monthly basis](MONTHLY-MEETINGS.md) staying on top of their challenges and providing any technical support they might need, or where necessary, acting as a door opener to other parts of the company.
-* Participates in the [daily standup](DAILY.md)
-* Coordinates open source projects.
-* Stays on top of tooling, research and larger projects in the wider company, promoting them where applicable, in their local offices.
-* Looks for opportunities to cross promote toolings and other capabilities within the company.
-* Sets the recruitment standard in the various offices, and helps with interviews.
-* Helps the sales teams with business development.
-* Arranges tech days, hackathons and other activities aimed at promoting the personal development of the tech staff.
-* Works with the country managers to decide what tasks to assign to staff on the bench.
-* Works with the country managers and resourcing teams to decide who are the best developers to assign to each client job.
+Their role requires them to:
+
+* Develop functional and non-functional features including tests and documentation as specified by the project stage and task description.
+* Work in internal and/or open-source projects.
+* Work for client projects unsupervised.
+* Architect simple systems, such as 3-tier architectures or systems with heterogeneous nodes. 
+* Be able to analyze and assess the quality of code written by other devs, even those who do not work for our company.
+* Supervise other team members on client and/or open-source projects.
+* Follow and define the guidelines regarding tools and applications that can be used in each project.
+* Follow and maintain code conventions and best practices for the corresponding language guidelines document that our company keeps.
+* Inform the Project Manager or Technical Lead about any technical concerns regarding the project and help in finding proper solutions for them.
+* Define technical estimates of possible new projects.
+* Work with the Tech Lead in the definition of the architecture of projects.
+* Help other team members with technical issues they may not be familiar with and passing on general and project-specific know-how.
+* Help with recruitment and sales support.
+* Attend and actively participate in the [daily standup](DAILY.md) and other meetings.
+* Keep project tracking tools updated by properly setting the status of each task.
+* While consulting:
+  * Notify the technical lead or project manager whenever something outside the agreed scope of the project is requested by the client.
+  * Always keep the client informed of holidays, sick days and vacations.
+  * Keep the Technical Lead up to date on any technical decisions.
+  * Do their best to be proactive, as [@elbrujohalcon](https://github.com/elbrujohalcon) says: _"remember you are the expert, make suggestions, improve things"_.
+* Maintain [monthly meetings](MONTHLY-MEETINGS.md) with the Tech Lead
+* While not assigned to a client project, work on Inaka open-source projects, the ESL internal TO-DO list, or write blog posts.
+
+#### Architect and Senior Architect
+An Architect has over ten years (twenty for a senior architect) of experience, architected complex systems in a wide variety of verticals. They should be capable of making high-level design choices, dictate technical standards, including coding standards, tools, databases and platforms. They should be subject matter experts in their respective verticals and fields, having presented at conferences, published academic papers, articles or books.
+
+Their role requires them to:
+
+* Be able to architect scalable and resilient systems with no single point of failure.
+* Understand the tradeoffs between Scalability and Availability in distributed systems.
+* Be able to make choices between noSQL and SQL databases.
+* Have good knowledge of consensus protocols, fallacies of distributed computing and the challenges involved in distributed systems. 
+* Ability to describe and get customer buy in for their solutions, both verbally and in writing.
+* Be comfortable managing a team and customer relationships. 
+* Be comfortable with public speaking, writing articles and papers and training and mentoring other developers. 
+* Work in internal and/or open-source projects.
+* Work for client projects unsupervised.
+* Be able to analyze and assess the quality of code written by other devs, even those who do not work for our company.
+* Supervise other team members on client and/or open-source projects.
+* Follow and define the guidelines regarding tools and applications that can be used in each project.
+* Follow and maintain code conventions and best practices for the corresponding language guidelines document that our company keeps.
+* Inform the Project Manager or Technical Lead about any technical concerns regarding the project and help in finding proper solutions for them.
+* Define technical estimates of possible new projects.
+* Help other team members with technical issues they may not be familiar with and passing on general and project-specific know-how.
+* Help with recruitment and sales support.
+* Attend and actively participate in the [daily standup](DAILY.md) and other meetings.
+* Keep project tracking tools updated by properly setting the status of each task.
+* Maintain [monthly meetings](MONTHLY-MEETINGS.md) with the Tech Lead
+* While not assigned to a client project, work on Inaka open-source projects, the ESL internal TO-DO list, or write blog posts.
+
+#### Technical Lead (or country CTO)
+The CTO/Tech Lead is generally a senior developer or architect with proven capabilities for making high-level design choices, dictating technical standards and ensuring the quality of all products being built within the company regardless of the technology in which they’re developed. They are expected to be subject matter experts in at least one language and/or technology, having presented at conferences, published papers, articles or books.
+
+They are responsible to:
+
+* Work with the country managers, sales and/or project managers in the process of creating and reviewing estimates for potential clients.
+* Define the company-wide architectural and technical standards and make them publicly available for all team members.
+* Keep all team members updated with any changes regarding the original technical decisions.
+* Have the ability to act as a project manager, if needed.
+* During the kickoff meeting of each project, communicate initial design and goals of a project and main increments to the team.
+* Supervise the progress of tasks, ensuring they are implemented according to the agreed design and timeline as well verifying their quality.
+* Solve blocking issues for the developers, and if necessary, escalate the problem with system administrators or other technical coordinators.
+* Identify common patterns and new approaches to be reused in future projects.
+* Put team members with necessary know-how in contact.
+* Speak with the local developers on a monthly basis staying on top of their challenges and providing any technical support they might need, or where necessary, acting as a door opener to other parts of the company.
+* Participate in the [daily standup](DAILY.md)
+* Coordinate open source projects.
+* Stay on top of tooling, research and larger projects in the wider company, promoting them where applicable, in their local offices.  
+* Look for opportunities to cross promote toolings and other capabilities within the company. 
+* Set the recruitment standard in the various offices, and help with interviews. 
+* Help the sales teams with business development. 
+* Arrange tech days, hackathons and other activities aimed at promoting the personal development of the tech staff. 
+* Work with the country managers to decide what tasks to assign to staff on the bench.
+* Work with the country managers and resourcing teams to decide who are the best developers to assign to each client job.
 
 #### Project Managers
+A project manager (Technical / non Technical) has the overall responsibility for the initiation, planning, design, execution, monitoring, controlling and closure of a project. A Technical Project Manager will use their technical background to further advance the project. 
 
-* Is involved in reviewing the estimation and proposal documents for new projects.
-* Works with sales team on proposal creation.
-* Makes sure all project documentation is up to date.
-* Informs team members about important client decisions.
-* Keeps the scope of the project updated.
-* Coordinates the work within the team.
-* Is responsible for priorities and timelines in the project.
-* Updates and documents the project status and informs the client regularly about it.
-* Knows about every customer interaction and has to assure the tone is always proper and that every request is handled appropriately.
+Responsibilities include:
+
+* Being involved in reviewing the estimation and proposal documents for new projects.
+* Work with sales on proposal creation.
+* Make sure that all project documentation is up to date.
+* Inform team members about important client decisions.
+* Keep the scope of the project updated.
+* Coordinate the work within the team.
+* Be responsible for priorities and timelines in the project.
+* Update and document the project status and inform the client regularly about it
+* Know about every customer interaction and assure the tone is always proper and that every request is handled appropriately.
 * Follows the PM conventions defined at Inaka.
-* Makes sure before the project's kick off to have all relevant materials available for the developers.
-* Makes sure all necessary repos are set up before development starts.
-* Makes sure the ops team sets up the required environments and our standard project tools for each project.
-* Is responsible for relaying messages, improvements and suggestions between developers and the client in an appropriate and clear way.
+* Make sure before the project kick off to have all relevant materials available for the developers.
+* Make sure all necessary repos are set up before development start.
+* Make sure the ops team sets up the required environments and our standard project tools for each project.
+* Relay messages, improvements and suggestions between the developers and the client in an appropriate and clear way.
+* Run project and sprint retrospectives and post mortems.
+* Inform the country manager of any issues regarding projects or developers that the PM needs help on/ can't solve on its own.
 * Participates in the [daily standup](DAILY.md)
-
+* Maintain [monthly meetings](MONTHLY-MEETINGS.md) with the CTO.
 
 #### Operations
+Our ops team is built by people who is in charge of all the hardware the developers and clients need. They are also in charge of monitoring and setting up servers and other components. Basically, all the operational and sysadmin related tasks that our projects include.
 
-* Sets up all required environments and hardware for client projects.
-* Ensures all projects use the standard tools.
-* Creates and maintains accounts on different platforms.
-* Researches new ops solutions and possible improvements to our ops processes.
-* Documents the project environment set up, including deployment instructions for each project.
-* Is in charge of maintaining running systems.
-* Checks performance issues and, if needed, relays them to the appropriate developers and PMs.
-* Keeps inaka's dashboard up and running with relevant information for the current projects.
-* Collaborates with developers on deployment issues.
-* Performs cost estimation for required services.
-* Monitors all systems to prevent and detect operational problems.
-* Is in charge of the office's hardware.
-* Monitors and maintains the internal network.
-* Is in charge of the initial setup of machines for employees.
-* Keeps standard checklists for each project up to date.
-* Participates in the [daily standup](DAILY.md)
-* Maintains [monthly meetings](MONTHLY-MEETINGS.md) with the CTO.
-* Maintains weekly meetings with all PMs and CTO to coordinate ops priorities.
-* Creates memos for each ops/PM meeting and shares them with all participants.
-* Writes and maintains Disaster Recovery Plan documentation for all projects (Link located at Operations' Hipchat room)
+Their responsibilities:
+
+* Set up all required environments and hardware for client projects.
+* Ensure all projects use the standard tools.
+* Create and maintain accounts on different platforms.
+* Research new ops solutions and possible improvements to our ops processes.
+* Document the project environment set up, including deployment instructions for each project.
+* Be in charge of maintaining running systems.
+* Check performance issues and, if needed, relay them to the appropriate developers and PMs.
+* Collaborate with developers on deployment issues.
+* Perform cost estimation for required services.
+* Monitor all systems to prevent and detect operational problems.
+* Be in charge of the office's hardware.
+* Monitor and maintain the internal network.
+* Be in charge of the initial setup of machines for employees.
+* Keep standard checklists for each project up to date.
+* Participate in the [daily standup](DAILY.md)
+* Maintain [monthly meetings](MONTHLY-MEETINGS.md) with the CTO.
+* Maintain weekly meetings with all PMs and CTO to coordinate ops priorities.
+* Create memos for each ops/PM meeting and share them with all participants.
+* Write and maintain Disaster Recovery Plan documentation for all projects.
 
 #### QA
+A QA team member is in charge of reviewing all of our systems before they reach the client hands. QA team provides warranties of functionality and usability for all the systems we build.
 
-* Checks that a build is stable and not crashing before sending it to the client.
-* Corroborates that delivered bugs or tasks are implemented as they were described.
-* Controls build versions/numbers used for submitting.
-* Makes sure that each app is still working properly after client/server deploys or changes.
-* Documents test results if required by PMs.
-* Performs 'Update tests' once a new iOS release build is ready to be sent to the client.
-* Participates in the [daily standup](DAILY.md)
-* Maintains weekly meetings with all PMs to discuss tasks for QA.
+Their responsibilities are:
+
+* Check that a build is stable and not crashing before sending it to the client.
+* Corroborate that delivered bugs or tasks are implemented as they were described.
+* Control build versions/numbers used for submitting.
+* Make sure that each app is still working properly after client/server deploys or changes.
+* Document test results if required by PMs.
+* Perform 'Update tests' once a new client release build is ready to be sent to the client.
+* Participate in the [daily standup](DAILY.md)
+* Maintain [monthly meetings](MONTHLY-MEETINGS.md) with the CTO.
+* Maintain weekly meetings with all PMs to discuss tasks for QA.
+
+#### Country Manager
+The position of Country Manager is not a position to which everyone will aspire. It does however provide a very significant move for the right person who sees that as being their chosen career direction. It offers a substantial level of autonomy and responsibility.
+
+Responsibilities include:
+
+* Be responsible for all aspects of the Company in that country. These duties may be undertaken via subordinates if the team size requires it:
+    * Project delivery and customer satisfaction
+    * Support the PMs and tech lead in their work
+    * Budgeting, finance and accounting
+    * Recruitment and Human Resources including team building and staff management
+    * Health and Safety and office management.
+    * Compliance with local laws.
+* Be a member of the Company Senior Management team. 
+* Report to the CEO and liaise with others in Head Office as required.
+* Represent the Company locally as required.
 
 ---
 
