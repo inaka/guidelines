@@ -536,16 +536,9 @@ Below you can see the list of our main values. The ones we think are essential t
     Write code so that other people can read it with pleasure. Respect the
     coding conventions pertaining your language.
 
-    Have the global `README.md` file explaining what your project does and how
-    to run it.
-
     Don't hide the problems, be honest.
 
     Be nice to people.
-
-    Friendly tip: before complaining about the ugliness or the state of mess of
-    a code you're handed, do a `git blame` first to make sure you're not
-    insulting anyone in the office. :)
 
 4. **Never break the master branch.**
 
@@ -553,7 +546,7 @@ Below you can see the list of our main values. The ones we think are essential t
 
 6. **Do code review** – use pull requests.
 
-7. **Build your code** – we have Jenkins as CI.
+7. **Build your code** – don't create a pull request it without testing it first.
 
 8. **Use the right tool for the job**
 
@@ -565,9 +558,8 @@ Below you can see the list of our main values. The ones we think are essential t
 10. **Share your knowledge and experience, and learn from others.**
 
     Take notes on the wiki as you work. Share knowledge with your co-workers.
-    For example, each project should have an overview wiki page. Do
-    post-project summaries. Write down stuff you have learned and make it
-    publicly available on the wiki.
+    Do post-project summaries. Write down stuff you have learned and make it
+    publicly available.
 
 ---
 
