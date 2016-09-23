@@ -8,7 +8,7 @@ We've invented the verb "to *podify*" to mean "to make an iOS repository be avai
 
 #### What are the steps to accomplish that?
 
-1. Create the podspec file in your root folder (`/ExampleProject.podspec`) and fill it by using [this template](https://github.com/inaka/SelectionManager/blob/master/SelectionManager.podspec) as a model.
+1. Create the podspec file in your root folder (`/ExampleProject.podspec`) and fill it by using [this template](https://github.com/inaka/Jayme/blob/master/Jayme.podspec) as a model.
 2. Create a commit, a Pull Request and, once merged into master branch, create a git tag with the version number you specified in the `podspec` file.
 3. Run in terminal (using `--verbose` if you get errors): 
    1. `pod lib lint`, which checks your project locally.
