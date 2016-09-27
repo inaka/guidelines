@@ -18,10 +18,14 @@ In this same repo we also have several other guideline files, specifically tailo
 ---
 
 ## Roles and Responsibilities (a.k.a. Career Path)
-Below you'll find an outline of the technical roles and career paths available at Inaka. Career progression defines the process of moving on to better assignments with more responsibility. In each case, we will be leveraging the strengths of each employee, helping them make this progression through training, mentorship, self study and professional experience. At any one time, employees can take on multiple roles. For example, an Architect can also be a Technical Lead or a Project Manager. A Country Manager may also take on technical, training and project management roles. Responsibilities whilst working for us will include customer facing projects, developing end-to-end solutions, internal products, support, code and architecture reviews, research and training. Keep in mind that his list is not exhaustive, we have other roles, these are just the main ones.
+Below you'll find an outline of the technical roles and career paths available at Inaka. Career progression defines the process of moving on to better assignments with more responsibility. In each case, we will be leveraging the strengths of each employee, helping them make this progression through training, mentorship, self study and professional experience. At any one time, employees can take on multiple roles. For example, an Architect can also be a Technical Lead or a Project Manager. A Country Manager may also take on technical, training and project management roles. Responsibilities whilst working for us will include customer facing projects, developing end-to-end solutions, internal products, support, code and architecture reviews, research and training.
+
+This career progression is not powered just by technical skills. While considering the role(s) each employee has in our company, we value technical, people and business skills altogether. Each role has its own requirements and therefore we provide alternative paths for those who thrive in the different areas.
+
+Keep in mind that this list is not exhaustive, we have other roles, these are just the main ones.
 
 #### Developer in Training
-_Developers in Training_ are developers who are not ready to work independently on client projects or take on customer facing roles. That might be because they’re senior devs in other technologies and they’re learning a new one or because we specifically hired them considering their chances to learn any of the technologies we use on our projects. From being a developer in training, they can become _Developers_, _Senior Developers_ and _Architects_, depending on their previous experience. 
+_Developers in Training_ are developers who are not ready to work independently on client projects or take on customer facing roles. That might be because they’re senior devs in other technologies and they’re learning a new one or because we specifically hired them considering their chances to learn any of the technologies we use on our projects. From being a developer in training, they can become _Developers_, _Senior Developers_ and _Architects_, depending on their previous experience.
 
 A developer in training is expected to:
 
@@ -37,7 +41,7 @@ A developer will have the experience of designing and delivering multiple projec
 A developer is expected to:
 
 * Develop functional and non-functional features including tests and documentation as specified by the project stage and task description.
-* Write subsystem specifications which can be used by other developers. 
+* Write subsystem specifications which can be used by other developers.
 * Work on client projects under the supervision of a Senior Developer.
 * Work in internal and/or open-source projects.
 * Take control and ownership of pieces of code created by other developers, even outside our company.
@@ -61,14 +65,14 @@ A developer is expected to:
 * While not assigned to a client project, work on Inaka open-source projects, the ESL internal TO-DO list, or write blog posts.
 
 #### Senior Developer
-A senior developer is someone with five to six years of experience working in client-facing projects in a variety of industries. They will have shown leadership abilities and are able to take responsibility for other Software Engineers within a project team. They have the ability to design, code, test and support software, starting the engagement with the projects in the estimation phase. This includes writing and executing research proposals and grant applications. A Senior Developer should be up to date in the most important matters of his area of expertise and should act as a reference for others in that field. They should have experience in implementing and understanding protocol stacks, data consistency models and the tradeoffs which need to be made between scalability and reliability. And also experience in supporting products, understanding the operational requirements needed by our customers. 
+A senior developer is someone with five to six years of experience working in client-facing projects in a variety of industries. They will have shown leadership abilities and are able to take responsibility for other Software Engineers within a project team. They have the ability to design, code, test and support software, starting the engagement with the projects in the estimation phase. This includes writing and executing research proposals and grant applications. A Senior Developer should be up to date in the most important matters of his area of expertise and should act as a reference for others in that field. They should have experience in implementing and understanding protocol stacks, data consistency models and the tradeoffs which need to be made between scalability and reliability. And also experience in supporting products, understanding the operational requirements needed by our customers.
 
 Their role requires them to:
 
 * Develop functional and non-functional features including tests and documentation as specified by the project stage and task description.
 * Work in internal and/or open-source projects.
 * Work for client projects unsupervised.
-* Architect simple systems, such as 3-tier architectures or systems with heterogeneous nodes. 
+* Architect simple systems, such as 3-tier architectures or systems with heterogeneous nodes.
 * Be able to analyze and assess the quality of code written by other devs, even those who do not work for our company.
 * Supervise other team members on client and/or open-source projects.
 * Follow and define the guidelines regarding tools and applications that can be used in each project.
@@ -96,10 +100,10 @@ Their role requires them to:
 * Be able to architect scalable and resilient systems with no single point of failure.
 * Understand the tradeoffs between Scalability and Availability in distributed systems.
 * Be able to make choices between noSQL and SQL databases.
-* Have good knowledge of consensus protocols, fallacies of distributed computing and the challenges involved in distributed systems. 
+* Have good knowledge of consensus protocols, fallacies of distributed computing and the challenges involved in distributed systems.
 * Ability to describe and get customer buy in for their solutions, both verbally and in writing.
-* Be comfortable managing a team and customer relationships. 
-* Be comfortable with public speaking, writing articles and papers and training and mentoring other developers. 
+* Be comfortable managing a team and customer relationships.
+* Be comfortable with public speaking, writing articles and papers and training and mentoring other developers.
 * Work in internal and/or open-source projects.
 * Work for client projects unsupervised.
 * Be able to analyze and assess the quality of code written by other devs, even those who do not work for our company.
@@ -132,16 +136,16 @@ They are responsible to:
 * Speak with the local developers on a monthly basis staying on top of their challenges and providing any technical support they might need, or where necessary, acting as a door opener to other parts of the company.
 * Participate in the [daily standup](DAILY.md)
 * Coordinate open source projects.
-* Stay on top of tooling, research and larger projects in the wider company, promoting them where applicable, in their local offices.  
-* Look for opportunities to cross promote toolings and other capabilities within the company. 
-* Set the recruitment standard in the various offices, and help with interviews. 
-* Help the sales teams with business development. 
-* Arrange tech days, hackathons and other activities aimed at promoting the personal development of the tech staff. 
+* Stay on top of tooling, research and larger projects in the wider company, promoting them where applicable, in their local offices.
+* Look for opportunities to cross promote toolings and other capabilities within the company.
+* Set the recruitment standard in the various offices, and help with interviews.
+* Help the sales teams with business development.
+* Arrange tech days, hackathons and other activities aimed at promoting the personal development of the tech staff.
 * Work with the country managers to decide what tasks to assign to staff on the bench.
 * Work with the country managers and resourcing teams to decide who are the best developers to assign to each client job.
 
 #### Project Managers
-A project manager (Technical / non Technical) has the overall responsibility for the initiation, planning, design, execution, monitoring, controlling and closure of a project. A Technical Project Manager will use their technical background to further advance the project. 
+A project manager (Technical / non Technical) has the overall responsibility for the initiation, planning, design, execution, monitoring, controlling and closure of a project. A Technical Project Manager will use their technical background to further advance the project.
 
 Responsibilities include:
 
@@ -165,7 +169,7 @@ Responsibilities include:
 * Maintain [monthly meetings](MONTHLY-MEETINGS.md) with the CTO.
 
 #### Operations
-Our ops team is built by people who is in charge of all the hardware the developers and clients need. They are also in charge of monitoring and setting up servers and other components. Basically, all the operational and sysadmin related tasks that our projects include.
+Our ops team is built by people who are in charge of all the hardware the developers and clients need. They are also in charge of monitoring and setting up servers and other components. Basically, all the operational and sysadmin related tasks that our projects include.
 
 Their responsibilities:
 
@@ -187,7 +191,7 @@ Their responsibilities:
 * Maintain [monthly meetings](MONTHLY-MEETINGS.md) with the CTO.
 * Maintain weekly meetings with all PMs and CTO to coordinate ops priorities.
 * Create memos for each ops/PM meeting and share them with all participants.
-* Write and maintain Disaster Recovery Plan documentation for all projects.
+* Write and maintain Internal Disaster Recovery Plan documentation for all projects.
 
 #### QA
 A QA team member is in charge of reviewing all of our systems before they reach the client hands. QA team provides warranties of functionality and usability for all the systems we build.
@@ -203,6 +207,8 @@ Their responsibilities are:
 * Participate in the [daily standup](DAILY.md)
 * Maintain [monthly meetings](MONTHLY-MEETINGS.md) with the CTO.
 * Maintain weekly meetings with all PMs to discuss tasks for QA.
+* Write test plans for each project after coordinating with the PM
+* Do regular testing on projects that are in production while our company is still involved in
 
 #### Country Manager
 The position of Country Manager is not a position to which everyone will aspire. It does however provide a very significant move for the right person who sees that as being their chosen career direction. It offers a substantial level of autonomy and responsibility.
@@ -216,7 +222,7 @@ Responsibilities include:
     * Recruitment and Human Resources including team building and staff management
     * Health and Safety and office management.
     * Compliance with local laws.
-* Be a member of the Company Senior Management team. 
+* Be a member of the Company Senior Management team.
 * Report to the CEO and liaise with others in Head Office as required.
 * Represent the Company locally as required.
 
