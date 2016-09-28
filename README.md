@@ -20,7 +20,7 @@ In this same repo we also have several other guideline files, specifically tailo
 ## Roles and Responsibilities (a.k.a. Career Path)
 Below you'll find an outline of the technical roles and career paths available at Inaka. Career progression defines the process of moving on to better assignments with more responsibility. In each case, we will be leveraging the strengths of each employee, helping them make this progression through training, mentorship, self study and professional experience. At any one time, employees can take on multiple roles. For example, an Architect can also be a Technical Lead or a Project Manager. A Country Manager may also take on technical, training and project management roles. Responsibilities whilst working for us will include customer facing projects, developing end-to-end solutions, internal products, support, code and architecture reviews, research and training.
 
-This career progression is not powered just by technical skills. While considering the role(s) each employee has in our company, we value technical, people and business skills altogether. Each role has its own requirements and therefore we provide alternative paths for those who thrive in the different areas.
+This career progression does not only depend on technical skills. While considering the role(s) each employee has in our company, we value technical, people, leadership and business skills altogether. Each role has its own requirements and therefore we provide alternative paths for those who thrive in the different areas.
 
 Keep in mind that this list is not exhaustive, we have other roles, these are just the main ones.
 
