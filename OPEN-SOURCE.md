@@ -12,14 +12,12 @@ Each project should have a github repo with github issues enabled. As the main d
 - [ ] It's tested.
 - [ ] It's hooked to the [open-source hipchat room](http://inaka.net/hipchat)
 - [ ] It has a link to the [open-source hipchat room](http://inaka.net/hipchat) in its README.
-- [ ] It has a link to [inaka.github.io](http://inaka.github.io) in its README and/or landing page.
 
 ## Exhibition
 - [ ] There is a blog post about it.
 - [ ] It's shared on social networks.
 - [ ] It's shared on reddit.
 - [ ] It's shared on hacker news with a title like Show HN: description.
-- [ ] It has a landing page built in github pages.
 
 ## For Libraries
 - [ ] It provides a sample application.
