@@ -19,7 +19,6 @@ Each project should have a github repo with github issues enabled. As the main d
 - [ ] It's shared on social networks.
 - [ ] It's shared on reddit.
 - [ ] It's shared on hacker news with a title like Show HN: description.
-- [ ] It has a landing page built in github pages.
 
 ## For Libraries
 - [ ] It provides a sample application.
