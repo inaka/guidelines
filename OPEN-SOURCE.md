@@ -49,9 +49,7 @@ Each project should have a github repo with github issues enabled. As the main d
 - [ ] It's checked with [Hound](https://houndci.com)
 
 ## For Swift Libraries
-- [ ] It's checked with [Hound](https://houndci.com)
-- [ ] It follows our [Swift open-source guidelines](SWIFT-OPEN-SOURCE.md)
-- [ ] All `.swift` created files have the [Apache license comment header](open-source-header.swift)
+- [ ] It follows our [Swift open-source guidelines](https://github.com/inaka/swift_guidelines/wiki/Open-Source)
 
 ## For Node Projects
 - [ ] It's checked with [Hound](https://houndci.com)
