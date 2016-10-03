@@ -162,10 +162,15 @@ For technical evaluations, you can:
 1. What is a protocol? When would you use it?
 1. What is autolayout? What does it mean when a constraint is *broken*? Can you help me set up the constraints in the following view?
 1. Have you ever worked with push notifications? Can you explain me what are the steps to receive push notifications?
-1. **Final exercise:** Give the candidate a computer and ask him/her to solve one of the issues from one of our [Swift open source projects](https://inaka.github.io/). Regarding difficulty, try to choose the right issue for the candidate, considering his/her techincal knowledge demonstrated in the previous questions. Ask him/her to follow the Inaka's git workflow (open a new branch, commit there, open a pull request and assign you as reviewer). You will be evaluating:
-  - Some of his/her git abilities (clone, branch, pull request)
-  - His/her skills facing a random problem.
-  - His work attitude overall.
+1. **Final exercise:** 
+  - We aim to evaluate:
+    - Some of his/her git abilities (clone, branch, pull request)
+    - His/her skills facing a random problem.
+    - His work attitude overall.
+  - For this, there are several options, among which these two are suggested:
+    - Ask candidates whether their would like to solve an issue of some of our [Swift open source projects](https://inaka.github.io/). It's important to make it clear that this is **optional**. If so, suggest them to do it following the Inaka's git workflow. They can solve this after the interview, like a homework.
+    - Otherwise, give them an exercise that they could solve in-place, during the interview.
+  - Always have in mind the level of difficulty of the issue or exercise you choose, based on how they answered the technical questions.
   
 ####Experience Questions
 1. What dependency managers do you know? Which one do you prefer, and why?
