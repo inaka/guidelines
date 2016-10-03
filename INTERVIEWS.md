@@ -151,6 +151,29 @@ For technical evaluations, you can:
 1. How would you make a Backbone Collection deal with API responses when the response is not an array?
 1. Why should we bind events using “listenTo()” instead of “on()”?
 
+### Swift Questions
+####Technical Questions
+1. What's the difference between `viewDidLoad` and `viewDidAppear`? When would you use each?
+1. What's the difference between a `let` and a `var` declaration? When would you use each?
+1. What's the difference between a *value type* and a *reference type*? When would you use each?
+1. What is a retain cycle?
+1. What is the purpose of a `reuseIdentifier`? What is the main advantage of having it set?
+1. What is an optional? What is an implicitly unwrapped optional? When would you use the former vs the latter vs a non-optional variable?
+1. What is a protocol? When would you use it?
+1. What is autolayout? What does it mean when a constraint is *broken*? Can you help me set up the constraints in the following view?
+1. Have you ever worked with push notifications? Can you explain me what are the steps to receive push notifications?
+1. **Final exercise:** Give the candidate a computer and ask him/her to solve one of the issues from one of our [Swift open source projects](https://inaka.github.io/). Ask him/her to follow the Inaka's git workflow (open a new branch, commit there, open a pull request and assign you as reviewer). You will be evaluating:
+  - Some of his/her git abilities (clone, branch, pull request)
+  - His/her skills facing a random problem.
+  - His work attitude overall.
+  
+####Experience Questions
+1. What dependency managers do you know? Which one do you prefer, and why?
+1. Which iOS-related frameworks have you worked with?
+1. Have you ever heard of XMPP?
+1. What's your experience dealing with provisioning profiles and code signing?
+1. Have you ever made your own app and uploaded it to the App Store? If so, would you show it to me?
+
 ---
 
 ## General Check-List
