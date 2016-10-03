@@ -162,7 +162,7 @@ For technical evaluations, you can:
 1. What is a protocol? When would you use it?
 1. What is autolayout? What does it mean when a constraint is *broken*? Can you help me set up the constraints in the following view?
 1. Have you ever worked with push notifications? Can you explain me what are the steps to receive push notifications?
-1. **Final exercise:** Give the candidate a computer and ask him/her to solve one of the issues from one of our [Swift open source projects](https://inaka.github.io/). Ask him/her to follow the Inaka's git workflow (open a new branch, commit there, open a pull request and assign you as reviewer). You will be evaluating:
+1. **Final exercise:** Give the candidate a computer and ask him/her to solve one of the issues from one of our [Swift open source projects](https://inaka.github.io/). Regarding difficulty, try to choose the right issue for the candidate, considering his/her techincal knowledge demonstrated in the previous questions. Ask him/her to follow the Inaka's git workflow (open a new branch, commit there, open a pull request and assign you as reviewer). You will be evaluating:
   - Some of his/her git abilities (clone, branch, pull request)
   - His/her skills facing a random problem.
   - His work attitude overall.
