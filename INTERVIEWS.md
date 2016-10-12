@@ -128,14 +128,14 @@ For technical evaluations, you can:
 1. What does CORS stand for and what issue does it address?
 1. Describe the difference between a cookie, sessionStorage and localStorage.
 
-### Javascript Questions
+#### Javascript Questions
 
 1. What is a closure, and how/why would you use one?
 1. What are the pros and cons of using Promises instead of Callbacks?
 1. From the new features introduced by ES2015, what's the difference between using `var`, `let` and `const`?
 1. Which javascript frameworks have you already used?
 
-### AngularJS Questions
+#### AngularJS Questions
 
 1. How do you organize the code inside your javascript folder for an AngularJS application?
 1. Do you follow a styleguide or do you use a lint tool?
@@ -145,7 +145,7 @@ For technical evaluations, you can:
 1. Do you know what Karma and Protractor are?
 1. What do you think about AngularJS 2? What about Typescript?
 
-### BackboneJS Questions
+#### BackboneJS Questions
 
 1. What are the basic components provided by the Backbone framework?
 1. How would you make a Backbone Collection deal with API responses when the response is not an array?
