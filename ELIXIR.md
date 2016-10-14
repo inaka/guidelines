@@ -16,7 +16,7 @@
 ## Coding Guidelines
 
 Make sure you comply with [elixir style guide](https://github.com/rrrene/elixir-style-guide). In order to automate the style checking, install [Credo](https://github.com/rrrene/credo) and run it before creating a new Pull Request. If possible, always run credo with `strict` flag: `mix credo --strict`.
-Another must-have is to enable [Credo CI](http://credo-staging.inakalabs.com/) to automatically check your updates in GitHub.
+Another must-have is to enable [Credo CI](http://credoci.inakalabs.com/) to automatically check your updates in GitHub.
 
 ## Build Tools
 
