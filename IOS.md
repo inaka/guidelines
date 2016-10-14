@@ -3,6 +3,8 @@
 ## Introduction
 These guidelines are meant to help keep the code uniformly organized and standardized, in such a way, that we can reduce as much as possible the time needed for new developers to get to be productive on different projects. The following lines are lessons learned from having worked on different iOS projects. They are not written in stone, but keep in mind that being consistent and not reinventing the wheel with each project will make the lives of future developers that need to take on your projects simpler, and also lead to faster development times of new features or bug fixes. Feel free to add your own.
 
+> For specific language reference, check out our [Swift Guidelines](https://github.com/inaka/swift_guidelines/wiki).
+
 ***
 
 ## Project Estimation
