@@ -24,6 +24,8 @@ This career progression does not only depend on technical skills. While consider
 
 Keep in mind that this list is not exhaustive; we have other roles. These are just the main ones.
 
+![Career Path](caeer.png)
+
 #### Developer in Training
 _Developers in Training_ are developers who are not ready to work independently on client projects or take on customer facing roles. That might be because: they are Senior Developers in other technologies and they are learning a new one, or because we specifically hired them considering their chances to learn any of the technologies we use on our projects. From being a developer in training, they can become _Developers_, _Senior Developers_ and _Architects_, depending on their previous experience.
 
