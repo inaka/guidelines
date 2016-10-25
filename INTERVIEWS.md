@@ -3,34 +3,46 @@
 
 ### General
 
-When interviewing candidates for whatever position, keep the following questions in mind:
+We usually run more than one interview for each candidate.
+We also send them an introductory email presenting our company, our projects and our way of work.
+When running your interview, you should be aware if the interview is **technical** (run by developers) or **non-technical** (performed by our Tech Lead or Country Manager).
 
-* Why are they looking for a new job?
+#### Technical Interviews
+If you're running a technical interview, keep the following questions in mind:
+
 * Do they seem to be quick learners?
-* Will they agree to do things the Inaka way (e.g. git, pivotal)?
-* Do they understand the service business? Do they like working with clients?
-* Do they have interests outside work?
 * How is their written and spoken English? Are they at least in an intermediate level?
 
 Ask them some of these questions:
-* Can you describe a time when your work was criticized?
 * Tell me about an important issue you encountered recently.
 * Talk about something new you learned this month.
+* Do you prefer to work independently or on a team?
+* What techniques and tools do you use on a daily-basis?
+* If you join a project where code is using tabs for identation but you prefer spaces, what would you do?
+
+#### Non-Technical Interviews
+If you're running a non-technical interview, keep the following questions in mind:
+
+* Why are they looking for a new job?
+* Will they agree to do things the Inaka way (e.g. git, pivotal)?
+* Do they understand the service business? Do they like working with clients?
+* Do they have interests outside work?
+
+Ask them some of these questions:
+* Can you describe a time when your work was criticized?
 * What are you expecting from this firm in the future?
 * Tell me about a time when you had to adapt to a difficult situation.
 * What is your greatest achievement outside of work?
 * Do you think you are overqualified for this position?
-* Do you prefer to work independently or on a team?
 * What techniques and tools do you use to keep yourself organized?
 * What attracted you to this company?
 * What type of work environment do you prefer?
-* If you join a project where code is using tabs for identation but you prefer spaces, what would you do?
 
 ---
 
 ### Technical Positions
 
-When interviewing candidates for technical positions, keep the following questions in mind:
+When interviewing candidates for technical positions, keep the following questions in mind (don't ask directly, just remember to add your comments about these things in your feedback):
 
 * Are they passionate about programming?
 * How is their overall attitude?  Are they easy to talk to?
