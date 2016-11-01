@@ -15,12 +15,12 @@
 
 ## Coding Guidelines
 
-Make sure you comply with [elixir style guide](https://github.com/rrrene/elixir-style-guide). In order to automate the style checking, install [Credo](https://github.com/rrrene/credo) and run it before creating a new Pull Request. If possible, always run credo with `strict` flag: `mix credo --strict`.
+Make sure you comply with this [elixir style guide](https://github.com/rrrene/elixir-style-guide). In order to automate the style checking, install [Credo](https://github.com/rrrene/credo) and run it before creating a new Pull Request. If possible, always run credo with the `strict` flag: `mix credo --strict`.
 Another must-have is to enable [Credo CI](http://credoci.inakalabs.com/) to automatically check your updates in GitHub.
 
 ## Build Tools
 
-Before pushing a new Pull Request, run your unit tests locally and never push them if something is not green. If the project is open-source, setup [Travis CI](https://travis-ci.org) to automatically run your unit tests after each new change. Remember to add a badge to your README file informing the build is passing.
+Before pushing a new Pull Request, run your unit tests locally and never push them if something is not green. If the project is open-source, setup [Travis CI](https://travis-ci.org) to automatically run your unit tests after each new change. Remember to add a badge to your README file informing visitors that the build is passing.
 
 ## Test Coverage
 
@@ -28,11 +28,11 @@ Always aim at 100% code coverage for your tests.
 Don't deliver your code unless it has at least 75% coverage.
 For a deeper explanation, check [this blog post](http://inaka.net/blog/2015/02/24/test-exceptions/).
 Install [excoveralls](https://github.com/parroty/excoveralls) in your project and check the coverage before pushing new changes. If it's open-source, make sure to setup up [coveralls.io](https://coveralls.io) and add the coverage badge to your README file.
-When using Travis CI, you can ask it to trigger a code coverage task after a successful build (check [.travis.yml](#travisyml) example below).
+When using Travis CI, you can ask it to trigger a code coverage task after a successful build (see [.travis.yml](#travisyml) example below).
 
 ## Documentation
 
-Exported functions in all your modules and the modules themselves, specially for open-source projects, should be documented using `@moduledoc` and `@doc` comments. Remember to install [ex_doc](https://github.com/elixir-lang/ex_doc) and have a proper task to build the doc files when needed. For open-source projects, [Inch CI](https://inch-ci.org) can be of use to check the documentation coverage, and you can also integrate it with Travis CI (check [.travis.yml](#travisyml) example below).
+Document exported functions in all your modules and the modules themselves, especially in open-source projects, which should be documented using `@moduledoc` and `@doc` comments. Remember to install [ex_doc](https://github.com/elixir-lang/ex_doc) and have a proper task to build the doc files when needed. For open-source projects, [Inch CI](https://inch-ci.org) can be of use to check the documentation coverage, and you can also integrate it with Travis CI (check [.travis.yml](#travisyml) example below).
 
 ## Project Setup
 
@@ -83,7 +83,7 @@ The project's `mix.exs` file should include hex.pm package and description attri
 
 ### Travis.yml
 
-Specially for open-source projects integrating open code checkers with Travis CI builds, the `.travis.yml` file in your project root folder should look similar to:
+Especially for open-source projects integrating open code checkers with Travis CI builds, the `.travis.yml` file in your project root folder should look similar to:
 
 ```yml
   language: elixir
