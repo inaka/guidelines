@@ -17,8 +17,8 @@ days, if you feel like sharing.
 * _(optional)_ Mention any blockers.
 
 ### Daily Examples (taken from our best devs at hipchat):
-  |   |   |
----|---|---|---
+Dev Name | Daily | Time
+---|---|---
 **Ignacio Mendizabal** | Daily: scale testing of conflux and announce i'm gonna be father. | ``11:03 AM``
 **Iñaki Garay** | daily: finishing choosy image processing robustification and starting an epic bughunting rampage | ``11:33 AM``
 **Marcelo Gornstein** | daily: working with @amilcar on the erlang factory talk and sumodb, also discussing ac improvements for data loading with @brujo and the tt guys, also some code review for jay | ``10:55 AM``
