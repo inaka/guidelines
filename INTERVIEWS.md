@@ -7,7 +7,7 @@ We usually run more than one interview for each candidate.
 We also send them an introductory email presenting our company, our projects and our way of work.
 When running your interview, you should be aware if the interview is **technical** (run by developers) or **non-technical** (performed by our Tech Lead or Country Manager).
 
-Regardless of the type of interview, the intreview should last ONLY around 1 hour after which you should send a feedback email that is only a BRIEF summary with 1 or two paragraphs. In total between interview and feedback you should spend about 1.5 hours. 
+Regardless of the type of interview, the intreview should last **ONLY** around 1 hour after which you should send a feedback email that is only a **brief** summary with 1 or two paragraphs. In total between interview and feedback you should spend about **1.5 hours**. 
 
 #### Technical Interviews
 If you're running a technical interview, keep the following questions in mind:
