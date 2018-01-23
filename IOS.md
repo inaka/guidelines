@@ -48,11 +48,11 @@ These are the technologies that we expect every iOS project to adopt:
      * XIB files only when necessary *(e.g. separated views that don't fit in any storyboard)*.
 * [Auto Layout](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/Introduction/Introduction.html) for setting up UI elements arrangement in app view controllers.
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) as default library for networking.
-* [IKJayma](https://github.com/inaka/IKJayma) as default RESTful API abstraction layer for server interconnection.
+* [jayme](https://github.com/inaka/jayme) as default RESTful API abstraction layer for server interconnection.
 
 ***
 
-#### Files Organization
+#### File Organization
 This is the way we expect iOS project files to be organized:
 
 * **Logically** (from Xcode), files separated in **groups** by **kind** *(what they are for)* rather than by navigation or functionality related to the app *(where they would fit in the app)*, so as:
@@ -102,7 +102,7 @@ This is the way we expect iOS project files to be organized:
 
 ***
 
-#### Assets Organization
+#### Asset Organization
 * Images must be in **.png** format and their names must match the following conditions:
   * Camel case, starting with uppercase. Examples:
     * *SeatIcon.png*
