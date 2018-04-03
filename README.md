@@ -13,7 +13,7 @@ Inaka is a _community of open-source enthusiasts_. This community is not closed 
 
 ### Joining the Community
 
-To join our community you have be invited by a current member, that will then become your _sponsor_. You can get an invitation by contancting [one of us](https://github.com/orgs/inaka/people) directly or you can [send us an email](mailto:inakos@googlegroups.com) requesting an invitation.
+To join our community you have to be invited by a current member, that will then become your _sponsor_. You can get an invitation by contancting [one of us](https://github.com/orgs/inaka/people) directly or you can [send us an email](mailto:inakos@googlegroups.com) requesting an invitation.
 Once your invitation is accepted, you'll be _temporarily_ added to our Slack workspace. Then you'll be received by everyone and we'll have a conversation around 3 introductory items that will allow us to know you better:
 
 * How did you become a _developer/project manager/team leader/whatever-you-are_?
