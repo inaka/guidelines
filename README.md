@@ -7,6 +7,21 @@
 This document describes the general guidelines we expect **all** our members (a.k.a. _inakos_) to comply with in all of our projects. For code guidelines and best practices regarding specific languages, please refer to the corresponding `inaka/[language]_guidelines` github repo.
 
 
+## The Inakos
+
+Inaka is a _community of open-source enthusiasts_. This community is not closed to _developers_, some of our members are _project managers_, _QA specialists_, etc. We manage our community collaboratively and we communicate through our private Slack workspace. The community was originally formed by all ex employees of [Inaka](http://inaka.net) but now it's open to anybody else that wants to be part of it.
+
+### Joining the Community
+
+To join our community you have to be invited by a current member, that will then become your _sponsor_. You can get an invitation by contancting [one of us](https://github.com/orgs/inaka/people) directly or you can [send us an email](mailto:inakos@googlegroups.com) requesting an invitation.
+Once your invitation is accepted, you'll be _temporarily_ added to our Slack workspace. Then you'll be received by everyone and we'll have a conversation around 3 introductory items that will allow us to know you better:
+
+* How did you become a _developer/project manager/team leader/whatever-you-are_?
+* When and why did you decide to be an Inako?
+* Something interesting about your life
+
+After that conversation, we'll have an internal meeting with your sponsor and the inakos will decide if they let you in. If so, you'll then get access to all of our stuff, including this github organization, our private slack rooms and other resources.
+
 
 ## Specific Guidelines for your Language
 
