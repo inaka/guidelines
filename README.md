@@ -67,13 +67,13 @@ We encourage the use of TDD as a method of development as much as it makes sense
 * If well written, tests usually work as documentation as well.
 
 #### When to incorporate TDD
-TDD is not suited for **all** scenarios, but there are some projects where it
-**MUST** be used:
-* If you're working on an API server project.
-* If you're working on an open-source library.
-* If your project involves UI work and your language has the proper tools to
+TDD is not suited for **all** scenarios, but it is recommended when:
+
+* You're working on an API server project.
+* You're working on an open-source library.
+* Your project involves UI work and your language has the proper tools to
   write tests for it (e.g. rspec).
-* If you're writing an internal library with no UI pieces.
+* You're writing an internal library with no UI pieces.
 
 ---
 
