@@ -36,7 +36,6 @@ It follows the rules for our [Project Setup](ERLANG.md#project-setup)
 ## For Elixir Projects
 It follows the rules for our [Project Setup](ELIXIR.md#project-setup)
 - [ ] all default deps in hex.pm
-- [ ] assigned to [HexFactor](https://beta.hexfaktor.org/)
 - [ ] proper data for hex.pm on mix.exs
 - [ ] travis.yml up to date.
 
