@@ -7,7 +7,7 @@ Each project should have a github repo with github issues enabled. As the main d
 ## General Items
 - [ ] It has a github repo
 - [ ] It has a proper Apache2 LICENSE file.
-- [ ] It's has a clear and useful README.md
+- [ ] It has a clear and useful README.md
 - [ ] It's documented (with examples)
 - [ ] It's tested.
 - [ ] It's hooked to the [open-source hipchat room](http://inaka.net/hipchat)
