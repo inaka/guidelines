@@ -188,10 +188,13 @@ The project's app.src file should include the following tuples:
   ```
 
 ### Steps for New Releases / Version Bumps
-   1. Increase the version number inside the project's `*.app.src` file.
+   1. Increase the version number inside the project's `*.app.src` file (this is not required if `vsn` is `git`).
    2. In the project's root directory, execute the script:
-   `github_changelog_generator -t [YOUR_ACCESS_TOKEN] --future-release [NAME OF FUTURE RELEASE]`.
+   `github_changelog_generator -t [YOUR_ACCESS_TOKEN] --future-release [NAME OF FUTURE RELEASE]`
+   (`-u github_project_namespace -p github_project` might also be required).
       * If you don't have a GitHub access token already, create a [new one](https://github.com/settings/tokens).
+      *Note*: the Installation instructions for `github_changelog_generator` can be found 
+      [here](https://github.com/github-changelog-generator/github-changelog-generator#installation)
    3. Commit those changes and create a pull request to get them merged into `master`.
    4. Create the new release in Github (this automatically creates the tag).
       * To do this go to the project's home page, `Releases` and press the `Draft a new release` button.
