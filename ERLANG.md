@@ -4,17 +4,17 @@
 
  Make sure you comply with our [coding guidelines](http://github.com/inaka/erlang_guidelines)
 
-##	Code Coverage
+## Code Coverage
 
  Always aim at 100% code coverage for your tests.
  Don't deliver your code unless it has at least 75% coverage.
  For a deeper explanation, check [this blog post](http://inaka.net/blog/2015/02/24/test-exceptions/)
 
-##	Code Checking tools
+## Code Checking tools
 
  Check your code with all the available tools: xref, dialyzer and elvis. You can use [gadget](http://gadget.inakalabs.com) but don't just rely on it. Use the tools in your local environment as well.
 
-##	Documentation
+## Documentation
 
  Exported functions in all your modules and the modules themselves, specially for open-source projects, should be documented using edoc comments.
 
