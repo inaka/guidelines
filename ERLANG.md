@@ -184,7 +184,6 @@ $ rebar3 ct
 The project's app.src file should include the following tuples:
 
 ```erlang
-  {maintainers,["Inaka"]},
   {licenses,["Apache 2.0"]},
   {links,[ {"Github", "https://github.com/inaka/your_app"},
            {"Docs", "http://inaka.github.io/your_app/"}, % Unless you publish the docs directly on hex.pm
