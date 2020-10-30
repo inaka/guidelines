@@ -194,7 +194,7 @@ The project's app.src file should include the following tuples:
   {build_tools,["erlang.mk"]}
 ```
 
-##  Building and Releasing
+## Building and Releasing
 
   We use [rebar3](http://www.rebar3.org/) & relx.
 
