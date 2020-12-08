@@ -127,9 +127,11 @@ nutshell) is as follows:
     process over. If the PR is a blocker, warn whoever is responsible to
     communicate your block.
 * When opening a pull request to generate a page on which the changes can be
-  discussed, make sure to have [WIP] at the beginning of the pull request title
-  (or use the WIP label, if available) so that it is not merged. When the
-  discussion concludes, change the title to remove [WIP] (or just remove the label) and notify the reviewer so they can merge the pull request.
+  discussed, make sure to use a
+  [draft pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests)
+  so that it is not merged. When the discussion concludes,
+  [mark it as "ready for review"](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review)
+  and notify the reviewer so they can merge the pull request.
 * The reviewer will then write comments on the PR and you'll have the chance to
   discuss them and/or fix them.
 * When the review is done, your reviewer will merge your code into master.
