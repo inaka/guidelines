@@ -31,7 +31,7 @@ In this same repo we also have several other guideline files, specifically tailo
 
 For project tracking we use [Github Issues](https://guides.github.com/features/issues/). Below you'll find our particular rules on how to use this system.
 
-#### For Issue Reporters
+### For Issue Reporters
 
 * Issues need to be set up as detailed as possible. Separate UI from functional tasks. Add detailed descriptions and try to separate them so as to have each task as close to being one-day (or less) in duration as possible.
 * Design / UI tasks always need to have a screenshot attached in the task.
@@ -40,7 +40,7 @@ For project tracking we use [Github Issues](https://guides.github.com/features/i
 * Always label issues (ios, android, server, admin, design, etc.).
 * If there is an issue that says "XXX is not working correctly", it should also include an explanation on how it should work, for example: if the pivotal title is "The text in the title is right-aligned", the description or at least a comment in that issue should say something like "The text in the title should be centered".
 
-#### For developers
+### For developers
 
 * Make sure you read the whole issue and review attachments before you start working on them. If the tasks are not 100% clear to you, reach out to the author.
 * As soon as you start working on an issue, assign it to yourself.
@@ -66,7 +66,8 @@ We encourage the use of TDD as a method of development as much as it makes sense
   on the written code and allows for easier and safer refactoring, if needed.
 * If well written, tests usually work as documentation as well.
 
-#### When to incorporate TDD
+### When to incorporate TDD
+
 TDD is not suited for **all** scenarios, but it is recommended when:
 
 * You're working on an API server project.
@@ -79,7 +80,7 @@ TDD is not suited for **all** scenarios, but it is recommended when:
 
 ## Version Control
 
-#### Github
+### Github
 
 * All of our projects are hosted on Github under Inaka's organization account.
 * When starting a new project, create a new repository for you and add a brief description.
@@ -118,24 +119,28 @@ We are an agile development community. This means we tackle projects in an itera
 From a project day to day point of view, our developers work with Pull
 Requests and Code Reviews. To any one of our developers, the process (in a
 nutshell) is as follows:
+
 * Grab a github issue and mark it as started (e.g. let's say you want to work on issue `#123456` which is a story about editing this document).
 * Open a branch with your name and the story id on it (e.g. `elbrujohalcon.123456.edit.this.document`).
 * Tag all your commits with the story id (e.g. `git commit -m "[#123456] First edition"`).
 * Remember you can have one or more commits per story, but no more than one issue # per commit.
 * Once done, submit a Pull Request in github and assign one or more colleagues as reviewers.
-  + While you wait for the review, you can pick a different task and start this
+  * While you wait for the review, you can pick a different task and start this
     process over. If the PR is a blocker, warn whoever is responsible to
     communicate your block.
 * When opening a pull request to generate a page on which the changes can be
-  discussed, make sure to have [WIP] at the beginning of the pull request title
-  (or use the WIP label, if available) so that it is not merged. When the
-  discussion concludes, change the title to remove [WIP] (or just remove the label) and notify the reviewer so they can merge the pull request.
+  discussed, make sure to use a
+  [draft pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests)
+  so that it is not merged. When the discussion concludes,
+  [mark it as "ready for review"](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review)
+  and notify the reviewer so they can merge the pull request.
 * The reviewer will then write comments on the PR and you'll have the chance to
   discuss them and/or fix them.
 * When the review is done, your reviewer will merge your code into master.
 * The name/story id branch should then be deleted.
 
 Note that, mostly depending on the language and the product, there might be some exceptions in the aforementioned workflow, but the PRs and Code Reviews will **always** be there. We embrace code reviews for a number of reasons:
+
 * It helps devs to spot small issues that would've gone undetected without a
   review.
 * It keeps the general knowledge of the projects shared between, at least,
@@ -149,6 +154,7 @@ Note that, mostly depending on the language and the product, there might be some
 
 To get all the best from code reviews, while either submitting or performing a
 code review, keep in mind the following points:
+
 * Adopt a positive attitude!
 * Try to evaluate the actual code (Is it easy to understand? is it maintanable?
   Are the right data structures being used? Are the variable and function/method names descriptive enough?, etc.) instead of the formatting. Ideally, the formatting should be validated by automatic tools, not by humans.
