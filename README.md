@@ -163,7 +163,7 @@ code review, keep in mind the following points:
 * If your methodology is to collapse multiple stories into one PR, try to create at least one PR a day. Don't let your PRs grow over time, if you can avoid it.
 * Don't forget to link PRs with issues by adding `[#ISSUE-ID]` to the PR description.
 * You can easily reduce the burden of the whole workflow to just 3 commands using [AW](http://github.com/inaka/assisted_workflow).
-* The blog post ["Effective Code Review"][effective-code-review] has a nice discussion of this topic.
+* The blog post ["Effective Code Review"](https://sudonull.com/post/101341-Effective-code-reviews-9-tips-from-a-skeptic) has a nice discussion of this topic.
 
 ---
 
